@@ -1,0 +1,267 @@
+<section class="section" id="what-is-ta">
+      <div class="section-label">Chapter 01</div>
+      <h2>What Is Technical Analysis?</h2>
+      <p><strong>Technical analysis (TA)</strong> is a method of evaluating stocks, currencies, or other tradable assets by studying <em>past market data</em> — primarily <strong>price</strong> and <strong>volume</strong>. Instead of examining a company's earnings or business model (that's <em>fundamental analysis</em>), technical analysts look at <strong>charts</strong> to identify patterns and predict where prices might go next.</p>
+      <p>Think of it like reading a weather radar. You can't control the weather, but patterns on the radar help you predict whether to carry an umbrella. Similarly, chart patterns and indicators help traders anticipate likely price moves.</p>
+      <div class="callout callout-key">
+        <div class="callout-title"><span class="callout-icon"></span> Core Assumption</div>
+        Technical analysis rests on three ideas: <strong>(1)</strong> Market price reflects everything that matters, <strong>(2)</strong> Prices move in trends, and <strong>(3)</strong> History tends to repeat itself because human psychology doesn't change.
+      </div>
+      <h3>Why Do Traders Use It?</h3>
+      <ul>
+        <li><strong>Timing entries &amp; exits</strong> — know when to buy and when to sell</li>
+        <li><strong>Managing risk</strong> — set stop-losses at logical levels</li>
+        <li><strong>Works across markets</strong> — stocks, forex, crypto, commodities</li>
+        <li><strong>Objective decision-making</strong> — replaces gut feelings with data</li>
+      </ul>
+    </section>
+    <section class="section" id="key-concepts">
+      <div class="section-label">Chapter 02</div>
+      <h2>Key Concepts You Need to Know</h2>
+      <div class="concept-grid">
+        <div class="concept-card">
+          <div class="emoji">📈</div>
+          <h4>Price Action</h4>
+          <p>The raw movement of price over time. Every bar or candle on a chart tells you the open, high, low, and close for that period.</p>
+        </div>
+        <div class="concept-card">
+          <div class="emoji">〰️</div>
+          <h4>Trends</h4>
+          <p>The general direction price is moving — <strong>up</strong> (higher highs &amp; higher lows), <strong>down</strong> (lower highs &amp; lower lows), or <strong>sideways</strong>.</p>
+        </div>
+        <div class="concept-card">
+          <div class="emoji">🛡️</div>
+          <h4>Support &amp; Resistance</h4>
+          <p><strong>Support</strong> is a price floor where buyers step in. <strong>Resistance</strong> is a ceiling where sellers take over.</p>
+        </div>
+        <div class="concept-card">
+          <div class="emoji">📊</div>
+          <h4>Volume</h4>
+          <p>The number of shares or contracts traded. High volume confirms a move is significant; low volume signals weak conviction.</p>
+        </div>
+      </div>
+      <div class="chart-container">
+        <h4>Interactive: Price Action — Understanding Candlesticks</h4>
+        <canvas id="priceActionChart" aria-label="Candlestick-style price action chart showing daily OHLC data" role="img"></canvas>
+      </div>
+      <h3>Price Action in Detail</h3>
+      <p>Every candlestick has four data points: <strong>Open</strong> (where price started), <strong>High</strong> (the peak), <strong>Low</strong> (the bottom), and <strong>Close</strong> (where it ended). A <span style="color: var(--g-green); font-weight: 600;">green candle</span> means the close was higher than the open (bullish), while a <span style="color: var(--g-red); font-weight: 600;">red candle</span> means the close was lower (bearish).</p>
+      <h3>Trends — The Market's Direction</h3>
+      <p>Imagine walking uphill: each step takes you higher, and even when you pause, you're still above where you started. That's an <strong>uptrend</strong>. An uptrend is defined by a series of <em>higher highs</em> and <em>higher lows</em>. A <strong>downtrend</strong> is the opposite — each bounce peaks lower than the last.</p>
+      <div class="chart-container">
+        <h4>Interactive: Uptrend vs Downtrend</h4>
+        <canvas id="trendChart" aria-label="Line chart showing uptrend and downtrend examples" role="img"></canvas>
+      </div>
+      <h3>Support &amp; Resistance — The Invisible Floors and Ceilings</h3>
+      <p>Imagine a bouncing ball on a floor — every time it hits the floor, it bounces back up. That floor is <strong>support</strong>. Now imagine a ceiling it keeps bumping into — that's <strong>resistance</strong>. These aren't exact prices; they're <em>zones</em> where buying or selling interest clusters.</p>
+      <div class="callout callout-tip">
+        <div class="callout-title"><span class="callout-icon"></span> Pro Tip</div>
+        When a support level <strong>breaks</strong>, it often becomes resistance — and vice versa. This is called a <strong>role reversal</strong> and is one of the most reliable patterns in TA.
+      </div>
+      <div class="chart-container">
+        <h4>Interactive: Support &amp; Resistance Zones</h4>
+        <canvas id="supportResistanceChart" aria-label="Chart showing price bouncing between support and resistance levels" role="img"></canvas>
+      </div>
+      <h3>Volume — The Crowd Behind the Move</h3>
+      <p>Price shows you <em>what</em> happened. Volume tells you <em>how many people agreed</em> with that move. A stock rising on heavy volume is like a crowd marching in one direction — it carries conviction. A rise on low volume is like a half-hearted cheer: it may not last.</p>
+      <div class="chart-container">
+        <h4>Interactive: Price Movement with Volume Confirmation</h4>
+        <canvas id="volumeChart" aria-label="Combined bar and line chart showing volume alongside price" role="img"></canvas>
+      </div>
+    </section>
+    <section class="section" id="indicators">
+      <div class="section-label">Chapter 03</div>
+      <h2>Essential Indicators Explained</h2>
+      <p>Indicators are mathematical calculations applied to price and volume data. They don't <em>predict</em> the future — they help you <strong>interpret the present</strong>. Here are the three most important ones for beginners:</p>
+      <h3>1. Moving Averages (MA) <span class="indicator-tag tag-trend">TREND</span></h3>
+      <p>A moving average smooths out price data by creating a constantly updated average. The <strong>50-day MA</strong> averages the last 50 closing prices; the <strong>200-day MA</strong> averages the last 200.</p>
+      <ul>
+        <li><strong>Simple Moving Average (SMA)</strong> — treats every day equally</li>
+        <li><strong>Exponential Moving Average (EMA)</strong> — gives more weight to recent prices, reacting faster</li>
+      </ul>
+      <p><strong>How traders use them:</strong> When price is above the 200-day MA, the long-term trend is generally considered <em>bullish</em>. When the 50-day MA crosses above the 200-day MA, it's called a <strong>"Golden Cross"</strong> — a widely followed buy signal. The opposite (50 crossing below 200) is a <strong>"Death Cross."</strong></p>
+      <div class="chart-container">
+        <h4>Interactive: 50-Day &amp; 200-Day Moving Averages</h4>
+        <canvas id="maChart" aria-label="Line chart showing stock price with 50-day and 200-day moving averages" role="img"></canvas>
+      </div>
+      <h3>2. Relative Strength Index (RSI) <span class="indicator-tag tag-momentum">MOMENTUM</span></h3>
+      <p>RSI is a momentum oscillator that ranges from <strong>0 to 100</strong>. It measures how fast and how far price has moved.</p>
+      <ul>
+        <li><strong>Above 70</strong> → the asset is considered <strong>overbought</strong> (price may have risen too fast)</li>
+        <li><strong>Below 30</strong> → the asset is considered <strong>oversold</strong> (price may have fallen too far)</li>
+      </ul>
+      <p><strong>Analogy:</strong> Think of RSI like a speedometer. Just because a car is going 120 km/h doesn't mean it <em>must</em> slow down — but the risk of a ticket increases. Similarly, overbought doesn't mean "sell now," it means "proceed with caution."</p>
+      <div class="chart-container">
+        <h4>Interactive: RSI — Overbought &amp; Oversold Zones</h4>
+        <canvas id="rsiChart" aria-label="RSI oscillator chart showing overbought and oversold zones" role="img"></canvas>
+      </div>
+      <h3>3. MACD (Moving Average Convergence Divergence) <span class="indicator-tag tag-momentum">MOMENTUM</span> <span class="indicator-tag tag-trend">TREND</span></h3>
+      <p>MACD tracks the relationship between two moving averages (usually the 12-day and 26-day EMA). It has three parts:</p>
+      <ol>
+        <li><strong>MACD Line</strong> = 12-day EMA − 26-day EMA</li>
+        <li><strong>Signal Line</strong> = 9-day EMA of the MACD Line</li>
+        <li><strong>Histogram</strong> = MACD Line − Signal Line (the bars)</li>
+      </ol>
+      <p><strong>How to read it:</strong> When the MACD Line crosses <em>above</em> the Signal Line, it suggests bullish momentum. When it crosses <em>below</em>, that's bearish. The histogram makes these crossovers easy to spot — bars above zero are bullish, below zero are bearish.</p>
+      <div class="chart-container">
+        <h4>Interactive: MACD — Signal Line Crossovers</h4>
+        <canvas id="macdChart" aria-label="MACD chart showing MACD line, signal line, and histogram" role="img"></canvas>
+      </div>
+    </section>
+    <section class="section" id="examples">
+      <div class="section-label">Chapter 04</div>
+      <h2>Practical Examples</h2>
+      <h3>Example 1: Identifying an Uptrend</h3>
+      <p>Imagine watching Nifty 50 over the past three months. Each week, the index makes a new high (say 22,100 → 22,400 → 22,650) and each pullback stops at a higher level than the last (21,900 → 22,150 → 22,350). You are looking at a clear <strong>uptrend</strong>.</p>
+      <div class="callout callout-tip">
+        <div class="callout-title"><span class="callout-icon"></span> What to Do</div>
+        In an uptrend, look for buying opportunities on pullbacks (dips). Drawing a <strong>trendline</strong> along the higher lows gives you a visual guide for entry points.
+      </div>
+      <h3>Example 2: Using Support to Plan a Trade</h3>
+      <p>A stock has bounced off ₹450 three times in the past two months. This makes ₹450 a strong <strong>support zone</strong>. When the stock dips to ₹455 again, a trader might buy here with a <strong>stop-loss at ₹440</strong> (below support) — this limits the downside while giving the trade room to work.</p>
+      <h3>Example 3: RSI Warns of Exhaustion</h3>
+      <p>A stock rallies for five straight days, pushing RSI to <strong>78</strong>. The stock hasn't reversed yet, but RSI above 70 is a warning: the pace is unsustainable. A cautious trader would avoid chasing the rally and instead wait for RSI to cool below 70 before considering new positions.</p>
+      <h3>Example 4: Golden Cross Confirmation</h3>
+      <p>Bank Nifty's 50-day MA crosses above the 200-day MA. Volume picks up on the crossover day. This <strong>Golden Cross</strong>, confirmed by strong volume, suggests the medium-term trend has turned bullish. Many institutional and algorithmic traders act on this signal.</p>
+    </section>
+    <section class="section" id="walkthrough">
+      <div class="section-label">Chapter 05</div>
+      <h2>Step-by-Step: Analyzing a Chart</h2>
+      <p>Here's how to approach any stock chart from scratch — whether you're looking at Nifty 50, a single stock, or even Bitcoin.</p>
+      <ol class="steps">
+        <li>
+          <strong>Set the time frame.</strong><br>
+          Start with a <strong>daily chart</strong>. It balances detail with a clear view of the trend. Zoom out to the weekly chart for the bigger picture, then come back to daily for entries.
+        </li>
+        <li>
+          <strong>Identify the trend.</strong><br>
+          Ask: "Is price making <em>higher highs and higher lows</em> (uptrend), <em>lower highs and lower lows</em> (downtrend), or neither (sideways)?" Draw a trendline if it helps.
+        </li>
+        <li>
+          <strong>Mark support and resistance.</strong><br>
+          Find price levels where the stock has bounced or reversed multiple times. Draw horizontal lines at these zones. Focus on at least 2–3 key levels.
+        </li>
+        <li>
+          <strong>Check the moving averages.</strong><br>
+          Add the 50-day and 200-day MAs. Is price above both? (bullish) Below both? (bearish) Between them? (uncertain — wait for clarity.)
+        </li>
+        <li>
+          <strong>Read the RSI.</strong><br>
+          Is RSI above 70? Consider waiting. Below 30? The stock may be due for a rebound. Between 40–60? Neutral territory — look to other tools for guidance.
+        </li>
+        <li>
+          <strong>Confirm with volume.</strong><br>
+          Is today's volume above average? A move with strong volume is more trustworthy. A breakout on low volume is suspicious and may be a <strong>false breakout</strong>.
+        </li>
+        <li>
+          <strong>Plan your trade: entry, stop-loss, target.</strong><br>
+          <em>Before</em> you click "Buy," decide: Where am I getting in? Where do I get out if I'm wrong (stop-loss)? Where do I take profit (target)? Never trade without all three.
+        </li>
+      </ol>
+      <div class="callout callout-warning">
+        <div class="callout-title"><span class="callout-icon"></span> Important</div>
+        No single indicator is enough on its own. The best signals come when <strong>multiple tools agree</strong> — this is called <strong>confluence</strong>. For instance, buying at support + RSI near 30 + rising volume = a much stronger setup than any one signal alone.
+      </div>
+    </section>
+    <section class="section" id="adages">
+      <div class="section-label">Chapter 06</div>
+      <h2>Trading Adages, Translated</h2>
+      <p>Markets have their own folklore. Here's what those famous sayings actually mean:</p>
+      <div class="callout callout-adage">
+        <div class="callout-title"><span class="callout-icon"></span> "The trend is your friend."</div>
+        <strong>Plain English:</strong> Don't fight the direction the market is moving. If prices are going up, look for reasons to buy, not sell. Swimming against the current is exhausting and usually unprofitable.
+      </div>
+      <div class="callout callout-adage">
+        <div class="callout-title"><span class="callout-icon"></span> "Buy the rumour, sell the news."</div>
+        <strong>Plain English:</strong> Prices often rise in <em>anticipation</em> of good news. By the time the news actually breaks, the move has already happened, and early buyers take profits — causing a dip on seemingly "good" news.
+      </div>
+      <div class="callout callout-adage">
+        <div class="callout-title"><span class="callout-icon"></span> "Cut your losses short, let your winners run."</div>
+        <strong>Plain English:</strong> Don't hold a losing trade hoping it'll recover — exit quickly. But when a trade is going your way, resist the urge to sell too early. Big gains come from a few winners, not many small ones.
+      </div>
+      <div class="callout callout-adage">
+        <div class="callout-title"><span class="callout-icon"></span> "The market can stay irrational longer than you can stay solvent."</div>
+        <strong>Plain English:</strong> Even if you're "right" about where price should go, the market may disagree for weeks or months. Never bet so heavily that being early costs you everything.
+      </div>
+      <div class="callout callout-adage">
+        <div class="callout-title"><span class="callout-icon"></span> "Plan your trade, trade your plan."</div>
+        <strong>Plain English:</strong> Decide your entry, stop-loss, and target <em>before</em> entering. Then follow through. Emotional mid-trade decisions are the #1 account killer.
+      </div>
+    </section>
+    <section class="section" id="mistakes">
+      <div class="section-label">Chapter 07</div>
+      <h2>Common Beginner Mistakes</h2>
+      <p>Every trader makes mistakes early on. Here are the most frequent ones — and how to sidestep them.</p>
+      <table class="mistakes-table" role="table" aria-label="Common mistakes and how to fix them">
+        <thead>
+          <tr>
+            <th scope="col">Mistake</th>
+            <th scope="col">Why It Hurts</th>
+            <th scope="col">What to Do Instead</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="mistake-dont">Using too many indicators</td>
+            <td>Conflicting signals cause analysis paralysis — you freeze or flip-flop</td>
+            <td class="mistake-do">Pick 2–3 complementary tools (e.g., MA + RSI + Volume)</td>
+          </tr>
+          <tr>
+            <td class="mistake-dont">Ignoring stop-losses</td>
+            <td>One bad trade can wipe out months of gains</td>
+            <td class="mistake-do">Always set a stop-loss <em>before</em> entering</td>
+          </tr>
+          <tr>
+            <td class="mistake-dont">Trading every signal</td>
+            <td>Not every pattern pays off — low-quality setups drain your capital slowly</td>
+            <td class="mistake-do">Wait for confluence — multiple signals pointing the same way</td>
+          </tr>
+          <tr>
+            <td class="mistake-dont">Chasing a rally</td>
+            <td>Buying after a big move up means your risk/reward is poor</td>
+            <td class="mistake-do">Wait for pullbacks to support or moving averages</td>
+          </tr>
+          <tr>
+            <td class="mistake-dont">Switching time frames randomly</td>
+            <td>A stock can look bullish on 5-min but bearish on daily — confusion ensues</td>
+            <td class="mistake-do">Pick one main time frame and use one higher frame for context</td>
+          </tr>
+          <tr>
+            <td class="mistake-dont">Ignoring volume</td>
+            <td>A price breakout on thin volume is likely a trap</td>
+            <td class="mistake-do">Confirm breakouts and breakdowns with above-average volume</td>
+          </tr>
+          <tr>
+            <td class="mistake-dont">Revenge trading</td>
+            <td>After a loss, doubling down to "make it back" leads to bigger losses</td>
+            <td class="mistake-do">Step away. Review the trade later with a clear head</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="section" id="conclusion">
+      <div class="section-label">Chapter 08</div>
+      <h2>Key Takeaways &amp; Next Steps</h2>
+      <h3>What You've Learned</h3>
+      <ul>
+        <li>Technical analysis studies <strong>price and volume</strong> to forecast likely moves</li>
+        <li><strong>Trends</strong> give you direction; <strong>support &amp; resistance</strong> give you levels</li>
+        <li><strong>Moving averages</strong> smooth noise and reveal the underlying trend</li>
+        <li><strong>RSI</strong> flags when momentum is stretched; <strong>MACD</strong> catches trend shifts</li>
+        <li><strong>Volume</strong> is the lie detector — it confirms or denies a price move</li>
+        <li>Always trade with <strong>a plan</strong>: entry, stop-loss, and target</li>
+        <li>Seek <strong>confluence</strong> — multiple signals agreeing make a stronger case</li>
+      </ul>
+      <h3>Where to Go from Here</h3>
+      <ol>
+        <li><strong>Practice on historical charts.</strong> Pick any stock and go through the 7-step walkthrough above. Do it 20 times until it becomes second nature.</li>
+        <li><strong>Paper trade.</strong> Most brokers offer simulated trading. Test your setups without risking real money.</li>
+        <li><strong>Maintain a trading journal.</strong> Record every trade: what you saw, what you did, and what happened. Patterns in your own behavior will emerge.</li>
+        <li><strong>Learn candlestick patterns.</strong> Doji, engulfing, hammer — these single and multi-candle patterns add another layer of insight.</li>
+        <li><strong>Study risk management.</strong> Position sizing, risk-per-trade ratios, and portfolio allocation will save you where indicators can't.</li>
+      </ol>
+      <div class="callout callout-key">
+        <div class="callout-title"><span class="callout-icon"></span> Remember</div>
+        Technical analysis is a skill, not a crystal ball. It improves your <em>odds</em>, but no one is right every time. Consistency, discipline, and risk management separate profitable traders from the rest.
+      </div>
+    </section>

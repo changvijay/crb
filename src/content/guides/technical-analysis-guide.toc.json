@@ -1,0 +1,34 @@
+[
+ {
+  "id": "what-is-ta",
+  "label": "What Is TA?"
+ },
+ {
+  "id": "key-concepts",
+  "label": "Key Concepts"
+ },
+ {
+  "id": "indicators",
+  "label": "Indicators"
+ },
+ {
+  "id": "examples",
+  "label": "Examples"
+ },
+ {
+  "id": "walkthrough",
+  "label": "Walkthrough"
+ },
+ {
+  "id": "adages",
+  "label": "Trading Adages"
+ },
+ {
+  "id": "mistakes",
+  "label": "Common Mistakes"
+ },
+ {
+  "id": "conclusion",
+  "label": "Conclusion"
+ }
+]

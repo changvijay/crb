@@ -1,0 +1,101 @@
+{
+ "price-action": {
+  "title": "Price Action for Beginners: How to Read a Chart Without Indicators | Chang Research Base",
+  "description": "A simple, complete guide to price action trading: candlesticks, support and resistance, trends, breakouts, volume, chart patterns, market structure, gaps, Fibonacci, pivots, risk management and psychology.",
+  "keywords": null,
+  "canonical": "https://crb.changtechs.com/price-action",
+  "ogtitle": null,
+  "ogdesc": null,
+  "ld": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Price Action for Beginners: How to Read a Chart Without Indicators\",\"description\":\"A simple, complete guide to price action trading for beginners.\",\"author\":{\"@type\":\"Organization\",\"name\":\"Chang Research Base\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Chang Research Base\"}}"
+  ]
+ },
+ "fundamental-indicators": {
+  "title": "Essential Stock Analysis Indicators Explained Simply — Fundamental Analysis Guide | Chang Research Base (CRB)",
+  "description": "Learn 23 essential stock analysis indicators in plain English on Chang Research Base (CRB), Chang Reports & Market Reports. Beginner-friendly guide to P/E ratio, ROE, free cash flow, debt-to-equity, profit margin, EPS growth and more.",
+  "keywords": "Chang Research Base, CRB, Chang Reports, Chang Base, Market Reports, fundamental analysis, stock indicators, P/E ratio explained, ROE, free cash flow, debt to equity ratio, profit margin, EPS growth, PEG ratio, price to book ratio, EBITDA, operating margin, gross margin, NPA, CASA ratio, asset turnover, inventory turnover, insider buying, institutional holding, stock analysis for beginners, Indian stock market, Nifty 50 fundamentals, how to analyze stocks",
+  "canonical": "https://crb.changtechs.com/fundamental-indicators",
+  "ogtitle": "23 Stock Analysis Indicators Explained Simply — Chang Research Base (CRB)",
+  "ogdesc": "Beginner-friendly guide to fundamental indicators on Chang Research Base (CRB) & Chang Reports: P/E, ROE, free cash flow, debt ratios and more. Plain English explanations with real-world analogies.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"23 Essential Stock Analysis Indicators Explained Simply | Chang Research Base (CRB)\", \"description\": \"A beginner-friendly guide to 23 fundamental analysis indicators used to evaluate stocks on Chang Research Base (CRB), Chang Reports, and Market Reports, with plain English explanations and real-world analogies.\", \"author\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base (CRB)\", \"alternateName\": [\"CRB\", \"Chang Reports\", \"Chang Base\", \"Market Reports\"], \"url\": \"https://crb.changtechs.com\" }, \"publisher\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base (CRB)\", \"alternateName\": [\"CRB\", \"Chang Reports\", \"Chang Base\", \"Market Reports\"], \"logo\": { \"@type\": \"ImageObject\", \"url\": \"https://crb.changtechs.com/logo.png\" } }, \"mainEntityOfPage\": \"https://crb.changtechs.com/fundamental-indicators\", \"datePublished\": \"2026-04-11\", \"dateModified\": \"2026-05-15\", \"keywords\": \"fundamental analysis, stock indicators, P/E ratio, ROE, free cash flow, EPS, profit margin, Indian stock market, CRB, Chang Reports\" }",
+   "{ \"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://crb.changtechs.com/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"Fundamental Indicators Guide\", \"item\": \"https://crb.changtechs.com/fundamental-indicators\" } ] }"
+  ]
+ },
+ "technical-analysis-guide": {
+  "title": "Technical Analysis for Beginners — Complete Guide to Charts, Indicators & Price Action | Chang Research Base (CRB)",
+  "description": "Learn technical analysis from scratch on Chang Research Base (CRB), Chang Reports & Market Reports: price action, trends, support & resistance, moving averages, RSI, MACD, Bollinger Bands, candlestick patterns, Fibonacci, and volume analysis.",
+  "keywords": "Chang Research Base, CRB, Chang Reports, Chang Base, Market Reports, technical analysis for beginners, learn technical analysis, support and resistance, moving averages, RSI indicator, MACD indicator, Bollinger Bands, candlestick patterns, Fibonacci retracement, price action trading, chart patterns, stock chart analysis",
+  "canonical": "https://crb.changtechs.com/technical-analysis-guide",
+  "ogtitle": "Technical Analysis for Beginners — Complete Guide to Charts & Indicators | Chang Research Base (CRB)",
+  "ogdesc": "Free complete guide to technical analysis on Chang Research Base (CRB) & Chang Reports: candlestick patterns, support & resistance, moving averages, RSI, MACD, Fibonacci and more.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Technical Analysis for Beginners — Complete Guide to Charts, Indicators & Price Action | Chang Research Base (CRB)\", \"description\": \"Free complete guide to technical analysis on Chang Research Base (CRB), Chang Reports, and Market Reports — candlestick patterns, support & resistance, moving averages, RSI, MACD, Fibonacci, and more.\", \"url\": \"https://crb.changtechs.com/technical-analysis-guide\", \"datePublished\": \"2026-04-11\", \"dateModified\": \"2026-05-15\", \"author\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base (CRB)\", \"alternateName\": [\"CRB\", \"Chang Reports\", \"Chang Base\", \"Market Reports\"], \"url\": \"https://crb.changtechs.com\" }, \"publisher\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base (CRB)\", \"alternateName\": [\"CRB\", \"Chang Reports\", \"Chang Base\", \"Market Reports\"], \"logo\": { \"@type\": \"ImageObject\", \"url\": \"https://crb.changtechs.com/logo.png\" } } }"
+  ]
+ },
+ "candlestick-patterns": {
+  "title": "Candlestick Patterns — Complete Guide to All 19 Patterns | Chang Research Base (CRB)",
+  "description": "The definitive candlestick patterns guide on Chang Research Base (CRB), Chang Reports & Market Reports: all 19 patterns explained with psychology, anatomy, real-world examples, entry & exit rules.",
+  "keywords": "Chang Research Base, CRB, Chang Reports, Chang Base, Market Reports, candlestick patterns, technical analysis, doji pattern, hammer candlestick, bullish engulfing, bearish engulfing, morning star pattern, evening star, three white soldiers, three black crows",
+  "canonical": "https://crb.changtechs.com/candlestick-patterns",
+  "ogtitle": "Candlestick Patterns — Complete Guide to All 19 Patterns | Chang Research Base (CRB)",
+  "ogdesc": "The definitive candlestick patterns reference on Chang Research Base (CRB) & Chang Reports. Psychology, anatomy, entry & exit rules for all 19 essential patterns.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@type\": \"LearningResource\", \"name\": \"Candlestick Patterns — Complete Guide to All 19 Patterns | Chang Research Base (CRB)\", \"description\": \"A comprehensive educational guide to all 19 essential candlestick patterns used in technical analysis on Chang Research Base (CRB), Chang Reports, and Market Reports.\", \"url\": \"https://crb.changtechs.com/candlestick-patterns\", \"educationalLevel\": \"Beginner to Intermediate\", \"learningResourceType\": \"Guide\", \"teaches\": \"Candlestick pattern recognition and technical analysis\", \"keywords\": \"candlestick patterns, technical analysis, doji, hammer, engulfing, morning star, evening star, CRB, Chang Reports\", \"inLanguage\": \"en\", \"isAccessibleForFree\": true, \"provider\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base (CRB)\", \"alternateName\": [\"CRB\", \"Chang Reports\", \"Chang Base\", \"Market Reports\"], \"url\": \"https://crb.changtechs.com\" }, \"hasPart\": [ {\"@type\": \"LearningResource\", \"name\": \"Single-Candle Patterns\", \"position\": 1}, {\"@type\": \"LearningResource\", \"name\": \"Two-Candle Patterns\", \"position\": 2}, {\"@type\": \"LearningResource\", \"name\": \"Three-Candle Patterns\", \"position\": 3}, {\"@type\": \"LearningResource\", \"name\": \"Quick Reference Cheat Sheet\", \"position\": 4}, {\"@type\": \"LearningResource\", \"name\": \"7 Universal Trading Rules\", \"position\": 5} ] }",
+   "{ \"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [ {\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://crb.changtechs.com\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Learning\", \"item\": \"https://crb.changtechs.com/learning\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Candlestick Patterns Guide\", \"item\": \"https://crb.changtechs.com/candlestick-patterns\"} ] }"
+  ]
+ },
+ "nifty-equity-indices": {
+  "title": "Nifty Indices Explorer — NSE Index Lists & Constituents | Chang Research Base (CRB)",
+  "description": "Explore all 44 NSE Nifty indices on Chang Research Base (CRB), Chang Reports & Market Reports — Nifty 50, Bank Nifty, sectoral and thematic — with full constituent stock lists, weighting methodology, and rebalancing schedules.",
+  "keywords": "Chang Research Base, CRB, Chang Reports, Chang Base, Market Reports, nifty indices, nifty 50 stocks list, NSE index constituents, nifty bank index, nifty sectoral indices, nifty thematic index, India stock index",
+  "canonical": "https://crb.changtechs.com/nifty-equity-indices",
+  "ogtitle": "Nifty Indices Explorer — All 44 NSE Index Lists | Chang Research Base (CRB)",
+  "ogdesc": "Browse Nifty 50, Bank Nifty, Nifty IT, and 41 more NSE indices. Full constituent lists, selection criteria, and rebalancing data in one free tool.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"WebApplication\", \"@id\": \"https://crb.changtechs.com/nifty-equity-indices#app\", \"name\": \"Nifty Indices Explorer\", \"description\": \"Free interactive tool to explore all 44 NSE Nifty indices — broad market, sectoral, and thematic — with full constituent stock lists, selection methodology, and rebalancing schedules.\", \"url\": \"https://crb.changtechs.com/nifty-equity-indices\", \"applicationCategory\": \"FinanceApplication\", \"operatingSystem\": \"Web\", \"offers\": { \"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"INR\" }, \"provider\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base\", \"url\": \"https://changresearchbase.com\", \"logo\": { \"@type\": \"ImageObject\", \"url\": \"https://changresearchbase.com/logo.png\" } }, \"featureList\": [ \"All 44 Nifty index constituent lists\", \"Index selection methodology and criteria\", \"Free-float market cap weighting details\", \"Rebalancing schedule information\", \"CSV export of constituent data\", \"Direct links to Screener.in company pages\" ] }, { \"@type\": \"BreadcrumbList\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://changresearchbase.com/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"Learning\", \"item\": \"https://crb.changtechs.com\" }, { \"@type\": \"ListItem\", \"position\": 3, \"name\": \"Nifty Indices Explorer\", \"item\": \"https://crb.changtechs.com/nifty-equity-indices\" } ] }, { \"@type\": \"Dataset\", \"name\": \"NSE Nifty Index Constituent Lists\", \"description\": \"Complete constituent stock lists for all 44 NSE Nifty indices including Nifty 50, Nifty Bank, Nifty IT, and all sectoral and thematic indices as maintained by NSE India.\", \"url\": \"https://crb.changtechs.com/nifty-equity-indices\", \"creator\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base\" }, \"license\": \"https://changresearchbase.com/terms\", \"keywords\": [\"Nifty 50\", \"NSE indices\", \"Indian stock market\", \"index constituents\", \"Nifty Bank\", \"Nifty IT\"], \"spatialCoverage\": \"IN\", \"temporalCoverage\": \"2026\" } ] }"
+  ]
+ },
+ "fundamental-stock-analysis": {
+  "title": "NSE Stock Screener — Free Fundamental Analysis Tool | Chang Research Base (CRB)",
+  "description": "Screen any NSE-listed stock in seconds on Chang Research Base (CRB), Chang Reports & Market Reports. Get growth, profitability, balance sheet, cash flow and valuation checks with plain-English explanations — built for beginner and intermediate Indian equity investors.",
+  "keywords": "Chang Research Base, CRB, Chang Reports, Chang Base, Market Reports, NSE stock screener, fundamental analysis India, stock screener free, ROE ROCE screener, Indian equity research, PEG ratio calculator, stock quality score",
+  "canonical": "https://crb.changtechs.com/fundamental-stock-analysis",
+  "ogtitle": "NSE Stock Screener — Free Fundamental Analysis Tool | Chang Research Base (CRB)",
+  "ogdesc": "Enter any NSE symbol and get an instant fundamentals breakdown on Chang Research Base (CRB) & Chang Reports: growth, profitability, balance sheet strength, cash conversion and valuation — explained in plain English.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Chang Research Base (CRB) — NSE Fundamental Screener\", \"url\": \"https://crb.changtechs.com/nse-data\", \"applicationCategory\": \"FinanceApplication\", \"operatingSystem\": \"Any (web-based)\", \"description\": \"Free NSE stock screener from Chang Research Base (CRB), Chang Reports, and Market Reports that pulls growth, profitability, balance sheet, cash flow and valuation data for Indian equities, with plain-English explanations of each metric.\", \"offers\": { \"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"INR\" }, \"publisher\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base (CRB)\", \"alternateName\": [\"CRB\", \"Chang Reports\", \"Chang Base\", \"Market Reports\"] }, \"breadcrumb\": { \"@type\": \"BreadcrumbList\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Dashboard\", \"item\": \"https://crb.changtechs.com/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"Indian Market\", \"item\": \"https://crb.changtechs.com/nse-data\" } ] } }"
+  ]
+ },
+ "fundamental-analysis-ratios": {
+  "title": "Fundamental Analysis Mastery Guide: 54 Ratios Explained | Chang Research Base (CRB)",
+  "description": "Master 54 financial ratios on Chang Research Base (CRB), Chang Reports & Market Reports: valuation, profitability, liquidity, leverage, efficiency, cash flow, growth, shareholder returns, risk, and economic moats.",
+  "keywords": "Chang Research Base, CRB, Chang Reports, Chang Base, Market Reports, fundamental analysis, financial ratios, stock valuation, P/E ratio, PEG ratio, EV/EBITDA, ROIC, ROE, liquidity ratios, debt ratios",
+  "canonical": "https://crb.changtechs.com/fundamental-analysis-ratios",
+  "ogtitle": "Fundamental Analysis Mastery Guide — 54 Financial Ratios | Chang Research Base (CRB)",
+  "ogdesc": "A complete, practical reference for 54 financial ratios across 10 categories. Designed for clarity, readability, and genuine stock analysis mastery.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"Organization\", \"@id\": \"https://crb.changtechs.com/#organization\", \"name\": \"Chang Research Base\", \"url\": \"https://crb.changtechs.com\", \"logo\": { \"@type\": \"ImageObject\", \"url\": \"https://crb.changtechs.com/logo.png\" } }, { \"@type\": \"WebSite\", \"@id\": \"https://crb.changtechs.com/#website\", \"url\": \"https://crb.changtechs.com\", \"name\": \"Chang Research Base\", \"publisher\": { \"@id\": \"https://crb.changtechs.com/#organization\" } }, { \"@type\": \"TechArticle\", \"@id\": \"https://crb.changtechs.com/#article\", \"isPartOf\": { \"@id\": \"https://crb.changtechs.com/#website\" }, \"headline\": \"Fundamental Analysis Mastery Guide — 54 Financial Ratios Explained\", \"description\": \"A comprehensive, practical reference covering 54 financial ratios across valuation, profitability, liquidity, leverage, efficiency, cash flow, growth, shareholder returns, risk, and economic moat indicators.\", \"image\": \"https://crb.changtechs.com/logo.png\", \"inLanguage\": \"en-US\", \"mainEntityOfPage\": \"https://crb.changtechs.com/fundamental-analysis-ratios\", \"author\": { \"@id\": \"https://crb.changtechs.com/#organization\" }, \"publisher\": { \"@id\": \"https://crb.changtechs.com/#organization\" } } ] }"
+  ]
+ },
+ "crypto-guide": {
+  "title": "Understanding Crypto: Complete 35-Chapter Beginner to Expert Guide | Chang Research Base",
+  "description": "A complete, source-checked guide to cryptocurrency: Bitcoin, Ethereum, DeFi, stablecoins, on-chain analysis, security, scams and India's crypto tax rules. 35 chapters.",
+  "keywords": "understanding crypto, cryptocurrency guide, crypto for beginners, bitcoin explained, ethereum smart contracts, DeFi, stablecoins, on-chain analysis, crypto fundamental analysis, tokenomics, crypto security, crypto scams, crypto tax India, VDA tax 30%, crypto regulation India, Chang Research Base",
+  "canonical": "https://crb.changtechs.com/understanding-crypto-complete-guide",
+  "ogtitle": "Understanding Crypto: The Complete 35-Chapter Guide",
+  "ogdesc": "From blockchain basics to DeFi, on-chain analysis, scams and India's crypto tax. Evidence-driven and source-checked.",
+  "ld": [
+   "{ \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"Article\", \"headline\": \"Understanding Crypto: The Complete 35-Chapter Guide\", \"description\": \"A complete, source-checked guide to cryptocurrency, from first principles to the technological frontier.\", \"image\": \"https://crb.changtechs.com/logo.png\", \"author\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base\" }, \"publisher\": { \"@type\": \"Organization\", \"name\": \"Chang Research Base\", \"logo\": { \"@type\": \"ImageObject\", \"url\": \"https://crb.changtechs.com/logo.png\" } }, \"datePublished\": \"2026-10-10\", \"dateModified\": \"2026-10-18\", \"mainEntityOfPage\": \"https://crb.changtechs.com/understanding-crypto-complete-guide\", \"inLanguage\": \"en-IN\", \"keywords\": \"cryptocurrency, bitcoin, ethereum, DeFi, stablecoins, on-chain analysis, crypto tax India\" }, { \"@type\": \"BreadcrumbList\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://crb.changtechs.com/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"Understanding Crypto\", \"item\": \"https://crb.changtechs.com/understanding-crypto-complete-guide\" } ] } ] }"
+  ]
+ },
+ "stock-market-basics": {
+  "title": "Stock Market Basics: Where to Invest and How to Trade | Chang Research Base (CRB)",
+  "description": "Before you buy your first share, learn the main places money can be invested and the main ways traders approach the market. Beginner guide with India-focused examples.",
+  "keywords": null,
+  "canonical": "https://crb.changtechs.com/stock-market-basics",
+  "ogtitle": null,
+  "ogdesc": null,
+  "ld": []
+ }
+}

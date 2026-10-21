@@ -1,0 +1,1082 @@
+<div class="part-divider" id="part1">
+      <div class="part-divider-line"></div>
+      <div class="part-divider-label">Part 1 — Fundamental Analysis Framework</div>
+      <div class="part-divider-line"></div>
+    </div>
+    <p style="color:var(--g-text-2);font-size:14px;margin-bottom:36px;line-height:1.8;">
+      <strong style="color:var(--g-text-1)">Fundamental Analysis (FA)</strong> is the process of evaluating a security by examining its underlying business, financial statements, competitive position, and broader economic environment. Unlike technical analysis, FA targets <em style="color:var(--g-green)">intrinsic value</em> — what a company is truly worth — and is the cornerstone of long-term investing.
+    </p>
+    <section class="section" id="s1">
+      <div class="section-header">
+        <div class="section-num">01</div>
+        <h2>Financial Statement Analysis</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:20px;">A company's financial health is captured in three core statements. Read all three together — no single statement tells the complete story.</p>
+      <div class="subsection">
+        <h3>1.1 Income Statement (P&amp;L)</h3>
+        <p>Reports financial performance over a period (quarterly or annual).</p>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">Revenue (Topline)</div><div class="def-desc">Total income from core business operations.</div></div>
+          <div class="def-item"><div class="def-term">Gross Profit</div><div class="def-desc">Revenue minus COGS. Reflects production efficiency.</div></div>
+          <div class="def-item"><div class="def-term">EBITDA</div><div class="def-desc">Earnings Before Interest, Taxes, Depreciation &amp; Amortisation. Proxy for operating cash generation.</div></div>
+          <div class="def-item"><div class="def-term">EBIT (Op. Profit)</div><div class="def-desc">Gross Profit minus Operating Expenses. Core business profitability before interest and taxes.</div></div>
+          <div class="def-item"><div class="def-term">Net Income / PAT</div><div class="def-desc">Profit after all expenses, interest, and taxes. Belongs to shareholders. In India, PAT (Profit After Tax) is the standard term on BSE/NSE.</div></div>
+        </div>
+        <div class="note"><span class="note-icon">📌</span> In India, PAT (Profit After Tax) is the standard term for Net Income on BSE/NSE.</div>
+      </div>
+      <div class="subsection">
+        <h3>1.2 Balance Sheet</h3>
+        <p>A snapshot of assets, liabilities, and equity at a specific date.</p>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">Assets</div><div class="def-desc">Current Assets (cash, inventory, receivables) + Non-Current Assets (property, equipment, intangibles).</div></div>
+          <div class="def-item"><div class="def-term">Liabilities</div><div class="def-desc">Current Liabilities (due within 1 year) + Long-Term Liabilities (bonds, loans).</div></div>
+          <div class="def-item"><div class="def-term">Shareholders' Equity</div><div class="def-desc">Total Assets − Total Liabilities. Includes paid-up capital, reserves &amp; surplus.</div></div>
+        </div>
+        <div class="formula-box">
+          <div class="formula-label">Key Identity</div>
+          Assets = Liabilities + Shareholders' Equity
+        </div>
+        <div class="note"><span class="note-icon">📌</span> Any breach of this identity signals accounting errors.</div>
+      </div>
+      <div class="subsection">
+        <h3>1.3 Cash Flow Statement (CFS)</h3>
+        <p>Tracks actual cash movements — the hardest metric to manipulate.</p>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">Operating CF (OCF)</div><div class="def-desc">Cash from core operations. Should be consistently positive and ideally greater than net income.</div></div>
+          <div class="def-item">
+            <div class="def-term">Investing CF (ICF)</div>
+            <div class="def-desc">Cash used for CapEx, acquisitions, or investments. Typically negative in growth companies due to capital expenditure.</div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">Financing Activities CF 
+            <div class="def-desc">
+              Cash from debt issuance, equity raising, or dividends paid. Can be positive (borrowing) or negative (repayment/dividends).
+            </div>
+          </div>
+        </div>
+        <div class="note"><span class="note-icon">📌</span> Free Cash Flow (FCF) = Operating CF − CapEx. It is a derived metric, not a section of the CFS. A profitable company can still go bankrupt if OCF is consistently negative — always cross-check PAT vs OCF.</div>
+      </div>
+    </section>
+    <section class="section" id="s2">
+      <div class="section-header">
+        <div class="section-num">02</div>
+        <h2>Financial Ratios</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:20px;">Ratios convert raw numbers into comparable benchmarks. Always compare against: (a) the company's own historical trend, (b) industry peers, and (c) sector benchmarks.</p>
+      <div class="subsection">
+        <h3>2.1 Profitability Ratios</h3>
+        <div class="def-grid">
+          <div class="def-item">
+            <div class="def-term">Gross Profit Margin</div>
+            <div>
+              <div class="def-desc">(Gross Profit ÷ Revenue) × 100 — Pricing power and production efficiency.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ &gt; 40% — Strong pricing power</span>
+                <span class="zone zone-fair">~ 20–40% — Industry dependent</span>
+                <span class="zone zone-bad">✕ &lt; 15% — Low margin / commodity</span>
+              </div>
+            </div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">EBITDA Margin</div>
+            <div>
+              <div class="def-desc">(EBITDA ÷ Revenue) × 100 — Operating profitability before non-cash items.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ &gt; 20% — Excellent operating leverage</span>
+                <span class="zone zone-fair">~ 12–20% — Healthy</span>
+                <span class="zone zone-bad">✕ &lt; 8% — Thin / cost pressure</span>
+              </div>
+            </div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">Net Profit Margin</div>
+            <div>
+              <div class="def-desc">(Net Income ÷ Revenue) × 100 — Overall profitability after all expenses.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ &gt; 15% — Strong</span>
+                <span class="zone zone-fair">~ 8–15% — Acceptable</span>
+                <span class="zone zone-bad">✕ &lt; 5% — Thin / at risk</span>
+              </div>
+            </div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">ROE</div>
+            <div>
+              <div class="def-desc">(Net Income ÷ Shareholders' Equity) × 100 — Wealth generated for shareholders per unit of equity invested.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ &gt; 20% — Best in class</span>
+                <span class="zone zone-fair">~ 15–20% — Good</span>
+                <span class="zone zone-bad">✕ &lt; 10% — Poor capital efficiency</span>
+              </div>
+            </div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">ROA</div>
+            <div>
+              <div class="def-desc">(Net Income ÷ Total Assets) × 100 — Efficiency of asset utilisation.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ &gt; 8% — Highly efficient</span>
+                <span class="zone zone-fair">~ 3–8% — Average</span>
+                <span class="zone zone-bad">✕ &lt; 2% — Asset-heavy / poor returns</span>
+              </div>
+            </div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">ROCE</div>
+            <div>
+              <div class="def-desc">(EBIT ÷ Capital Employed) × 100 — Returns on all capital deployed (debt + equity). Widely used in India. Capital Employed = Total Assets − Current Liabilities.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ &gt; 15% — Value creation</span>
+                <span class="zone zone-fair">~ 10–15% — Neutral</span>
+                <span class="zone zone-bad">✕ &lt; Cost of Capital — Value destruction</span>
+              </div>
+            </div>
+          </div>
+          <div class="def-item">
+            <div class="def-term">ROIC</div>
+            <div>
+              <div class="def-desc">(NOPAT ÷ Invested Capital) × 100 — Measures capital allocation efficiency. NOPAT = EBIT × (1 − Tax Rate). Invested Capital = Equity + Debt − Cash. ROIC &gt; WACC signals value creation.</div>
+              <div class="zones-wrap" style="margin-top:8px;">
+                <span class="zone zone-good">✓ ROIC &gt; WACC — Value being created</span>
+                <span class="zone zone-bad">✕ ROIC &lt; WACC — Value being destroyed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subsection">
+        <h3>2.2 Liquidity Ratios</h3>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">Current Ratio</div><div class="def-desc">Current Assets ÷ Current Liabilities — Short-term solvency. Target: 1.5–2.5. Below 1.0 = danger zone.</div></div>
+          <div class="def-item"><div class="def-term">Quick Ratio (Acid Test)</div><div class="def-desc">(Current Assets − Inventory) ÷ Current Liabilities — Excludes illiquid inventory. Target: &gt; 1.0.</div></div>
+          <div class="def-item"><div class="def-term">Cash Ratio</div><div class="def-desc">Cash &amp; Equivalents ÷ Current Liabilities — Strictest liquidity measure. Target: 0.2–0.5 for most businesses.</div></div>
+        </div>
+      </div>
+      <div class="subsection">
+        <h3>2.3 Leverage / Solvency Ratios</h3>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">Debt-to-Equity (D/E)</div><div class="def-desc">Total Debt ÷ Shareholders' Equity — Financial risk indicator. &lt; 0.5 is conservative; &lt; 1 is generally safe; &gt; 2 is risky.</div></div>
+          <div class="def-item"><div class="def-term">Interest Coverage</div><div class="def-desc">EBIT ÷ Interest Expense — Ability to service debt. &gt; 5x is very comfortable; &gt; 3x is healthy; &lt; 1.5x signals distress.</div></div>
+          <div class="def-item"><div class="def-term">Debt-to-Asset</div><div class="def-desc">Total Debt ÷ Total Assets — Proportion of assets financed by debt. &lt; 0.3 is equity-dominated; &gt; 0.6 is debt-heavy.</div></div>
+          <div class="def-item"><div class="def-term">Net Debt / EBITDA</div><div class="def-desc">Popular leverage metric used by analysts and rating agencies. &lt; 1.5x is very low leverage; 1.5–3x is comfortable; &gt; 5x is dangerous.</div></div>
+        </div>
+      </div>
+      <div class="subsection">
+        <h3>2.4 Efficiency Ratios</h3>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">Asset Turnover</div><div class="def-desc">Revenue ÷ Total Assets — Sales generated per unit of assets. Higher and rising = improving efficiency. Retail: &gt; 1.5×; Manufacturing: 0.5–1.0×.</div></div>
+          <div class="def-item"><div class="def-term">Inventory Turnover</div><div class="def-desc">COGS ÷ Average Inventory — How fast inventory is sold. Higher is better. FMCG: &gt; 6×; Manufacturing: 4–8×; Retail: &gt; 10×.</div></div>
+          <div class="def-item"><div class="def-term">Receivables Turnover</div><div class="def-desc">Revenue ÷ Average Accounts Receivable — Speed of collecting payments. Higher is better; declining ratio = worsening credit management.</div></div>
+          <div class="def-item"><div class="def-term">DSO (Days Sales Outstanding)</div><div class="def-desc">365 ÷ Receivables Turnover — Average days to collect payment. &lt; 30 days is ideal; &gt; 90 days is a red flag in most sectors.</div></div>
+          <div class="def-item"><div class="def-term">DIO (Days Inventory Outstanding)</div><div class="def-desc">365 ÷ Inventory Turnover — Days inventory is held before sale. Lower is generally better; rising DIO may signal slow-moving stock.</div></div>
+          <div class="def-item"><div class="def-term">Cash Conversion Cycle</div><div class="def-desc">DIO + DSO − Days Payable Outstanding (DPO). Measures working capital efficiency. Negative CCC (e.g., Amazon, Walmart) is exceptional — cash collected before suppliers are paid.</div></div>
+        </div>
+      </div>
+      <div class="subsection">
+        <h3>2.5 Valuation Ratios</h3>
+        <div class="def-grid">
+          <div class="def-item"><div class="def-term">P/E Ratio</div><div class="def-desc">Market Price per Share ÷ EPS — Amount investors pay per unit of earnings. India general: &lt; 15 = cheap; 15–25 = fair; &gt; 25 = expensive.</div></div>
+          <div class="def-item"><div class="def-term">Forward P/E</div><div class="def-desc">Market Price ÷ Expected Future EPS — Forward-looking valuation using analyst estimates. Forward &lt; Trailing signals expected earnings growth.</div></div>
+          <div class="def-item"><div class="def-term">P/B Ratio</div><div class="def-desc">Market Price per Share ÷ Book Value per Share — Market value vs net assets. &lt; 1 = below book; 1–3 = normal; &gt; 5 = highly premium.</div></div>
+          <div class="def-item"><div class="def-term">P/S Ratio</div><div class="def-desc">Market Cap ÷ Annual Revenue — Useful for loss-making or early-stage companies. &lt; 1 = cheap; 1–3 = acceptable; &gt; 5 = expensive on revenue.</div></div>
+          <div class="def-item"><div class="def-term">EV/EBITDA</div><div class="def-desc">Enterprise Value ÷ EBITDA — Capital-structure-neutral valuation. Widely used in M&amp;A. India: &lt; 8× = attractive; 8–15× = fair; &gt; 20× = expensive.</div></div>
+          <div class="def-item"><div class="def-term">PEG Ratio</div><div class="def-desc">P/E ÷ EPS Growth Rate (%) — Adjusts P/E for growth. &lt; 0.5 = deeply undervalued; 0.5–1.0 = fairly valued for growth; &gt; 1.0 = overvalued vs growth rate.</div></div>
+          <div class="def-item"><div class="def-term">Earnings Yield</div><div class="def-desc">(EPS ÷ Market Price) × 100 — Inverse of P/E. &gt; 7% better than bonds; 4–7% comparable; &lt; 4% bonds may be preferred. Compare to 10-yr G-Sec (~7%).</div></div>
+          <div class="def-item"><div class="def-term">Dividend Yield</div><div class="def-desc">(Annual DPS ÷ Stock Price) × 100 — Income return from dividends. &gt; 3% = good income; 1–3% = moderate; &lt; 1% = growth play.</div></div>
+          <div class="def-item">
+            <div class="def-term">ROIC</div>
+            <div class="def-desc">(NOPAT ÷ Invested Capital) × 100. ROIC &gt; WACC = value creation; ROIC &lt; WACC = value destruction. Key metric for capital allocation quality.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="s3">
+      <div class="section-header">
+        <div class="section-num">03</div>
+        <h2>Business Performance Metrics</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item">
+          <div class="def-term">Revenue Growth</div>
+          <div>
+            <div class="def-desc">YoY / QoQ topline expansion.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ &gt; 15% YoY — Strong compounding</span>
+              <span class="zone zone-fair">~ 8–15% YoY — Moderate growth</span>
+              <span class="zone zone-bad">✕ &lt; 8% or declining — Stagnating</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">EPS</div>
+          <div>
+            <div class="def-desc">Net Income ÷ Total Shares Outstanding. Rising EPS over 5+ years = profitability compounding.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ &gt; 15% CAGR (5 yr) — Compounding</span>
+              <span class="zone zone-fair">~ 8–15% CAGR — Moderate</span>
+              <span class="zone zone-bad">✕ Flat or declining — Earnings pressure</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Diluted EPS</div>
+          <div>
+            <div class="def-desc">Accounts for options, warrants, and convertibles. More conservative than basic EPS.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ Diluted ≈ Basic EPS — Minimal dilution</span>
+              <span class="zone zone-bad">✕ Diluted &lt; Basic by &gt; 5% — Significant dilution risk</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Free Cash Flow (FCF)</div>
+          <div>
+            <div class="def-desc">Operating Cash Flow − CapEx. Cash available to shareholders after reinvestment needs.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ Positive &amp; growing consistently</span>
+              <span class="zone zone-fair">~ Positive but volatile — Capital cycle</span>
+              <span class="zone zone-bad">✕ Persistently negative — Cash burn risk</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">FCF Yield</div>
+          <div>
+            <div class="def-desc">FCF ÷ Market Cap. Higher yield = more value returned relative to price paid.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ &gt; 5% — Highly attractive</span>
+              <span class="zone zone-fair">~ 3–5% — Reasonable</span>
+              <span class="zone zone-bad">✕ &lt; 2% — Low cash return on price paid</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Dividend Payout Ratio</div>
+          <div>
+            <div class="def-desc">Dividends Paid ÷ Net Income. Reflects capital allocation philosophy.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ 30–50% — Balanced: income + reinvestment</span>
+              <span class="zone zone-fair">~ &gt; 70% — Mature / income stock</span>
+              <span class="zone zone-bad">✕ &gt; 100% — Unsustainable; paying from borrowings</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Operating Leverage</div>
+          <div>
+            <div class="def-desc">How fixed costs amplify earnings relative to revenue changes. High fixed costs = high operating leverage.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ Margin expansion on revenue growth — Leverage working</span>
+              <span class="zone zone-bad">✕ Margin compression on growth — Cost structure problem</span>
+            </div>
+          </div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Working Capital</div>
+          <div>
+            <div class="def-desc">Current Assets − Current Liabilities. Operational liquidity buffer.</div>
+            <div class="zones-wrap" style="margin-top:8px;">
+              <span class="zone zone-good">✓ Positive — Operational continuity assured</span>
+              <span class="zone zone-fair">~ Negative (retail/FMCG) — Structurally normal</span>
+              <span class="zone zone-bad">✕ Negative (non-retail) — Liquidity stress signal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="s4">
+      <div class="section-header">
+        <div class="section-num">04</div>
+        <h2>Industry &amp; Market Analysis</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Market Share</div><div class="def-desc">Company revenue as % of total industry revenue. Growing share = competitive edge.</div></div>
+        <div class="def-item"><div class="def-term">Peer Benchmarking</div><div class="def-desc">Compare margins, ROE, and D/E against Nifty 50 / sector index constituents.</div></div>
+        <div class="def-item"><div class="def-term">Industry Lifecycle</div><div class="def-desc">Introduction / Growth / Maturity / Decline — shapes appropriate valuation and growth expectations.</div></div>
+        <div class="def-item"><div class="def-term">Porter's Five Forces</div><div class="def-desc">Competitive rivalry, buyer/supplier power, substitutes, and barriers to entry.</div></div>
+        <div class="def-item"><div class="def-term">TAM / SAM / SOM</div><div class="def-desc">Total / Serviceable / Obtainable Addressable Market. Gauges growth runway.</div></div>
+        <div class="def-item"><div class="def-term">Regulatory Environment</div><div class="def-desc">Sector-specific rules (SEBI, RBI, TRAI, etc.) that create or destroy value.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s5">
+      <div class="section-header">
+        <div class="section-num">05</div>
+        <h2>Economic Moats</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:20px;">An economic moat is a structural competitive advantage that protects long-term profitability.</p>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Brand Strength</div><div class="def-desc">Commands premium pricing via loyalty (e.g., Asian Paints, Titan, Nestlé India).</div></div>
+        <div class="def-item"><div class="def-term">Patents &amp; IP</div><div class="def-desc">Legal monopoly on products/processes for a defined period. Common in pharma and specialty chemicals.</div></div>
+        <div class="def-item"><div class="def-term">Cost Advantage</div><div class="def-desc">Lower unit costs through scale, proprietary technology, or process efficiency.</div></div>
+        <div class="def-item"><div class="def-term">Network Effect</div><div class="def-desc">Value grows as more users adopt it (e.g., stock exchanges, payment networks like UPI/NPCI).</div></div>
+        <div class="def-item"><div class="def-term">Switching Costs</div><div class="def-desc">High cost or inconvenience for customers to switch (e.g., ERP software, banking relationships).</div></div>
+        <div class="def-item"><div class="def-term">Efficient Scale</div><div class="def-desc">Natural monopoly or duopoly markets (e.g., port infrastructure, pipelines, power grids).</div></div>
+        <div class="def-item"><div class="def-term">Intangible Assets</div><div class="def-desc">Licences, government contracts, distribution networks, proprietary data.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s6">
+      <div class="section-header">
+        <div class="section-num">06</div>
+        <h2>Management Evaluation</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Leadership Quality</div><div class="def-desc">Track record, domain expertise, and capital allocation history of promoters and CXOs.</div></div>
+        <div class="def-item"><div class="def-term">Corporate Governance</div><div class="def-desc">Board independence, audit committee quality, related-party transaction disclosures.</div></div>
+        <div class="def-item"><div class="def-term">Insider Activity</div><div class="def-desc">Promoter shareholding trends — consistent increase is bullish; pledging &gt; 30–40% is a red flag.</div></div>
+        <div class="def-item"><div class="def-term">Management Compensation</div><div class="def-desc">Excessive remuneration relative to profits can signal misaligned incentives. Watch for CXO pay &gt; 5% of PAT.</div></div>
+        <div class="def-item"><div class="def-term">Shareholder Communication</div><div class="def-desc">Quality of annual reports, investor presentations, and management commentary.</div></div>
+        <div class="def-item"><div class="def-term">Capital Allocation</div><div class="def-desc">History of acquisitions, buybacks, dividends — measures value-creation discipline.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s7">
+      <div class="section-header">
+        <div class="section-num">07</div>
+        <h2>Macroeconomic Factors</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Interest Rates</div><div class="def-desc">RBI Repo Rate and US Fed Funds Rate affect borrowing costs, valuations, and sector performance. Rising rates compress P/E multiples.</div></div>
+        <div class="def-item"><div class="def-term">Inflation (CPI / WPI)</div><div class="def-desc">High inflation erodes purchasing power and compresses margins for cost-pass-through challenged companies. RBI targets CPI at 4% (±2%).</div></div>
+        <div class="def-item"><div class="def-term">GDP Growth</div><div class="def-desc">Economic expansion drives corporate earnings. India's nominal GDP growth of 10–12% supports Nifty EPS growth of 12–15% historically.</div></div>
+        <div class="def-item"><div class="def-term">Fiscal &amp; Monetary Policy</div><div class="def-desc">Union Budget, GST, corporate tax rates, and RBI liquidity measures.</div></div>
+        <div class="def-item"><div class="def-term">Currency (INR/USD)</div><div class="def-desc">INR depreciation benefits IT/exporters; hurts importers (oil, electronics). A 1% INR depreciation typically adds ~0.5% to IT sector margins.</div></div>
+        <div class="def-item"><div class="def-term">Crude Oil Prices</div><div class="def-desc">Critical macro variable for India given heavy import dependency (~85% of oil is imported). Impacts inflation, trade deficit, and sector margins.</div></div>
+        <div class="def-item"><div class="def-term">FII / DII Flows</div><div class="def-desc">Foreign and domestic institutional flows significantly influence market direction and NSE/BSE liquidity.</div></div>
+        <div class="def-item"><div class="def-term">Global Macro Cues</div><div class="def-desc">US markets (S&amp;P 500, Nasdaq), US treasury yields, China growth data, and geopolitical events affect Indian equity sentiment.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s8">
+      <div class="section-header">
+        <div class="section-num">08</div>
+        <h2>Risk Assessment</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Business Risk</div><div class="def-desc">Operational challenges, competition, technology disruption, and demand cyclicality.</div></div>
+        <div class="def-item"><div class="def-term">Financial Risk</div><div class="def-desc">High debt, liquidity constraints, and refinancing risk. D/E &gt; 2 combined with falling EBITDA is a warning sign.</div></div>
+        <div class="def-item"><div class="def-term">Regulatory Risk</div><div class="def-desc">Adverse regulatory changes, legal proceedings, or environmental liabilities.</div></div>
+        <div class="def-item"><div class="def-term">Geopolitical Risk</div><div class="def-desc">Trade wars, sanctions, border conflicts, and political instability.</div></div>
+        <div class="def-item"><div class="def-term">Concentration Risk</div><div class="def-desc">Dependence on a single customer, product, geography, or supplier. A single customer &gt; 25% of revenue is a risk flag.</div></div>
+        <div class="def-item"><div class="def-term">ESG Risk</div><div class="def-desc">Environmental, Social, and Governance risks increasingly priced by institutional investors under BRSR/SEBI frameworks.</div></div>
+        <div class="def-item"><div class="def-term">Management Risk</div><div class="def-desc">Promoter fraud, governance failures, or key-person dependency.</div></div>
+        <div class="def-item"><div class="def-term">Market Risk</div><div class="def-desc">Macro-driven systematic risks that cannot be diversified away — interest rate changes, currency movements, market beta.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s9">
+      <div class="section-header">
+        <div class="section-num">09</div>
+        <h2>Qualitative Factors</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Vision &amp; Mission</div><div class="def-desc">Long-term strategic direction and clarity of business purpose.</div></div>
+        <div class="def-item"><div class="def-term">CSR / ESG Practices</div><div class="def-desc">Companies investing in ESG attract long-term institutional capital. SEBI mandates BRSR reporting for top 1,000 listed companies.</div></div>
+        <div class="def-item"><div class="def-term">Customer Satisfaction</div><div class="def-desc">Net Promoter Score (NPS) and repeat purchase rates as proxies for product quality and brand stickiness.</div></div>
+        <div class="def-item"><div class="def-term">Innovation Pipeline</div><div class="def-desc">R&amp;D expenditure as % of revenue, new product launches, and patent filings.</div></div>
+        <div class="def-item"><div class="def-term">Employee Culture</div><div class="def-desc">Attrition rates, Glassdoor ratings, and talent acquisition as indicators of organisational health.</div></div>
+        <div class="def-item"><div class="def-term">Sectoral Tailwinds</div><div class="def-desc">Megatrends (digital transformation, PLI schemes, green energy, China+1) that structurally favour certain businesses.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s10">
+      <div class="section-header">
+        <div class="section-num">10</div>
+        <h2>Historical Performance</h2>
+      </div>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Stock Price CAGR</div><div class="def-desc">5-year and 10-year CAGR vs Nifty / Sensex benchmark. Outperformance &gt; 3–5% CAGR over benchmark is quality signal.</div></div>
+        <div class="def-item"><div class="def-term">Dividend History</div><div class="def-desc">Consistency and growth in dividends. Uninterrupted 10-year dividend track record signals financial discipline.</div></div>
+        <div class="def-item"><div class="def-term">Earnings Track Record</div><div class="def-desc">Multi-year trend in Revenue, EBITDA, PAT, and EPS. Look for 5–10 year consistent expansion without major earnings misses.</div></div>
+        <div class="def-item"><div class="def-term">Book Value Growth</div><div class="def-desc">BVPS trend over years reflects retained earnings accumulation. BVPS CAGR &gt; 12% over 5 years = strong value building.</div></div>
+      </div>
+    </section>
+    <section class="section" id="s11">
+      <div class="section-header">
+        <div class="section-num">11</div>
+        <h2>Book Value per Share (BVPS)</h2>
+      </div>
+      <div class="formula-box">
+        <div class="formula-label">Formula</div>
+        BVPS = (Total Assets − Total Liabilities) ÷ Total Shares Outstanding
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin:16px 0;">Represents the net asset value per share — the theoretical liquidation value if the company were wound up today.</p>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Market Price &lt; BVPS</div><div class="def-desc">Potentially undervalued — stock trading below net asset value. Common during broad market corrections or sector distress.</div></div>
+        <div class="def-item"><div class="def-term">Market Price &gt; BVPS</div><div class="def-desc">Market expects superior returns or growth; justified by consistently high ROE (&gt; 20%) and strong brand/moat.</div></div>
+      </div>
+      <div class="note"><span class="note-icon">📌</span> For asset-heavy sectors (banking, insurance, NBFCs), P/B is the primary valuation metric. For capital-light businesses (IT, FMCG), use P/E or EV/EBITDA instead.</div>
+    </section>
+    <section class="section" id="s12">
+      <div class="section-header">
+        <div class="section-num">12</div>
+        <h2>Face Value (Par Value)</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:16px;">The nominal value assigned at incorporation — typically ₹1, ₹2, ₹5, or ₹10 per share in India. It is the base for:</p>
+      <div class="def-grid">
+        <div class="def-item"><div class="def-term">Dividend Calculation</div><div class="def-desc">Dividends sometimes declared as a percentage of face value (e.g., "200% dividend on ₹2 FV" = ₹4 per share).</div></div>
+        <div class="def-item"><div class="def-term">Bonus Shares</div><div class="def-desc">Issued at face value; does not change the total value of holding but increases share count.</div></div>
+        <div class="def-item"><div class="def-term">Stock Splits</div><div class="def-desc">Face value divided proportionally (e.g., ₹10 → ₹1 in a 10:1 split), shares outstanding multiply by 10.</div></div>
+      </div>
+      <div class="note"><span class="note-icon">📌</span> Face value has no direct relationship to market price or intrinsic value. Never use face value for investment decisions.</div>
+    </section>
+    <section class="section" id="s13">
+      <div class="section-header">
+        <div class="section-num">13</div>
+        <h2>Intrinsic Value &amp; Valuation Models</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:20px;">Intrinsic value is the present value of all future cash flows a business will generate. Comparing it to market price reveals whether a stock is undervalued, fairly valued, or overvalued.</p>
+      <div class="subsection">
+        <h3>13.1 Discounted Cash Flow (DCF)</h3>
+        <p>Projects future Free Cash Flows and discounts them to present value using WACC.</p>
+        <div class="formula-box">
+          <div class="formula-label">DCF Formula</div>
+          Intrinsic Value = Σ [FCFt ÷ (1 + WACC)^t] + Terminal Value ÷ (1 + WACC)^n
+        </div>
+        <div class="def-grid" style="margin-top:12px;">
+          <div class="def-item"><div class="def-term">WACC</div><div class="def-desc">Weighted Average Cost of Capital — blended cost of equity (Ke) and after-tax cost of debt (Kd × (1−T)), weighted by capital structure.</div></div>
+          <div class="def-item"><div class="def-term">Terminal Value</div><div class="def-desc">Present value of all cash flows beyond the explicit forecast period. Often calculated as FCFn × (1+g) ÷ (WACC − g) using the Gordon Growth Model.</div></div>
+          <div class="def-item"><div class="def-term">Margin of Safety</div><div class="def-desc">Buy at a 20–40% discount to intrinsic value to protect against assumption errors and unforeseen risks.</div></div>
+        </div>
+        <div class="note"><span class="note-icon">📌</span> DCF is highly sensitive to WACC and terminal growth rate inputs. A 1% change in WACC can move intrinsic value by 20–30%. Always run sensitivity scenarios.</div>
+      </div>
+      <div class="subsection">
+        <h3>13.2 Comparable Company Analysis (Comps)</h3>
+        <p>Values a company by benchmarking its multiples against similar publicly listed peers. Metrics used: P/E, EV/EBITDA, P/B, P/S. Market-based and reflects current investor sentiment, but the entire peer set can be overvalued simultaneously, skewing the analysis — a limitation known as "relative valuation bias."</p>
+      </div>
+      <div class="subsection">
+        <h3>13.3 Dividend Discount Model (DDM)</h3>
+        <div class="formula-box">
+          <div class="formula-label">DDM Formula (Gordon Growth Model)</div>
+          P = D1 ÷ (Ke − g)
+        </div>
+        <p style="margin-top:12px;">Where P = Intrinsic value per share, D1 = Expected next annual dividend, <strong>Ke = Cost of Equity</strong> (required return by equity shareholders), g = Sustainable dividend growth rate. Requires Ke &gt; g. Best suited for stable dividend-paying companies (e.g., mature PSUs, utilities, private sector banks).</p>
+      </div>
+    </section>
+    <section class="section" id="s14">
+      <div class="section-header">
+        <div class="section-num">14</div>
+        <h2>DuPont Analysis</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:16px;">Decomposes ROE into three components to pinpoint the true source of profitability or capital efficiency.</p>
+      <div class="formula-box">
+        <div class="formula-label">DuPont Formula (3-Factor)</div>
+        ROE = Net Profit Margin × Asset Turnover × Equity Multiplier
+      </div>
+      <div class="def-grid" style="margin-top:16px;">
+        <div class="def-item"><div class="def-term">Net Profit Margin</div><div class="def-desc">Profitability — Profit extracted from each unit of sales. (Net Income ÷ Revenue)</div></div>
+        <div class="def-item"><div class="def-term">Asset Turnover</div><div class="def-desc">Efficiency — How effectively assets generate sales. (Revenue ÷ Total Assets)</div></div>
+        <div class="def-item"><div class="def-term">Equity Multiplier</div><div class="def-desc">Financial Leverage — (Total Assets ÷ Shareholders' Equity). Higher leverage magnifies both gains and losses. A high ROE driven primarily by a high Equity Multiplier (leverage) is less desirable than one driven by margin or efficiency.</div></div>
+      </div>
+      <div class="note"><span class="note-icon">📌</span> DuPont is especially useful for comparing companies with similar ROEs but different drivers — e.g., an FMCG company achieves ROE via high margin; a bank achieves it via high leverage. Same number, very different risk profiles.</div>
+    </section>
+    <section class="section" id="s15">
+      <div class="section-header">
+        <div class="section-num">15</div>
+        <h2>Working Capital Management</h2>
+      </div>
+      <div class="formula-box">
+        <div class="formula-label">Formula</div>
+        Working Capital = Current Assets − Current Liabilities
+      </div>
+      <div class="def-grid" style="margin-top:16px;">
+        <div class="def-item"><div class="def-term">Positive Working Capital</div><div class="def-desc">Company can meet short-term obligations. Essential for operational continuity in most industries.</div></div>
+        <div class="def-item"><div class="def-term">Negative Working Capital</div><div class="def-desc">Potential liquidity crisis unless structurally normal for the model (e.g., supermarkets, e-commerce with fast inventory turnover and deferred supplier payments).</div></div>
+        <div class="def-item"><div class="def-term">Cash Conversion Cycle</div><div class="def-desc">DIO + DSO − DPO. Shorter or negative CCC = more capital-efficient business model. A negative CCC means the business collects cash from customers before paying its suppliers.</div></div>
+      </div>
+      <div class="note"><span class="note-icon">📌</span> Poor working capital management often precedes financial distress — even in profitable companies. Rising DSO and falling inventory turnover together are early warning signals.</div>
+    </section>
+    <div class="part-divider" id="part2">
+      <div class="part-divider-line"></div>
+      <div class="part-divider-label">Part 2 — Quick Reference Ratio Tables</div>
+      <div class="part-divider-line"></div>
+    </div>
+    <p style="color:var(--g-text-2);font-size:14px;margin-bottom:28px;line-height:1.8;">General benchmarks — always validate against sector norms. Numbers below reflect India (NSE/BSE) market conventions unless stated.</p>
+    <section class="section" id="ra">
+      <div class="section-header">
+        <div class="section-num">A</div>
+        <h2>Valuation Ratios</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>P/E Ratio<br><span style="color:var(--g-text-3);font-size:10px;">(India General)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 15 — Undervalued / Cheap</span>
+                  <span class="zone zone-fair">~ 15–25 — Fairly Valued</span>
+                  <span class="zone zone-bad">✕ &gt; 25 — Expensive / Growth-priced</span>
+                </div>
+              </td>
+              <td>Compare to sector avg. Low P/E alone is not a buy signal — check earnings quality and growth outlook.</td>
+            </tr>
+            <tr>
+              <td>Forward P/E</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ Lower than trailing P/E — Earnings growth expected</span>
+                  <span class="zone zone-bad">✕ Higher than trailing P/E — Earnings expected to decline</span>
+                </div>
+              </td>
+              <td>Forward &lt; Trailing means earnings expected to grow. Market is pricing in improvement.</td>
+            </tr>
+            <tr>
+              <td>PEG Ratio</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 0.5 — Deeply undervalued</span>
+                  <span class="zone zone-fair">~ 0.5–1.0 — Fairly valued for growth</span>
+                  <span class="zone zone-bad">✕ &gt; 1.0 — Overvalued vs growth</span>
+                </div>
+              </td>
+              <td>More accurate than raw P/E for growth stocks. PEG &lt; 1 is the classic sweet spot per Peter Lynch.</td>
+            </tr>
+            <tr>
+              <td>P/B Ratio</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 1 — Below book value</span>
+                  <span class="zone zone-fair">~ 1–3 — Normal range</span>
+                  <span class="zone zone-bad">✕ &gt; 5 — Highly premium / speculative</span>
+                </div>
+              </td>
+              <td>Critical for banks &amp; NBFCs. P/B &lt; 1 may signal distress or deep value opportunity.</td>
+            </tr>
+            <tr>
+              <td>P/S Ratio</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 1 — Cheap on revenue basis</span>
+                  <span class="zone zone-fair">~ 1–3 — Acceptable</span>
+                  <span class="zone zone-bad">✕ &gt; 5 — Very expensive on revenue</span>
+                </div>
+              </td>
+              <td>Useful for loss-making or early-stage companies where P/E is meaningless.</td>
+            </tr>
+            <tr>
+              <td>EV/EBITDA</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 8× — Attractive (India)</span>
+                  <span class="zone zone-fair">~ 8–15× — Fair value range</span>
+                  <span class="zone zone-bad">✕ &gt; 20× — Expensive / high growth priced in</span>
+                </div>
+              </td>
+              <td>Capital-structure neutral. Preferred in M&amp;A. EV = Market Cap + Net Debt. &lt; 8–10× is attractive in Indian markets.</td>
+            </tr>
+            <tr>
+              <td>Earnings Yield</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 7% — Better than G-Sec bonds</span>
+                  <span class="zone zone-fair">~ 4–7% — Comparable to bonds</span>
+                  <span class="zone zone-bad">✕ &lt; 4% — Bonds may be preferred</span>
+                </div>
+              </td>
+              <td>Inverse of P/E. Compare to 10-yr G-Sec yield (~7%). Equity premium is the reward for additional risk.</td>
+            </tr>
+            <tr>
+              <td>Dividend Yield</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 3% — Good income return</span>
+                  <span class="zone zone-fair">~ 1–3% — Moderate yield</span>
+                  <span class="zone zone-bad">✕ &lt; 1% — Growth play, not income</span>
+                </div>
+              </td>
+              <td>Higher yield is attractive for income investors. Verify payout is sustainable — check payout ratio &lt; 80% and positive FCF.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="rb">
+      <div class="section-header">
+        <div class="section-num">B</div>
+        <h2>Profitability Ratios</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Net Profit Margin</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 15% — Strong</span>
+                  <span class="zone zone-fair">~ 8–15% — Acceptable</span>
+                  <span class="zone zone-bad">✕ &lt; 5% — Thin / at risk</span>
+                </div>
+              </td>
+              <td>Sector-dependent: IT companies often 20%+; FMCG 10–15%; manufacturing 5–10%; retail 2–5%.</td>
+            </tr>
+            <tr>
+              <td>Gross Profit Margin</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 40% — Strong pricing power</span>
+                  <span class="zone zone-fair">~ 20–40% — Industry dependent</span>
+                  <span class="zone zone-bad">✕ &lt; 15% — Low margin / commodity</span>
+                </div>
+              </td>
+              <td>High gross margin = pricing power or efficient production. Compare only within same sector.</td>
+            </tr>
+            <tr>
+              <td>EBITDA Margin</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 20% — Excellent operating leverage</span>
+                  <span class="zone zone-fair">~ 12–20% — Healthy</span>
+                  <span class="zone zone-bad">✕ &lt; 8% — Thin / cost pressure</span>
+                </div>
+              </td>
+              <td>Stable or expanding EBITDA margin signals operating leverage working in company's favour.</td>
+            </tr>
+            <tr>
+              <td>ROE<br><span style="color:var(--g-text-3);font-size:10px;">(Return on Equity)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 20% — Best in class</span>
+                  <span class="zone zone-fair">~ 15–20% — Good</span>
+                  <span class="zone zone-bad">✕ &lt; 10% — Poor capital efficiency</span>
+                </div>
+              </td>
+              <td>Use DuPont to understand if ROE is driven by margins, efficiency, or leverage. &gt; 15% sustained over 5 years is the quality bar.</td>
+            </tr>
+            <tr>
+              <td>ROCE<br><span style="color:var(--g-text-3);font-size:10px;">(Return on Capital Employed)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 15% — Value creation</span>
+                  <span class="zone zone-fair">~ 10–15% — Neutral</span>
+                  <span class="zone zone-bad">✕ &lt; Cost of Capital — Value destruction</span>
+                </div>
+              </td>
+              <td>ROCE &gt; WACC means the business earns more than it costs to run. Widely used in Indian fundamental analysis.</td>
+            </tr>
+            <tr>
+              <td>ROA<br><span style="color:var(--g-text-3);font-size:10px;">(Return on Assets)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 8% — Highly efficient</span>
+                  <span class="zone zone-fair">~ 3–8% — Average</span>
+                  <span class="zone zone-bad">✕ &lt; 2% — Asset-heavy / poor returns</span>
+                </div>
+              </td>
+              <td>Banks typically show lower ROA (~1–2%) due to leverage structure. Compare strictly within sector.</td>
+            </tr>
+            <tr>
+              <td>EPS Growth</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 15% YoY — Strong growth</span>
+                  <span class="zone zone-fair">~ 8–15% YoY — Moderate</span>
+                  <span class="zone zone-bad">✕ Declining — Earnings pressure</span>
+                </div>
+              </td>
+              <td>Rising EPS over 5+ years is the single most reliable indicator of a compounding business.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="rc">
+      <div class="section-header">
+        <div class="section-num">C</div>
+        <h2>Leverage &amp; Solvency Ratios</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>D/E Ratio<br><span style="color:var(--g-text-3);font-size:10px;">(Debt-to-Equity)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ 0 – 0.5 — Debt-free / conservative</span>
+                  <span class="zone zone-fair">~ 0.5–1.5 — Acceptable</span>
+                  <span class="zone zone-bad">✕ &gt; 2.0 — High leverage / risky</span>
+                </div>
+              </td>
+              <td>D/E &lt; 1 is generally safe. Capital-intensive sectors (infra, utilities) can tolerate higher. Debt-free = 0.</td>
+            </tr>
+            <tr>
+              <td>Interest Coverage</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 5× — Very comfortable</span>
+                  <span class="zone zone-fair">~ 3–5× — Adequate</span>
+                  <span class="zone zone-bad">✕ &lt; 1.5× — Debt stress / default risk</span>
+                </div>
+              </td>
+              <td>EBIT ÷ Interest Expense. Below 1× means earnings cannot cover interest — distress territory.</td>
+            </tr>
+            <tr>
+              <td>Net Debt / EBITDA</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 1.5× — Very low leverage</span>
+                  <span class="zone zone-fair">~ 1.5–3× — Comfortable</span>
+                  <span class="zone zone-bad">✕ &gt; 5× — Dangerous leverage</span>
+                </div>
+              </td>
+              <td>Popular with analysts and rating agencies. Shows how many years of EBITDA are needed to fully repay net debt.</td>
+            </tr>
+            <tr>
+              <td>Debt-to-Asset</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 0.3 — Equity-dominated</span>
+                  <span class="zone zone-fair">~ 0.3–0.5 — Moderate</span>
+                  <span class="zone zone-bad">✕ &gt; 0.6 — Debt-dominated balance sheet</span>
+                </div>
+              </td>
+              <td>Below 0.5 means more than half of assets are equity-funded. Lower is safer for cyclical sectors.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="rd">
+      <div class="section-header">
+        <div class="section-num">D</div>
+        <h2>Liquidity Ratios</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Current Ratio</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ 1.5–2.5 — Healthy liquidity</span>
+                  <span class="zone zone-fair">~ 1.0–1.5 — Tight but manageable</span>
+                  <span class="zone zone-bad">✕ &lt; 1.0 — Liquidity crisis risk</span>
+                  <span class="zone zone-fair">⚠ &gt; 3.0 — Excess idle assets</span>
+                </div>
+              </td>
+              <td>Current Assets ÷ Current Liabilities. Below 1 means current liabilities exceed current assets — danger zone.</td>
+            </tr>
+            <tr>
+              <td>Quick Ratio<br><span style="color:var(--g-text-3);font-size:10px;">(Acid Test)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 1.0 — Strong quick liquidity</span>
+                  <span class="zone zone-fair">~ 0.7–1.0 — Acceptable</span>
+                  <span class="zone zone-bad">✕ &lt; 0.5 — High inventory dependency</span>
+                </div>
+              </td>
+              <td>Excludes inventory (illiquid). More conservative than current ratio. Tech/service companies often &gt; 1.5.</td>
+            </tr>
+            <tr>
+              <td>Cash Ratio</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 0.5 — Strong cash buffer</span>
+                  <span class="zone zone-fair">~ 0.2–0.5 — Adequate</span>
+                  <span class="zone zone-bad">✕ &lt; 0.2 — Very low cash reserves</span>
+                </div>
+              </td>
+              <td>Strictest liquidity test — only cash &amp; equivalents vs current liabilities. Most healthy firms sit at 0.3–0.5.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="re">
+      <div class="section-header">
+        <div class="section-num">E</div>
+        <h2>Efficiency Ratios</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio / Metric</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Asset Turnover</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 1.5× (retail / IT) — High efficiency</span>
+                  <span class="zone zone-fair">~ 0.5–1.5× (manufacturing) — Normal range</span>
+                  <span class="zone zone-bad">✕ &lt; 0.3× — Very asset-heavy / poor utilisation</span>
+                </div>
+              </td>
+              <td>Revenue ÷ Total Assets. Higher and rising signals improving efficiency. Compare within sector only — heavy industries naturally run lower.</td>
+            </tr>
+            <tr>
+              <td>Inventory Turnover</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 8× (FMCG/retail) — Fast-moving</span>
+                  <span class="zone zone-fair">~ 4–8× (manufacturing) — Healthy</span>
+                  <span class="zone zone-bad">✕ &lt; 3× — Slow inventory; obsolescence risk</span>
+                </div>
+              </td>
+              <td>COGS ÷ Average Inventory. Fast-moving inventory reduces holding costs and write-off risk. Falling ratio YoY = warning sign.</td>
+            </tr>
+            <tr>
+              <td>Receivables Turnover</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 12× — Collections within 30 days</span>
+                  <span class="zone zone-fair">~ 6–12× — Acceptable (30–60 day terms)</span>
+                  <span class="zone zone-bad">✕ &lt; 4× — Slow collections (&gt; 90 days)</span>
+                </div>
+              </td>
+              <td>Revenue ÷ Average Accounts Receivable. Declining ratio suggests worsening credit management or channel stuffing.</td>
+            </tr>
+            <tr>
+              <td>Cash Conversion Cycle<br><span style="color:var(--g-text-3);font-size:10px;">(DIO + DSO − DPO)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ Negative CCC — Cash before supplier payment</span>
+                  <span class="zone zone-good">✓ 0–30 days — Highly efficient</span>
+                  <span class="zone zone-fair">~ 30–90 days — Normal for manufacturing</span>
+                  <span class="zone zone-bad">✕ &gt; 120 days — Capital-intensive / working capital strain</span>
+                </div>
+              </td>
+              <td>Shorter or negative CCC = superior business model. Amazon and Walmart famously run negative CCCs, funding operations with supplier credit.</td>
+            </tr>
+            <tr>
+              <td>Days Sales Outstanding<br><span style="color:var(--g-text-3);font-size:10px;">(DSO)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 30 days — Excellent collections</span>
+                  <span class="zone zone-fair">~ 30–60 days — Industry standard</span>
+                  <span class="zone zone-bad">✕ &gt; 90 days — Collection risk / bad debts likely</span>
+                </div>
+              </td>
+              <td>365 ÷ Receivables Turnover. Rising DSO is a red flag — may signal revenue recognition issues or weak credit control.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="rf">
+      <div class="section-header">
+        <div class="section-num">F</div>
+        <h2>Cash Flow Metrics</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio / Metric</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Free Cash Flow<br><span style="color:var(--g-text-3);font-size:10px;">(OCF − CapEx)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ Positive &amp; growing — Self-funding, surplus capital</span>
+                  <span class="zone zone-fair">~ Positive but flat — Stable, limited reinvestment headroom</span>
+                  <span class="zone zone-bad">✕ Persistently negative — Cash burn; monitor debt levels</span>
+                </div>
+              </td>
+              <td>Self-funding businesses can pay dividends, buy back shares, or grow organically without external capital.</td>
+            </tr>
+            <tr>
+              <td>FCF Yield<br><span style="color:var(--g-text-3);font-size:10px;">(FCF ÷ Market Cap)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 5% — Highly attractive</span>
+                  <span class="zone zone-fair">~ 3–5% — Reasonable value</span>
+                  <span class="zone zone-bad">✕ &lt; 2% — Low cash return on price paid</span>
+                </div>
+              </td>
+              <td>The cash-based equivalent of earnings yield. More reliable than P/E as cash flow is harder to manipulate.</td>
+            </tr>
+            <tr>
+              <td>OCF / Net Income<br><span style="color:var(--g-text-3);font-size:10px;">(Cash Quality Ratio)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 1.0 — Cash earnings exceed accounting earnings</span>
+                  <span class="zone zone-fair">~ 0.8–1.0 — Broadly aligned</span>
+                  <span class="zone zone-bad">✕ &lt; 0.5 — Earnings quality concern; possible accrual manipulation</span>
+                </div>
+              </td>
+              <td>OCF consistently below Net Income suggests revenue recognition gaming or accounts receivable inflation. Classic manipulation warning.</td>
+            </tr>
+            <tr>
+              <td>CapEx Intensity<br><span style="color:var(--g-text-3);font-size:10px;">(CapEx ÷ Revenue)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 5% — Capital-light (IT, FMCG)</span>
+                  <span class="zone zone-fair">~ 5–15% — Moderate (manufacturing)</span>
+                  <span class="zone zone-bad">✕ &gt; 20% — Capital-heavy (infra, telecom, metals)</span>
+                </div>
+              </td>
+              <td>Capital-light businesses generate more FCF per rupee of revenue. High CapEx is not inherently bad if ROIC &gt; WACC on new investments.</td>
+            </tr>
+            <tr>
+              <td>OCF Growth<br><span style="color:var(--g-text-3);font-size:10px;">(YoY %)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 15% YoY — Strong cash generation</span>
+                  <span class="zone zone-fair">~ 5–15% YoY — Moderate</span>
+                  <span class="zone zone-bad">✕ Declining — Cash flow deteriorating</span>
+                </div>
+              </td>
+              <td>Sustained OCF growth alongside PAT growth = highest quality earnings signal. Divergence between the two warrants investigation.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="rg">
+      <div class="section-header">
+        <div class="section-num">G</div>
+        <h2>Book Value &amp; Per Share Metrics</h2>
+      </div>
+      <div class="ratio-table-wrap">
+        <table>
+          <thead><tr><th>Ratio / Metric</th><th class="threshold-col">Numbered Thresholds</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>P/B Ratio<br><span style="color:var(--g-text-3);font-size:10px;">(Market Price ÷ BVPS)</span></td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &lt; 1.0 — Trading below book; potential deep value</span>
+                  <span class="zone zone-fair">~ 1.0–3.0 — Normal; growth premium</span>
+                  <span class="zone zone-bad">✕ &gt; 5.0 — Highly premium; requires very high ROE</span>
+                </div>
+              </td>
+              <td>P/B &lt; 1 during market corrections is often an opportunity for banking and NBFC stocks. High P/B is justified only if sustained ROE &gt; 20%.</td>
+            </tr>
+            <tr>
+              <td>BVPS Growth (5-yr CAGR)</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ &gt; 15% CAGR — Strong wealth compounding</span>
+                  <span class="zone zone-fair">~ 8–15% CAGR — Healthy retained earnings</span>
+                  <span class="zone zone-bad">✕ &lt; 5% or declining — Poor value creation</span>
+                </div>
+              </td>
+              <td>Consistent BVPS growth reflects disciplined retained earnings. If BVPS declines, the company may be destroying equity value through losses or excessive payouts.</td>
+            </tr>
+            <tr>
+              <td>Diluted vs Basic EPS Gap</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ Gap &lt; 2% — Minimal dilution</span>
+                  <span class="zone zone-fair">~ 2–5% gap — Moderate ESOP dilution</span>
+                  <span class="zone zone-bad">✕ Gap &gt; 10% — Significant dilution; shareholder value at risk</span>
+                </div>
+              </td>
+              <td>A large gap between basic and diluted EPS signals heavy ESOP grants or convertible instruments. Reduces the real earnings per share for existing shareholders.</td>
+            </tr>
+            <tr>
+              <td>Dividend per Share (DPS) Growth</td>
+              <td class="threshold-col">
+                <div class="zones-wrap">
+                  <span class="zone zone-good">✓ Growing DPS 5+ years — Confidence signal</span>
+                  <span class="zone zone-fair">~ Flat DPS — Stable but no income growth</span>
+                  <span class="zone zone-bad">✕ Cut or omitted dividend — Financial stress likely</span>
+                </div>
+              </td>
+              <td>Companies that consistently grow DPS over 5+ years demonstrate financial strength and shareholder-friendly management. Dividend cuts are among the strongest bearish signals.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <div class="part-divider" id="part3">
+      <div class="part-divider-line"></div>
+      <div class="part-divider-label">Part 3 — Step-by-Step Analysis Process</div>
+      <div class="part-divider-line"></div>
+    </div>
+    <section class="section" id="process">
+      <div class="section-header">
+        <div class="section-num">→</div>
+        <h2>Analysis Workflow</h2>
+      </div>
+      <p style="color:var(--g-text-2);font-size:14px;margin-bottom:20px;">Use this structured workflow when analysing any listed company on NSE / BSE or US markets.</p>
+      <div class="process-list">
+        <div class="process-item"><div class="step-num">1</div><div class="step-text"><strong>Screen for quality businesses</strong> — Use screeners (Screener.in, Tickertape, NSE website). Filter by ROE &gt; 15%, D/E &lt; 1, revenue growth &gt; 10%, positive FCF.</div></div>
+        <div class="process-item"><div class="step-num">2</div><div class="step-text"><strong>Read the Annual Report</strong> — Focus on MD&amp;A, Chairman's letter, and Notes to Accounts. Look for management candour, disclosed risks, and related-party transactions.</div></div>
+        <div class="process-item"><div class="step-num">3</div><div class="step-text"><strong>Analyse all three financial statements</strong> — Minimum 5-year trend for Income Statement, Balance Sheet, and Cash Flow Statement. Cross-check PAT vs OCF every year.</div></div>
+        <div class="process-item"><div class="step-num">4</div><div class="step-text"><strong>Compute and benchmark ratios</strong> — Apply the framework from Parts 1 &amp; 2. Compare to historical data and sector peers. Use Screener.in for 10-year financials.</div></div>
+        <div class="process-item"><div class="step-num">5</div><div class="step-text"><strong>Evaluate management quality &amp; governance</strong> — Promoter holding, pledging, related-party transactions, and capital allocation history.</div></div>
+        <div class="process-item"><div class="step-num">6</div><div class="step-text"><strong>Assess competitive moat</strong> — Identify sustainable advantages using Porter's Five Forces and moat categories. Ask: why can't a well-capitalised competitor displace this business?</div></div>
+        <div class="process-item"><div class="step-num">7</div><div class="step-text"><strong>Build a valuation estimate</strong> — Use DCF, Comps (EV/EBITDA, P/E), and DDM. Triangulate across methods to find a reasonable intrinsic value range.</div></div>
+        <div class="process-item"><div class="step-num">8</div><div class="step-text"><strong>Factor in macro &amp; sector backdrop</strong> — Interest rates, inflation, regulatory changes, FII/DII flows, global macro cues.</div></div>
+        <div class="process-item"><div class="step-num">9</div><div class="step-text"><strong>Determine risk-reward &amp; investment thesis</strong> — Define what must be true for your thesis to play out — and what would break it (write it down).</div></div>
+        <div class="process-item"><div class="step-num">10</div><div class="step-text"><strong>Apply a Margin of Safety</strong> — Only invest when the price offers a sufficient discount (20–40%) to your calculated intrinsic value. The margin of safety is your protection against being wrong.</div></div>
+      </div>
+    </section>
+    <div class="part-divider" id="part4">
+      <div class="part-divider-line"></div>
+      <div class="part-divider-label">Part 4 — Summary at a Glance</div>
+      <div class="part-divider-line"></div>
+    </div>
+    <section class="section" id="flags">
+      <div class="section-header">
+        <div class="section-num">✦</div>
+        <h2>Green Flags &amp; Red Flags</h2>
+      </div>
+      <div class="flags-grid">
+        <div class="flag-card green">
+          <div class="flag-title">✅ Green Flags — Quality Business</div>
+          <ul class="flag-list">
+            <li>Revenue + PAT growth: consistent 15%+ CAGR over 5–10 years.</li>
+            <li>OCF &gt; PAT every year: earnings quality is real, not accounting-driven.</li>
+            <li>ROE &gt; 15% &amp; ROCE &gt; Cost of Capital, sustained over multiple cycles.</li>
+            <li>Low leverage: Debt-free or D/E &lt; 0.5 with interest coverage &gt; 5×.</li>
+            <li>Promoter holding &gt; 50% &amp; rising. Zero or minimal share pledging (&lt; 5%).</li>
+            <li>Expanding margins with operating leverage as revenue scales.</li>
+            <li>Identifiable economic moat: brand, network effect, switching costs, or patents.</li>
+            <li>Positive FCF consistently. FCF Yield &gt; 3–5%.</li>
+            <li>Valuation at or below intrinsic value with an adequate margin of safety (20–40%).</li>
+            <li>Disciplined capital allocation: proven track record on acquisitions, buybacks, and dividends.</li>
+          </ul>
+        </div>
+        <div class="flag-card red">
+          <div class="flag-title">🚩 Red Flags — Warning Signs</div>
+          <ul class="flag-list">
+            <li>PAT growing but OCF declining: possible revenue recognition manipulation.</li>
+            <li>Rapidly rising receivables / DSO &gt; 90 days: revenue may not be converting to real cash.</li>
+            <li>Frequent equity dilution: large ESOP issuances dilute EPS and shareholder value.</li>
+            <li>High promoter pledging &gt; 30–40%: forced selling risk in a downturn.</li>
+            <li>Promoter holding declining consistently: insiders reducing stake — bearish signal.</li>
+            <li>Auditor changes or qualified opinions: major governance concern; investigate immediately.</li>
+            <li>Significant related-party transactions without clear business rationale: may indicate fund diversion.</li>
+            <li>Debt rising faster than revenue: leverage increasing without commensurate growth.</li>
+            <li>Shrinking margins on growing revenue: cost structure deteriorating.</li>
+            <li>Negative working capital (non-retail): operational stress signal.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="formulas">
+      <div class="section-header">
+        <div class="section-num">⊞</div>
+        <h2>Formula Cheatsheet</h2>
+      </div>
+      <div class="cheat-grid">
+        <div class="cheat-item"><div class="cheat-name">EPS</div><div class="cheat-formula">Net Income ÷ Total Shares Outstanding</div></div>
+        <div class="cheat-item"><div class="cheat-name">P/E Ratio</div><div class="cheat-formula">Market Price per Share ÷ EPS</div></div>
+        <div class="cheat-item"><div class="cheat-name">PEG Ratio</div><div class="cheat-formula">P/E ÷ EPS Growth Rate (%)</div></div>
+        <div class="cheat-item"><div class="cheat-name">P/B Ratio</div><div class="cheat-formula">Market Price per Share ÷ Book Value per Share</div></div>
+        <div class="cheat-item"><div class="cheat-name">EV/EBITDA</div><div class="cheat-formula">(Market Cap + Net Debt) ÷ EBITDA</div></div>
+        <div class="cheat-item"><div class="cheat-name">ROE</div><div class="cheat-formula">(Net Income ÷ Shareholders' Equity) × 100</div></div>
+        <div class="cheat-item"><div class="cheat-name">ROCE</div><div class="cheat-formula">(EBIT ÷ Capital Employed) × 100</div></div>
+        <div class="cheat-item"><div class="cheat-name">ROIC</div><div class="cheat-formula">(NOPAT ÷ Invested Capital) × 100</div></div>
+        <div class="cheat-item"><div class="cheat-name">Net Profit Margin</div><div class="cheat-formula">(Net Income ÷ Revenue) × 100</div></div>
+        <div class="cheat-item"><div class="cheat-name">D/E Ratio</div><div class="cheat-formula">Total Debt ÷ Shareholders' Equity</div></div>
+        <div class="cheat-item"><div class="cheat-name">Interest Coverage</div><div class="cheat-formula">EBIT ÷ Interest Expense</div></div>
+        <div class="cheat-item"><div class="cheat-name">Current Ratio</div><div class="cheat-formula">Current Assets ÷ Current Liabilities</div></div>
+        <div class="cheat-item"><div class="cheat-name">Quick Ratio</div><div class="cheat-formula">(Current Assets − Inventory) ÷ Current Liabilities</div></div>
+        <div class="cheat-item"><div class="cheat-name">Free Cash Flow</div><div class="cheat-formula">Operating Cash Flow − CapEx</div></div>
+        <div class="cheat-item"><div class="cheat-name">FCF Yield</div><div class="cheat-formula">FCF ÷ Market Cap × 100</div></div>
+        <div class="cheat-item"><div class="cheat-name">Dividend Yield</div><div class="cheat-formula">(Annual DPS ÷ Stock Price) × 100</div></div>
+        <div class="cheat-item"><div class="cheat-name">Cash Conversion Cycle</div><div class="cheat-formula">DIO + DSO − Days Payable Outstanding</div></div>
+        <div class="cheat-item"><div class="cheat-name">DuPont ROE</div><div class="cheat-formula">Net Profit Margin × Asset Turnover × Equity Multiplier</div></div>
+        <div class="cheat-item"><div class="cheat-name">BVPS</div><div class="cheat-formula">(Total Assets − Total Liabilities) ÷ Shares Outstanding</div></div>
+        <div class="cheat-item"><div class="cheat-name">DCF Intrinsic Value</div><div class="cheat-formula">Σ [FCFt ÷ (1 + WACC)^t] + TV ÷ (1 + WACC)^n</div></div>
+        <div class="cheat-item"><div class="cheat-name">DDM (Gordon Growth)</div><div class="cheat-formula">P = D1 ÷ (Ke − g)</div></div>
+        <div class="cheat-item"><div class="cheat-name">NOPAT (for ROIC)</div><div class="cheat-formula">EBIT × (1 − Effective Tax Rate)</div></div>
+      </div>
+    </section>
+    <div class="buffett-quote">
+      <blockquote>"Price is what you pay. Value is what you get."</blockquote>
+      <cite>— Warren Buffett</cite>
+    </div>
+    <div class="note" style="margin-top:32px;">
+      <span class="note-icon">📌</span>
+      Fundamental analysis is not a one-time exercise. Re-evaluate your thesis every quarter after results, and annually with the full annual report. Markets are dynamic — businesses evolve, moats erode, and macro conditions shift. Combine FA with Technical Analysis for entry/exit timing and position sizing.
+    </div>
