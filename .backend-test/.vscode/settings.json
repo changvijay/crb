@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^npm install compression$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

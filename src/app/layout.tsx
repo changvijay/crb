@@ -27,11 +27,11 @@ export const metadata: Metadata = {
 };
 
 // Dark by default; honours a saved choice. Runs before first paint (no flash).
-const themeInit = `try{var t=localStorage.getItem('crb-theme');if(t!=='dark'&&t!=='light'){t='dark'}document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='dark'}`;
+const themeInit = `try{var t=localStorage.getItem('crb-theme');if(t!=='dark'&&t!=='light'){t='light'}document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='light'}`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" suppressHydrationWarning data-theme="dark" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
+    <html lang="en" suppressHydrationWarning data-theme="light" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
       </head>

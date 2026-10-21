@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Server",
+            "program": "${workspaceFolder}/server.js",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal",
+            "restart": true,
+            "runtimeArgs": ["--inspect-brk=9229"],
+            "protocol": "inspector",
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/node_modules/**"
+            ],
+            "outputCapture": "console",
+            "preLaunchTask": "npm: start"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Running Server",
+            "port": 9229,
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/node_modules/**"
+            ]
+        }
+    ]
+}
