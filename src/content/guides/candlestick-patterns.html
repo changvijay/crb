@@ -1,0 +1,1155 @@
+<section id="basics">
+<div class="wrap">
+  <div class="sec-head fi">
+    <p class="sec-tag">Foundation</p>
+    <h2 class="sec-title">Before You Read Any Pattern</h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc">Every pattern is built on four numbers. Understand these and the rest becomes obvious.</p>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:40px" class="fi">
+    <div style="background:var(--g-card);border:1px solid var(--g-border);border-radius:14px;padding:28px">
+      <p style="font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--g-accent);margin-bottom:16px">The Four Price Points</p>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div class="fact-row neutral" style="margin:0"><div class="fact-icon" style="background:rgba(34,201,122,.1);color:var(--g-bull)">O</div><div><span class="fact-label">Open</span><span class="fact-value">The price at the very start of the session. This is where trading begins.</span></div></div>
+        <div class="fact-row neutral" style="margin:0"><div class="fact-icon" style="background:rgba(34,201,122,.1);color:var(--g-bull)">C</div><div><span class="fact-label">Close</span><span class="fact-value">The price at the end of the session. This is the final verdict of the battle.</span></div></div>
+        <div class="fact-row neutral" style="margin:0"><div class="fact-icon" style="background:rgba(200,164,106,.1);color:var(--g-accent)">H</div><div><span class="fact-label">High</span><span class="fact-value">The highest price reached. Shown as the tip of the top wick.</span></div></div>
+        <div class="fact-row neutral" style="margin:0"><div class="fact-icon" style="background:rgba(200,164,106,.1);color:var(--g-accent)">L</div><div><span class="fact-label">Low</span><span class="fact-value">The lowest price reached. Shown as the tip of the bottom wick.</span></div></div>
+      </div>
+    </div>
+    <div style="background:var(--g-card);border:1px solid var(--g-border);border-radius:14px;padding:28px">
+      <p style="font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--g-accent);margin-bottom:16px">The Golden Rules</p>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;gap:10px;font-size:.88rem;color:var(--g-text2);font-weight:300"><span style="color:var(--g-bull);font-weight:700;flex-shrink:0">1.</span><span><strong style="color:var(--g-text)">Green/White candle</strong> = Close &gt; Open. Buyers won the session.</span></div>
+        <div style="display:flex;gap:10px;font-size:.88rem;color:var(--g-text2);font-weight:300"><span style="color:var(--g-bear);font-weight:700;flex-shrink:0">2.</span><span><strong style="color:var(--g-text)">Red/Black candle</strong> = Close &lt; Open. Sellers won the session.</span></div>
+        <div style="display:flex;gap:10px;font-size:.88rem;color:var(--g-text2);font-weight:300"><span style="color:var(--g-accent);font-weight:700;flex-shrink:0">3.</span><span>The <strong style="color:var(--g-text)">body</strong> = distance between Open and Close.</span></div>
+        <div style="display:flex;gap:10px;font-size:.88rem;color:var(--g-text2);font-weight:300"><span style="color:var(--g-accent);font-weight:700;flex-shrink:0">4.</span><span>The <strong style="color:var(--g-text)">wicks/shadows</strong> = how far price explored beyond the body.</span></div>
+        <div style="display:flex;gap:10px;font-size:.88rem;color:var(--g-text2);font-weight:300"><span style="color:var(--g-accent);font-weight:700;flex-shrink:0">5.</span><span><strong style="color:var(--g-text)">Context matters more than the candle itself.</strong> Where in the trend does it appear?</span></div>
+        <div style="display:flex;gap:10px;font-size:.88rem;color:var(--g-text2);font-weight:300"><span style="color:var(--g-accent);font-weight:700;flex-shrink:0">6.</span><span>Always wait for the <strong style="color:var(--g-text)">next candle to confirm</strong> before acting on a signal.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="reference">
+<div class="wrap">
+  <div class="sec-head fi">
+    <p class="sec-tag">Quick Reference</p>
+    <h2 class="sec-title">Complete Cheat Sheet</h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc">All 19 patterns at a glance. Bookmark this table for quick reference during analysis.</p>
+  </div>
+  <div class="ref-wrap fi" style="overflow-x:auto">
+    <table class="rt">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Pattern</th>
+          <th>Candles</th>
+          <th>Direction</th>
+          <th>Forms At</th>
+          <th>Reliability</th>
+          <th>Confirmation Needed?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">01</td><td><strong>Doji</strong></td><td>1</td><td class="dn">Neutral</td><td>Any trend</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Always — wait for next candle</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">02</td><td><strong>Hammer</strong></td><td>1</td><td class="db">Bullish</td><td>Bottom of downtrend</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Yes — next candle above high</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">03</td><td><strong>Inverted Hammer</strong></td><td>1</td><td class="db">Bullish</td><td>Bottom of downtrend</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Essential — requires strong bullish confirmation</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">04</td><td><strong>Hanging Man</strong></td><td>1</td><td class="dr">Bearish</td><td>Top of uptrend</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Yes — next candle below close</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">05</td><td><strong>Shooting Star</strong></td><td>1</td><td class="dr">Bearish</td><td>Top of uptrend</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Yes — next candle below low</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">06</td><td><strong>Spinning Top</strong></td><td>1</td><td class="dn">Neutral</td><td>Any trend</td><td><span class="rh lo">Low</span></td><td style="color:var(--g-text2);font-size:.82rem">Always — breakout above/below wicks</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">07</td><td><strong>Marubozu</strong></td><td>1</td><td class="db">Bull</td><td>Breakouts, trend moves</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Not always — strong on its own</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">08</td><td><strong>Pin Bar</strong></td><td>1</td><td class="db">Bull/</td><td>Key S/R levels</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Optional but improves reliability</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">09</td><td><strong>Bullish Engulfing</strong></td><td>2</td><td class="db">Bullish</td><td>Bottom of downtrend</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Pattern is own confirmation</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">10</td><td><strong>Bearish Engulfing</strong></td><td>2</td><td class="dr">Bearish</td><td>Top of uptrend</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Pattern is own confirmation</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">11</td><td><strong>Piercing Line</strong></td><td>2</td><td class="db">Bullish</td><td>Bottom of downtrend</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Yes — third candle confirms</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">12</td><td><strong>Dark Cloud Cover</strong></td><td>2</td><td class="dr">Bearish</td><td>Top of uptrend</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Yes — third candle confirms</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">13</td><td><strong>Harami</strong></td><td>2</td><td class="dn">Neutral</td><td>Any trend</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Always — wait for Day 3</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">14</td><td><strong>Inside Bar</strong></td><td>2</td><td class="dn">Both</td><td>Any — after strong move</td><td><span class="rh md">Medium</span></td><td style="color:var(--g-text2);font-size:.82rem">Yes — trade the breakout only</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">15</td><td><strong>Outside Bar</strong></td><td>2</td><td class="db">Both</td><td>Any — key levels</td><td><span class="rh hi">High</span></td><td style="color:var(--g-text2);font-size:.82rem">Depends on closing direction</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">16</td><td><strong>Morning Star</strong></td><td>3</td><td class="db">Bullish</td><td>Bottom of downtrend</td><td><span class="rh hi">Very High</span></td><td style="color:var(--g-text2);font-size:.82rem">Day 3 is the confirmation</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">17</td><td><strong>Evening Star</strong></td><td>3</td><td class="dr">Bearish</td><td>Top of uptrend</td><td><span class="rh hi">Very High</span></td><td style="color:var(--g-text2);font-size:.82rem">Day 3 is the confirmation</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">18</td><td><strong>Three White Soldiers</strong></td><td>3</td><td class="db">Bullish</td><td>Bottom of downtrend</td><td><span class="rh hi">Very High</span></td><td style="color:var(--g-text2);font-size:.82rem">Day 3 close = full confirmation</td></tr>
+        <tr><td style="color:var(--g-muted);font-family:var(--g-cf)">19</td><td><strong>Three Black Crows</strong></td><td>3</td><td class="dr">Bearish</td><td>Top of uptrend</td><td><span class="rh hi">Very High</span></td><td style="color:var(--g-text2);font-size:.82rem">Day 3 close = full confirmation</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="single">
+<div class="wrap">
+  <div class="sec-head fi">
+    <p class="sec-tag">1-Candle Patterns</p>
+    <h2 class="sec-title">Single-Candle Patterns</h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc">One candle — one story. These patterns speak volumes about what happened in a single session and hint at what comes next.</p>
+  </div>
+  <div class="pattern-block neutral fi" id="p-doji">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">01</div>
+        <div class="pb-badge">⬡ Neutral · Indecision</div>
+        <div class="pb-name">Doji</div>
+        <div class="pb-also">Also known as: Cross Candle</div>
+        <p class="pb-tagline">"The market is paralyzed. Nobody won. A big decision is coming — and soon."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/doji.png" alt="Doji candlestick pattern — four types: standard, dragonfly, gravestone, and long-legged doji showing complete market indecision"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">4 Doji Variants</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">What Is It & Why It Forms</div>
+        <p class="pb-text">A Doji forms when a session's <strong>opening and closing prices are virtually identical</strong>, leaving a cross-shaped candle. The wicks can be long or short — what matters is the flat (or near-flat) body.<br><br>
+        It forms because <em>buyers and sellers fought to a complete standstill.</em> Buyers pushed prices up during the session. Sellers pushed them back down. Neither side could claim victory. When the dust settled, the price was almost exactly where it started.<br><br>
+        This is the market saying: <em>"We are at a crossroads. We don't know which way to go."</em> The Doji doesn't predict the direction — it predicts that a direction is coming.</p>
+        <div class="example-box" style="margin-top:16px">
+          <div class="example-box-title">Real-World Analogy</div>
+          <p>Imagine two equally-matched armies charging at each other. Both fight fiercely. But at the end of the day, the battle line hasn't moved. That frozen battle line is the Doji body — exhaustion on both sides, with a major breakthrough expected soon.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">The 4 Types of Doji</div>
+        <div class="fact-row neutral"><div class="fact-icon">①</div><div><span class="fact-label">Standard Doji</span><span class="fact-value">Equal upper and lower wicks. Pure indecision. Found in the middle of trends as a warning sign.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">②</div><div><span class="fact-label">Dragonfly Doji</span><span class="fact-value"><strong>Long lower wick, no upper wick.</strong> Sellers crashed the price way down, but buyers fought all the way back up to the open. Bullish bias at the bottom of a downtrend.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">③</div><div><span class="fact-label">Gravestone Doji</span><span class="fact-value"><strong>Long upper wick, no lower wick.</strong> Buyers drove the price way up, but sellers crushed it all the way back. Bearish bias at the top of an uptrend.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">④</div><div><span class="fact-label">Long-Legged Doji</span><span class="fact-value">Very long wicks on both sides. Extreme volatility with zero resolution. Signals massive uncertainty — the biggest move is yet to come.</span></div></div>
+        <div class="caution-box trade-box" style="margin-top:16px">
+          <div class="trade-box-title">⚡ How to Trade It</div>
+          <p><strong>Never trade the Doji alone.</strong> It's a warning, not a signal. After a Doji, wait for the very next candle. If it breaks <strong>above the Doji's high</strong> → potential buy. If it breaks <strong>below the Doji's low</strong> → potential sell. Volume should confirm the breakout direction.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Trading the Doji before the next candle confirms direction.</li>
+          <li>Ignoring context — a Doji in the middle of a strong trend is meaningless noise.</li>
+          <li>Treating all Dojis the same. A Dragonfly and a Gravestone have opposite biases.</li>
+          <li>Forgetting that a tiny body isn't always a Doji — "near Doji" candles with small bodies also signal indecision.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Key Stats & Context</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Signal:</span><strong>Neutral</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium</strong></div>
+          <div class="stat-pill"><span>Timeframe:</span><strong>Any</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:16px">
+          <div class="example-box-title">Best Context for Doji</div>
+          <p>Most powerful when it appears <strong>after a long trending move</strong> (up or down). A Doji after 5+ bullish candles suggests buyers are exhausted. A Doji after a long decline suggests sellers are running out of steam. At key <strong>support/resistance levels</strong>, the Doji becomes significantly more reliable.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-hammer">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">02</div>
+        <div class="pb-badge">▲ Bullish Reversal</div>
+        <div class="pb-name">Hammer</div>
+        <div class="pb-also">Also known as: Hanging Man (same shape, top of uptrend)</div>
+        <p class="pb-tagline">"Sellers tried to destroy this stock. Buyers said no — and fought all the way back."</p>
+      </div>
+      <div class="pb-visual">
+        <div class="pb-visual-candles">
+          <img src="/assets/candlestick-patterns/Hammer.png" alt="Hammer candlestick pattern — bullish reversal signal with long lower wick showing buyer strength at the bottom of a downtrend"  loading="lazy" decoding="async">
+        </div>
+        <div class="pb-visual-label">Green & Red versions</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Full Story Behind the Hammer</div>
+        <p class="pb-text">The Hammer is one of the most recognizable and trusted patterns in all of technical analysis. It forms at the <strong>bottom of a downtrend</strong> and looks exactly like a hammer — small head at the top, long handle below.<br><br>
+        Here's what happened during this session: <em>The session opened, and sellers immediately took control.</em> They drove the price way down — sometimes 2×, 3×, or more below the opening price. It looked like another catastrophic day.<br><br>
+        Then something changed. <strong>Buyers stepped in aggressively.</strong> They pushed back against the selling — hard. They fought all the way back up, recovering almost all of the ground the sellers had taken. By the close, the price was back near the open.<br><br>
+        The long lower wick is the visual proof of that buyer comeback. <em>The bigger the wick relative to the body, the more powerful the signal.</em></p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy & Rules</div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Lower Wick</span><span class="fact-value">Must be <strong>at least 2× the body's height.</strong> The longer the better — it shows the scale of the buyer comeback.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Body</span><span class="fact-value">Small body at the <strong>top of the candle's range.</strong> Green (bull) is stronger than red, but both are valid.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Upper Wick</span><span class="fact-value">Little or <strong>no upper wick.</strong> Any significant upper wick weakens the signal.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Location</span><span class="fact-value">Must appear after a <strong>defined downtrend.</strong> A Hammer in the middle of a range or uptrend means nothing.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:16px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p><strong>Entry:</strong> Buy when the next candle closes above the Hammer's high — this confirms buyers have taken control.<br><strong>Stop-Loss:</strong> Just below the Hammer's low (the tip of the bottom wick).<br><strong>Confirmation booster:</strong> High volume on the Hammer day + bullish next candle = very strong setup.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Buying the Hammer candle itself — always wait for the next candle to confirm.</li>
+          <li>Ignoring the trend context. A hammer shape at the top of a rally is a Hanging Man (bearish warning), not a bullish signal.</li>
+          <li>Accepting hammers with upper wicks as long as the lower wick. The imbalance is key.</li>
+          <li>Not setting a stop-loss below the wick — if the low breaks, the pattern has failed.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Why Green Is Stronger Than Red</div>
+        <p class="pb-text">A <strong>green Hammer</strong> means buyers not only fought back — they actually finished the day ahead of where they started (close &gt; open). That's extra confirmation of bullish conviction.<br><br>A <strong>red Hammer</strong> still means buyers fought back strongly (the long wick proves this), but they couldn't quite recover to the open. It's still a valid signal, just slightly weaker. Always look for additional confirmation.</p>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Bottom of Downtrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High</strong></div>
+          <div class="stat-pill"><span>Stop:</span><strong>Below Low</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-invhammer">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">03</div>
+        <div class="pb-badge">▲ Bullish Reversal</div>
+        <div class="pb-name">Inverted Hammer</div>
+        <div class="pb-also">Also known as: Shooting Star (same shape, top of uptrend)</div>
+        <p class="pb-tagline">"Buyers made a powerful push upward. They couldn't hold it — but they're waking up. A reversal is brewing."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/inverted_hammer.png" alt="Inverted Hammer candlestick pattern — bullish reversal at bottom of downtrend with long upper wick showing initial buyer effort"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">At bottom of downtrend</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">What Happened During This Session</div>
+        <p class="pb-text">The Inverted Hammer is an <strong>upside-down hammer</strong> that appears at the bottom of a downtrend. It looks alarming at first — there's a big wick shooting upward from a tiny body at the bottom. That seems bearish, right? Wrong.<br><br>
+        Here's the psychology: The market opened low (after a downtrend). <strong>Buyers then pushed aggressively upward</strong> — driving the price significantly higher during the session (that's the long upper wick). But sellers came back and pushed it back down by the close.<br><br>
+        The key insight: <em>For the first time in the downtrend, buyers showed real strength.</em> They didn't win the session — but they put up a serious fight that they hadn't shown before. This is a warning to sellers: the bears may be losing their grip.<br><br>
+        Because buyers couldn't fully hold the recovery, this pattern requires <strong>stronger confirmation</strong> than a regular Hammer before trading it.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy & Comparison to Shooting Star</div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Upper Wick</span><span class="fact-value">Must be at least <strong>2× the body's height.</strong> This is the "attempted" bullish push.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Body</span><span class="fact-value">Small body at the <strong>bottom</strong> of the candle's range. Color matters less here.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Lower Wick</span><span class="fact-value">Little or no lower wick. The session low ≈ the body's low.</span></div></div>
+        <p class="pb-text" style="margin-top:14px"><strong>Critical context rule:</strong> The exact same candle shape appearing at the <em>top of an uptrend</em> is called a <strong style="color:var(--g-bear)">Shooting Star</strong> — and it's bearish. The candle is identical; only the location changes its meaning entirely.</p>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p><strong>This pattern needs confirmation more than almost any other.</strong> Only enter long if the next candle is a clear bullish (green) candle that closes above the Inverted Hammer's high. Stop-loss below the pattern's low.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Treating it as equally strong as a regular Hammer — it requires more confirmation.</li>
+          <li>Confusing it with a Shooting Star (same shape, opposite context and meaning).</li>
+          <li>Entering on the Inverted Hammer candle itself without waiting for the next candle to confirm.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Bottom of Downtrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">Inverted Hammer vs Shooting Star — Side by Side</div>
+          <p><strong>Same candle shape.</strong> What changes everything is location.<br>
+          • <strong style="color:var(--g-bull)">Inverted Hammer</strong> = bottom of downtrend → buyers waking up → bullish<br>
+          • <strong style="color:var(--g-bear)">Shooting Star</strong> = top of uptrend → buyers rejected → bearish<br><br>
+          This is why candlestick analysis always begins with asking: <em>"Where in the trend am I looking?"</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bear fi" id="p-hangingman">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">04</div>
+        <div class="pb-badge">▼ Bearish Reversal</div>
+        <div class="pb-name">Hanging Man</div>
+        <div class="pb-also">Also known as: Bearish Hammer (same shape as Hammer, opposite context)</div>
+        <p class="pb-tagline">"The rally looks healthy — but sellers just tried to destroy it from within. The asset is losing support."</p>
+      </div>
+      <div class="pb-visual">
+        <div class="pb-visual-candles">
+          <img src="/assets/candlestick-patterns/hanging_man.png" alt="Hanging Man candlestick pattern — bearish reversal warning at top of uptrend, same shape as hammer but opposite context"  loading="lazy" decoding="async">
+        </div>
+        <div class="pb-visual-label">At top of uptrend</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">Why the Same Shape Means Something Different</div>
+        <p class="pb-text">The Hanging Man is <strong>visually identical to a Hammer</strong> — small body at the top, long lower wick. But it appears at the <strong>top of an uptrend</strong>, and that changes everything.<br><br>
+        During this session, the stock was in a healthy uptrend. The session opened, and then something unexpected happened: <strong>sellers violently crashed the price</strong> deep below the open. The long lower wick shows how far down sellers drove prices.<br><br>
+        Yes, buyers recovered by the close. But the key psychological message is: <em>sellers are now powerful enough to crash this stock significantly during the session.</em> That's new. That didn't happen during the uptrend. It means the support that drove prices higher is starting to crack.<br><br>
+        The name is grim for a reason — the long wick "hangs" below the body like legs dangling, suggesting the stock's uptrend may soon be "hanging" in trouble.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy & Key Rules</div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Lower Wick</span><span class="fact-value">At least <strong>2× the body's height.</strong> The longer, the more dangerous — it shows how far sellers pushed prices.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Upper Wick</span><span class="fact-value">Little or none. If there's a significant upper wick, the pattern is weakened.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Body Color</span><span class="fact-value">A <strong>red body is more bearish</strong> than green — sellers finished the session lower than the open. Green still warns but less forcefully.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Volume</span><span class="fact-value"><strong>High volume on a Hanging Man</strong> is a serious warning. It means a lot of sellers participated in the crash-and-recover. The next session becomes critical.</span></div></div>
+        <div class="sell-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▼ How to Trade It</div>
+          <p><strong>Don't sell immediately.</strong> Wait for the next candle to close below the Hanging Man's close. That confirmation is your sell/short entry signal. Stop-loss above the Hanging Man's high (top of body or top wick).</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Treating it as bullish because it looks like a Hammer. Location determines meaning.</li>
+          <li>Selling immediately on the Hanging Man. Always wait for the bearish confirmation candle next session.</li>
+          <li>Ignoring it when volume is high. High volume Hanging Man = treat as urgent warning.</li>
+          <li>Using it in a downtrend — a Hanging Man only matters at the top of an uptrend.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Top of Uptrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">Confirmation Required</div>
+          <p>The Hanging Man alone is a <strong>warning, not a sell signal.</strong> The actual sell signal is the next bearish candle. If the next session instead closes higher than the Hanging Man's high — the pattern is nullified and the uptrend continues. Never jump the gun.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bear fi" id="p-shootingstar">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">05</div>
+        <div class="pb-badge">▼ Bearish Reversal</div>
+        <div class="pb-name">Shooting Star</div>
+        <div class="pb-also">Bearish twin of the Inverted Hammer</div>
+        <p class="pb-tagline">"Buyers blasted off like a rocket — then sellers dragged them all the way back to Earth. The rally is over."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/shooting_star.png" alt="Shooting Star candlestick pattern — bearish reversal at top of uptrend showing complete buyer rejection with long upper wick"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">At top of uptrend</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Full Session Story</div>
+        <p class="pb-text">The Shooting Star is one of the most powerful single-candle bearish signals. It appears at the top of an uptrend and tells a devastating story for bulls.<br><br>
+        The session begins and <strong>buyers are in full control.</strong> They push prices aggressively higher — sometimes dramatically so. The stock is rocketing. It looks like another great bullish session.<br><br>
+        Then something breaks. <strong>Sellers flood the market.</strong> They overwhelm the buyers completely and drive prices all the way back down — erasing nearly all of the day's gains. By the close, the price is near the session's opening level (or even lower).<br><br>
+        That massive upper wick is the proof: <em>buyers tried their hardest and were completely rejected at higher prices.</em> This is a sign that the market has found a ceiling — a resistance level — that it cannot break through. The bears are in control now.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy & Strict Rules</div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Upper Wick</span><span class="fact-value">Must be <strong>at least 2× the body's height.</strong> Longer is more bearish. This is the "failed rocket launch."</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Body</span><span class="fact-value">Small, positioned at the <strong>bottom</strong> of the candle's range. Red body = stronger signal; Green body = still valid but weaker.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Lower Wick</span><span class="fact-value">Must be very small or nonexistent. The close should be near or at the session low.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Gap Up</span><span class="fact-value">A Shooting Star that gaps up from the previous session is even more bearish — the rejection is even more dramatic.</span></div></div>
+        <div class="sell-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▼ How to Trade It</div>
+          <p><strong>Entry:</strong> Sell/short when the next session's candle closes below the Shooting Star's low.<br><strong>Stop-Loss:</strong> Above the top of the Shooting Star's upper wick.<br><strong>Power confirmation:</strong> High volume on the Shooting Star + bearish gap or confirmation candle = very high conviction sell.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Shorting immediately on the Shooting Star candle without waiting for confirmation.</li>
+          <li>Ignoring the body color — a red body (close below open) is significantly more bearish than green.</li>
+          <li>Missing it in context — a Shooting Star only works at the TOP of an uptrend.</li>
+          <li>Confusing with an Inverted Hammer. Same shape, opposite location, opposite meaning.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Top of Uptrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High</strong></div>
+          <div class="stat-pill"><span>Stop:</span><strong>Above High</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block neutral fi" id="p-spinningtop">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">06</div>
+        <div class="pb-badge">⬡ Neutral · Trend Exhaustion</div>
+        <div class="pb-name">Spinning Top</div>
+        <div class="pb-also">Also known as: Small-Body Candle, Indecision Candle</div>
+        <p class="pb-tagline">"Both sides fought hard and achieved nothing. The market is at a crossroads — the current trend is running on fumes."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/spinning_top.png" alt="Spinning Top candlestick pattern — neutral indecision candle with equal upper and lower wicks signaling trend exhaustion"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Color doesn't matter</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">How a Spinning Top Differs from a Doji</div>
+        <p class="pb-text">A Spinning Top is similar to a Doji but <strong>has a visible small body</strong> rather than a flat cross. The body exists — meaning one side did edge out a small win — but it's tiny relative to the wicks.<br><br>
+        The key characteristics: <strong>roughly equal upper and lower wicks</strong> that are substantially longer than the body, and a small real body that can be either green or red. The color barely matters here because the body is so small that the directional difference is insignificant.<br><br>
+        The session saw buyers push prices up (upper wick) and sellers push prices down (lower wick) — and both sides retreated to near where they started. <em>It's a tug-of-war that went nowhere.</em><br><br>
+        Unlike the Doji which signals complete indecision, the Spinning Top suggests the current trend is <strong>losing momentum</strong> — one side is beginning to tire, but we don't yet know which direction the market will break.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">When It Becomes Significant</div>
+        <div class="fact-row neutral"><div class="fact-icon">!</div><div><span class="fact-label">After a Long Uptrend</span><span class="fact-value">Spinning Top signals that <strong>bulls are losing confidence.</strong> The pattern alone doesn't reverse the trend — but it's a clear warning to tighten stops on long positions.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">!</div><div><span class="fact-label">After a Long Downtrend</span><span class="fact-value">Spinning Top signals that <strong>sellers are exhausted.</strong> Watch for a bullish reversal — but wait for confirmation before buying.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">!</div><div><span class="fact-label">At Key Levels</span><span class="fact-value">A Spinning Top at support or resistance is more significant than one mid-trend. The battle at these levels is especially meaningful.</span></div></div>
+        <div class="caution-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">⚡ How to Trade It</div>
+          <p>The Spinning Top itself is <strong>not an entry signal</strong> — it's a pause signal. Stop adding to positions in the current trend direction. Wait for the next candle:<br>• If it breaks <strong>above the Spinning Top's high</strong> → trend likely continues upward.<br>• If it breaks <strong>below the Spinning Top's low</strong> → potential reversal downward.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Treating Spinning Tops in the middle of a strong trend as meaningful — they're often just noise.</li>
+          <li>Entering trades based on a Spinning Top alone without confirmation from the next candle.</li>
+          <li>Ignoring the location — context inside a trend vs. at a key reversal level are very different situations.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Signal:</span><strong>Neutral</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Low–Medium</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-marubozu">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">07</div>
+        <div class="pb-badge">▲▼ Trend Continuation / Momentum</div>
+        <div class="pb-name">Marubozu</div>
+        <div class="pb-also">Japanese: "close-cropped" or "shaved head/bottom"</div>
+        <p class="pb-tagline">"One side owned every single tick of this session. No hesitation. No pullback. Pure, uncontested dominance."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/marubozu.png" alt="Marubozu candlestick pattern — maximum momentum candle with zero wicks showing one-sided session control"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Zero wicks</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Most Decisive Candle There Is</div>
+        <p class="pb-text">The Marubozu is the <strong>purest expression of momentum</strong> in candlestick analysis. Its defining feature is simple: <em>no wicks on either end.</em><br><br>
+        This means the session opened at the absolute low (bull) or absolute high (bear) — and moved in one direction without ever looking back. There was no intraday pullback significant enough to leave a wick. The winning side had <strong>total control from the opening bell to the closing bell.</strong><br><br>
+        A <strong>Bullish (Green) Marubozu:</strong> Open = Low, Close = High. Buyers took control from the very first trade and never once let sellers make a move. The price climbed relentlessly all session.<br><br>
+        A <strong>Bearish (Red) Marubozu:</strong> Open = High, Close = Low. Sellers took over immediately and crushed the price all session without giving buyers a moment's relief.<br><br>
+        This isn't just a reversal signal — it's often a <strong>trend continuation signal.</strong> When you see a Marubozu after a breakout, it tells you the move is real and has strong conviction behind it.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Three Varieties of Marubozu</div>
+        <div class="fact-row bull"><div class="fact-icon">①</div><div><span class="fact-label">Full Marubozu</span><span class="fact-value">Zero wicks on either end. The purest form. Extremely rare and extremely powerful. One side controlled 100% of the session.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">②</div><div><span class="fact-label">Open Marubozu</span><span class="fact-value">No wick on the opening end, small wick on the closing end. Still very strong — the opening was decisive, with only minor resistance near the close.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">③</div><div><span class="fact-label">Close Marubozu</span><span class="fact-value">Small wick on the opening end, no wick on the closing end. The session started with some opposition but ended with total dominance.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade a Bullish Marubozu</div>
+          <p><strong>Breakout confirmation:</strong> A Bullish Marubozu after breaking a key resistance level confirms the breakout is real. Enter long on the next session's open or a slight pullback. Stop below the Marubozu's low.</p>
+        </div>
+        <div class="sell-box trade-box" style="margin-top:8px">
+          <div class="trade-box-title">▼ How to Trade a Bearish Marubozu</div>
+          <p><strong>Breakdown confirmation:</strong> A Bearish Marubozu after breaking a key support confirms the breakdown. Enter short. Stop above the Marubozu's high.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Chasing a Marubozu by entering too far away from it — the best entries come on small pullbacks to the candle's midpoint or open.</li>
+          <li>Ignoring that a Marubozu can signal a trend continuation AND a reversal depending on context.</li>
+          <li>Expecting Marubozus to be common — pure full Marubozus are rare. Most are "open" or "close" variants.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Signal:</span><strong>Strong Momentum</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">Marubozu After Earnings</div>
+          <p>Earnings announcements frequently produce Marubozu candles — especially after big beats or misses. A large-bodied, wick-free candle on earnings day is one of the clearest signals that institutional money has decisively repositioned, making continuation very likely over the next few sessions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-pinbar">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">08</div>
+        <div class="pb-badge">▲▼ Powerful Reversal</div>
+        <div class="pb-name">Pin Bar</div>
+        <div class="pb-also">Also known as: Pinocchio Bar — the market told a lie and snapped back</div>
+        <p class="pb-tagline">"The price tried to break out in one direction, got caught in a lie, and snapped violently back the other way. A powerful rejection."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/pin_bar.png" alt="Pin Bar candlestick pattern — powerful rejection candle with long nose wick showing stop hunt and sharp price reversal"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Bullish &amp; Bearish versions</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The "Pinocchio" Concept Explained</div>
+        <p class="pb-text">The Pin Bar gets its nickname because <em>the market "lies."</em> The long wick — called the "nose" (like Pinocchio's) — shoots out in one direction, trapping traders who follow the fake move. Then the market snaps back violently the other way, trapping and punishing those who followed the false breakout.<br><br>
+        <strong>Bullish Pin Bar:</strong> The nose points downward. Sellers drove price down aggressively, triggering stop-losses below support. Then buyers overwhelmed them completely, driving the price back up. All those sellers got trapped. Buyers now have control.<br><br>
+        <strong>Bearish Pin Bar:</strong> The nose points upward. Buyers drove price up aggressively, triggering buy orders above resistance. Then sellers overwhelmed them, driving the price back down. All those buyers got trapped.<br><br>
+        The Pin Bar is especially powerful because it catches <em>trapped traders on the wrong side</em> — their forced exits (stop-loss triggers) fuel the reversal even further.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Strict Anatomy Rules</div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">The Nose (Long Wick)</span><span class="fact-value">Must be at least <strong>⅔ of the total candle length</strong> (from the body tip to the nose tip). The bigger the nose, the more powerful the rejection.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">The Body</span><span class="fact-value">Tiny, positioned at the <strong>opposite end</strong> from the nose. Where the body sits tells you the direction: body at top = bullish (down-wick nose), body at bottom = bearish.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Opposite-End Wick</span><span class="fact-value">The short wick on the opposite side from the nose should be <strong>very small or absent</strong> — the close should be near the candle's opposite extreme.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Best Location</span><span class="fact-value">At key <strong>support or resistance levels, trend lines, Fibonacci levels,</strong> or moving averages. A Pin Bar in the middle of nowhere is much weaker.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ Trading a Bullish Pin Bar</div>
+          <p><strong>Entry:</strong> Buy on the open of the next candle, or on a 50% retracement of the Pin Bar body (conservative). Stop-loss just below the bottom of the nose. Target: nearest resistance or 2:1 risk/reward.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Trading Pin Bars not at key levels — a Pin Bar needs a "story" (support, resistance, trend line) to be credible.</li>
+          <li>Accepting wicks that are too short — the nose must dominate the candle. Small wicks aren't Pin Bars.</li>
+          <li>Trading against the higher-timeframe trend — Pin Bars with the trend are far more reliable than counter-trend ones.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>1</strong></div>
+          <div class="stat-pill"><span>Location:</span><strong>Key S/R Levels</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">The "Stop Hunt" Connection</div>
+          <p>Many Pin Bars form because large institutional players deliberately push price to known stop-loss clusters (just below support or above resistance) to trigger them, accumulate inventory at better prices, then reverse. The Pin Bar's nose is literally the footprint of this "stop hunt." Recognizing this gives you a powerful edge in understanding why they work so consistently.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="two">
+<div class="wrap">
+  <div class="sec-head fi">
+    <p class="sec-tag">2-Candle Patterns</p>
+    <h2 class="sec-title">Two-Candle Patterns</h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc">Two candles build a richer story — the first sets up the situation, and the second delivers the verdict. Together, they carry more conviction than any single candle alone.</p>
+  </div>
+  <div class="pattern-block bull fi" id="p-bullengulf">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">09</div>
+        <div class="pb-badge">▲ Powerful Bullish Reversal</div>
+        <div class="pb-name">Bullish Engulfing</div>
+        <p class="pb-tagline">"Buyers didn't just win — they completely obliterated the sellers and kept going. A total shift in power."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/bullish_engulfing.png" alt="Bullish Engulfing two-candle pattern — large green candle completely engulfs prior red candle showing total buyer takeover"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Day 1: Bear · Day 2: Bull</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Two-Day Story</div>
+        <p class="pb-text"><strong>Day 1:</strong> A bearish (red) candle — sellers are in control and the downtrend continues as expected.<br><br>
+        <strong>Day 2:</strong> Something dramatic happens. The session opens <em>lower</em> than the previous close — gapping down, which initially seems even more bearish. But then buyers immediately launch a powerful counterattack. They drive the price higher all session — not just recovering the previous day's losses, but <strong>surging well past the previous day's open.</strong><br><br>
+        The result: a large green candle whose body completely covers (engulfs) the previous red candle's body. The bulls have done two things: reversed the prior day's move AND added new gains on top. <em>This is a total shift in market control.</em><br><br>
+        The pattern is even more powerful when the green candle engulfs not just the body but also the wicks of the prior red candle — showing complete dominance.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy & Power Rules</div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Day 1</span><span class="fact-value">A bearish (red) candle. Can be any size, but a smaller body makes the engulfing more dramatic on Day 2.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Day 2 Open</span><span class="fact-value">Opens <strong>below Day 1's close</strong> (gap down). This gap makes the reversal even more striking because bulls overcame an initially worse situation.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Day 2 Close</span><span class="fact-value">Closes <strong>above Day 1's open</strong> — the green body fully covers the red body. The bigger the green candle, the more powerful.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Volume</span><span class="fact-value">High volume on Day 2 dramatically increases reliability. It means institutions are participating in the reversal.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p><strong>Entry:</strong> Buy on the open of Day 3, or as Day 2 closes above Day 1's open (aggressive entry).<br><strong>Stop-Loss:</strong> Below the low of the Bullish Engulfing pattern (Day 2's low).<br><strong>Best conditions:</strong> At major support + high volume + the green candle is significantly larger than the red.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Accepting a pattern where the green candle only partially covers the red — it must fully engulf the body.</li>
+          <li>Trading it without a clear prior downtrend — a Bullish Engulfing in a sideways market has far less meaning.</li>
+          <li>Ignoring the size relationship — a massive red candle engulfed by a barely-larger green candle is weak. The green should be noticeably larger.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Bottom of Downtrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bear fi" id="p-bearengulf">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">10</div>
+        <div class="pb-badge">▼ Powerful Bearish Reversal</div>
+        <div class="pb-name">Bearish Engulfing</div>
+        <p class="pb-tagline">"Sellers swept in and completely overwhelmed the buyers — erasing all of their gains and going further. The bulls have been routed."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/bearish_engulfing.png" alt="Bearish Engulfing two-candle pattern — large red candle completely engulfs prior green candle showing seller domination"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Day 1: Bull · Day 2: Bear</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Two-Day Story</div>
+        <p class="pb-text"><strong>Day 1:</strong> A bullish (green) candle — buyers are in control and the uptrend seems to continue.<br><br>
+        <strong>Day 2:</strong> The session gaps up (seeming to promise more upside), but sellers immediately hammer the price. They don't just reverse the previous day's gains — they <strong>crash through the previous day's open entirely</strong>, closing below it with a large red candle that completely engulfs the prior green body.<br><br>
+        This is a total market reversal. The same buyers who were celebrating yesterday are now trapped, watching their profits evaporate. Those trapped longs become fuel for the selling pressure as they exit with stop-losses.<br><br>
+        <em>The bigger the red candle relative to the green one, the more powerful the signal.</em></p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy & Power Amplifiers</div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Day 1</span><span class="fact-value">Bullish green candle. A smaller prior green body makes the engulfing more dramatic.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Gap Up on Day 2</span><span class="fact-value">The session opens <strong>above Day 1's close.</strong> The subsequent crash past Day 1's open is even more devastating after the fake gap-up optimism.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Day 2 Close</span><span class="fact-value">Must close <strong>below Day 1's open</strong> — the red body must fully cover the green body.</span></div></div>
+        <div class="sell-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▼ How to Trade It</div>
+          <p><strong>Entry:</strong> Sell/short on the open of Day 3, or as Day 2's close moves below Day 1's open.<br><strong>Stop-Loss:</strong> Above the high of the pattern (Day 2's high).<br><strong>Best conditions:</strong> At major resistance + high volume + after a prolonged uptrend.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Partial engulfing — the red candle must fully cover the green body, not just overlap it.</li>
+          <li>Using it mid-trend or in sideways markets where there's no clear uptrend to reverse.</li>
+          <li>Ignoring that this is most powerful at tested resistance levels, not random chart locations.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Top of Uptrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-piercing">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">11</div>
+        <div class="pb-badge">▲ Bullish Reversal</div>
+        <div class="pb-name">Piercing Line</div>
+        <p class="pb-tagline">"The selloff looked overwhelming. Then buyers pierced through the halfway mark — showing they have the power to recover."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/piercing_line.png" alt="Piercing Line two-candle bullish reversal pattern — green candle closes above 50% midpoint of prior red candle"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Green closes above 50%</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The 50% Rule — Why It Matters</div>
+        <p class="pb-text"><strong>Day 1:</strong> A long bearish (red) candle. Sellers are winning convincingly.<br><br>
+        <strong>Day 2:</strong> The session gaps down below Day 1's close — which initially looks even more bearish. But buyers immediately mount a comeback. They drive the price steadily upward all session long, ultimately closing <strong>above the 50% midpoint of Day 1's red candle.</strong><br><br>
+        The 50% threshold is critical. Crossing it means buyers have recovered more than half of the previous day's selling losses in a single session. <em>That's a dramatic demonstration of bullish buying power.</em><br><br>
+        Think of it like a sports comeback: if your team was down 6-0 and fights back to lead 4-3 by halftime, you'd feel very differently about the second half. The buyers just made that kind of comeback.</p>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">Difference from Bullish Engulfing</div>
+          <p>The Piercing Line is similar to a Bullish Engulfing but <strong>doesn't complete the full reversal.</strong> In an Engulfing, Day 2 closes above Day 1's open — a full reversal. In a Piercing Line, Day 2 closes above Day 1's midpoint but below Day 1's open. It's a bullish reversal signal, but slightly weaker and requires more careful confirmation.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy</div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Day 2 Opens Below</span><span class="fact-value">Must open below Day 1's close. The gap down sets up the "pierce" by showing buyers overcame even a worse starting point.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Day 2 Closes Above 50%</span><span class="fact-value">The close must exceed <strong>the midpoint of Day 1's body.</strong> Closing exactly at 50% is not enough — it must pierce through it.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">✓</div><div><span class="fact-label">Both Candles Long-Bodied</span><span class="fact-value">Both Day 1 and Day 2 should have substantial bodies. A Piercing Line with short candles carries little conviction.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p>Enter long after Day 2 confirms (on Day 3's open). Stop below Day 2's low. The closer the close is to Day 1's open (the higher the pierce), the stronger the signal.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Treating a 49% recovery as a Piercing Line — the 50% rule is strict.</li>
+          <li>Confusing it with a Bullish Engulfing (which requires closing above Day 1's open).</li>
+          <li>Using it without confirming that a prior downtrend exists — context is essential.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Bottom of Downtrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bear fi" id="p-darkcloud">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">12</div>
+        <div class="pb-badge">▼ Bearish Reversal</div>
+        <div class="pb-name">Dark Cloud Cover</div>
+        <p class="pb-tagline">"The rally looked bright — then a dark cloud rolled in and wiped out more than half the gains. The bull run is clouding over."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/dark_cloud_cover.png" alt="Dark Cloud Cover two-candle bearish reversal pattern — red candle closes below 50% midpoint of prior green candle"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Red closes below 50%</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Bearish Mirror of Piercing Line</div>
+        <p class="pb-text"><strong>Day 1:</strong> A strong bullish (green) candle. The uptrend is healthy.<br><br>
+        <strong>Day 2:</strong> The session gaps up above Day 1's close — optimism is high. But sellers immediately take control and drive the price down relentlessly. By the close, the price has crashed <strong>below the 50% midpoint of Day 1's green candle.</strong><br><br>
+        That 50% penetration is the critical signal. Sellers have erased more than half of the previous session's bullish gains — in a single session. <em>This is a significant demonstration of selling power</em> that the bulls did not expect.<br><br>
+        The pattern is called "Dark Cloud Cover" because, like a storm rolling in on a sunny day, the big red candle casts a shadow over the bullish sentiment that had been building.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy</div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Day 2 Opens Above</span><span class="fact-value">Must open above Day 1's close (gap up). The initial fake bullish optimism makes the reversal more dramatic.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Day 2 Closes Below 50%</span><span class="fact-value">Must close below the midpoint of Day 1's green body. The further below 50%, the more bearish.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">✗</div><div><span class="fact-label">Both Candles Substantial</span><span class="fact-value">Both candles should have long bodies for the pattern to carry weight.</span></div></div>
+        <div class="sell-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▼ How to Trade It</div>
+          <p>Sell/short on Day 3's open, or as Day 2 closes below Day 1's midpoint. Stop-loss above Day 2's high (the gap-up open). If Day 2's red candle closes very close to Day 1's open (near full engulf), treat it as near-Bearish Engulfing strength.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Accepting a close that barely crosses 50% — the deeper the penetration, the more reliable the signal.</li>
+          <li>Mixing up Dark Cloud Cover and Bearish Engulfing — Dark Cloud doesn't fully engulf, making it slightly weaker.</li>
+          <li>Ignoring the uptrend context — this must appear at the top of an uptrend.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Top of Uptrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block neutral fi" id="p-harami">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">13</div>
+        <div class="pb-badge">⬡ Trend Pause / Reversal Warning</div>
+        <div class="pb-name">Harami</div>
+        <div class="pb-also">Japanese: "Pregnant" — the small candle is the "baby" inside the large candle</div>
+        <p class="pb-tagline">"Momentum has hit a sudden wall. The market has gone quiet — but a direction change is almost certainly brewing."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/harami.png" alt="Harami two-candle pattern — small candle body contained within large prior candle body signaling trend pause and potential reversal"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Bearish &amp; Bullish Harami</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">Why "Pregnant" Is the Perfect Description</div>
+        <p class="pb-text"><strong>Day 1:</strong> A large, strong candle in the direction of the existing trend. Everything looks normal.<br><br>
+        <strong>Day 2:</strong> A tiny candle appears — its entire body fits <em>within the body of Day 1.</em> Not just smaller — completely contained inside the previous candle, like a baby in a womb.<br><br>
+        What happened? The market had a sudden, complete loss of momentum. The session opened within yesterday's range, moved barely at all, and closed still within yesterday's range. <strong>The conviction that drove the prior trend has evaporated overnight.</strong><br><br>
+        A <strong>Bearish Harami</strong> has a large green Day 1 candle followed by a small red Day 2 candle tucked inside — after an uptrend. It warns that buyers may be running out of steam.<br><br>
+        A <strong>Bullish Harami</strong> has a large red Day 1 candle followed by a small green Day 2 candle tucked inside — after a downtrend. It warns that sellers may be exhausting themselves.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Harami vs Inside Bar — Key Difference</div>
+        <p class="pb-text" style="margin-bottom:14px">These look similar but have an important distinction:</p>
+        <div class="fact-row neutral"><div class="fact-icon">H</div><div><span class="fact-label">Harami</span><span class="fact-value">The small candle's <strong>body only</strong> must fit inside the large candle's body. Wicks can extend outside.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">I</div><div><span class="fact-label">Inside Bar</span><span class="fact-value">The small candle's <strong>entire range (high to low, including wicks)</strong> must fit inside the prior candle's range. Stricter rule.</span></div></div>
+        <div class="caution-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">⚡ How to Trade It</div>
+          <p>The Harami is a <strong>warning, not a trigger.</strong> On Day 2, tighten stop-losses on existing trend positions. Wait for Day 3 to confirm:<br>• Bullish Harami: Day 3 closes above Day 2's high → consider buying<br>• Bearish Harami: Day 3 closes below Day 2's low → consider selling</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Acting on the Harami alone — it's a warning, not a confirmed reversal signal without Day 3.</li>
+          <li>Confusing Harami (body-within-body) with Inside Bar (full range within full range).</li>
+          <li>Ignoring Harami Cross — when Day 2 is a Doji inside Day 1, this is an even stronger pause signal.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Signal:</span><strong>Trend Pause</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block neutral fi" id="p-insidebar">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">14</div>
+        <div class="pb-badge">⬡ Continuation or Reversal</div>
+        <div class="pb-name">Inside Bar</div>
+        <div class="pb-also">Also known as: Mother Bar + Inside Bar setup</div>
+        <p class="pb-tagline">"The market is coiling up like a spring. Volatility has collapsed — a big explosive move in either direction is loading up."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/inside_bar.png" alt="Inside Bar two-candle volatility contraction pattern — entire second candle range fits within mother bar signaling coiled breakout"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Inside bar fits within mother</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Spring Loading Concept</div>
+        <p class="pb-text">The Inside Bar is a pattern of <strong>volatility contraction</strong> — a pause in the market's breathing. The "mother bar" is a relatively large candle that represents a normal active session. The "inside bar" that follows is a much smaller candle whose <em>entire range — including wicks</em> — fits within the mother bar's high-to-low range.<br><br>
+        What does this mean? <strong>The entire session didn't even reach yesterday's high or low.</strong> Price action compressed dramatically. Buyers and sellers are in a standoff — neither side could push beyond the previous session's boundaries.<br><br>
+        This is like a spring being compressed. The longer the price stays compressed, the more energy builds for the eventual breakout. <em>Traders don't predict direction — they wait for the spring to release.</em><br><br>
+        Inside Bars are especially common just before major market-moving events (earnings, economic data) or after a significant trending move that needs to "digest."</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Breakout Trading Strategy</div>
+        <div class="fact-row neutral"><div class="fact-icon">↑</div><div><span class="fact-label">Bullish Breakout</span><span class="fact-value">Price closes above the mother bar's high → strong buy signal. The bulls broke the compression zone.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">↓</div><div><span class="fact-label">Bearish Breakout</span><span class="fact-value">Price closes below the mother bar's low → strong sell signal. The bears broke through the compression floor.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">∅</div><div><span class="fact-label">Failed Breakout</span><span class="fact-value">Price briefly breaks out but immediately reverses back inside → potential trap. Exit the position and reassess.</span></div></div>
+        <div class="caution-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">⚡ The Bracket Order Strategy</div>
+          <p>Many traders place <strong>two breakout orders simultaneously:</strong><br>• A buy-stop just above the mother bar's high<br>• A sell-stop just below the mother bar's low<br>Whichever triggers first is the trade. Cancel the other immediately. Stop-loss on the triggered order goes just on the other side of the mother bar.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Confusing it with Harami (which only requires body containment, not full wick containment).</li>
+          <li>Trading the breakout without context — inside bars at key support/resistance are far more powerful than random mid-trend ones.</li>
+          <li>Holding a failed breakout — if price breaks out and immediately reverses, the pattern failed. Exit quickly.</li>
+          <li>Expecting the inside bar's color to tell you which way it breaks — it doesn't. Wait for the breakout.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Signal:</span><strong>Volatility Pause</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Medium–High</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-outsidebar">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">15</div>
+        <div class="pb-badge">▲▼ High-Momentum Breakout</div>
+        <div class="pb-name">Outside Bar</div>
+        <div class="pb-also">Opposite of Inside Bar — expansion instead of contraction</div>
+        <p class="pb-tagline">"One side completely overwhelmed the other — the price didn't just test new territory, it exploded through and kept going."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/outside_bar.png" alt="Outside Bar two-candle momentum breakout pattern — second candle completely engulfs first candle's full range showing explosive volatility"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Day 2 engulfs Day 1's full range</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Explosive Opposite of an Inside Bar</div>
+        <p class="pb-text">Where an Inside Bar shows volatility contracting, an Outside Bar shows volatility <strong>exploding violently.</strong> The second candle's range completely engulfs the first — trading above yesterday's high AND below yesterday's low, before closing decisively in one direction.<br><br>
+        This tells a story of a market that <strong>trapped traders on one side, then violently reversed to trap them.</strong> The second candle tests both the high (trapping sellers with short stops) and the low (trapping buyers with long stops) before accelerating in the ultimate closing direction.<br><br>
+        <strong>The closing direction is everything.</strong> An Outside Bar that closes in the upper 25% of its range is strongly bullish. One that closes in the lower 25% is strongly bearish. A close in the middle (near the prior session's range) signals continued confusion.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Reading the Outside Bar</div>
+        <div class="fact-row bull"><div class="fact-icon">↑</div><div><span class="fact-label">Bullish Outside Bar</span><span class="fact-value">Closes in the <strong>top 25% of its range</strong>, above the prior candle's high. Strong buy signal. Buyers won the battle for both extremes and held the high.</span></div></div>
+        <div class="fact-row bear" style="--bull:var(--g-bear);--bull-dim:var(--g-bear-dim)"><div class="fact-icon" style="background:var(--g-bear-dim);color:var(--g-bear)">↓</div><div><span class="fact-label">Bearish Outside Bar</span><span class="fact-value">Closes in the <strong>bottom 25% of its range</strong>, below the prior candle's low. Strong sell signal. Sellers won both extremes and held the lows.</span></div></div>
+        <div class="fact-row neutral"><div class="fact-icon">?</div><div><span class="fact-label">Middle Close</span><span class="fact-value">Closes near the center of the range. This signals continued indecision — neither side truly won despite the volatility explosion. Wait for more clarity.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p><strong>Bullish:</strong> Enter long as the Outside Bar closes strongly. Stop below the Outside Bar's low.<br><strong>Bearish:</strong> Enter short as the Outside Bar closes weakly. Stop above the Outside Bar's high.<br><strong>Rule:</strong> Only trade Outside Bars with a decisive directional close. Skip ambiguous middle closes entirely.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Trading an Outside Bar that closes in the middle — no clear winner means no trade.</li>
+          <li>Confusing it with a Bearish/Bullish Engulfing — the Outside Bar uses full range (wicks), Engulfing uses bodies only.</li>
+          <li>Forgetting that Outside Bars often occur on news events — the high volatility can make stops more difficult to manage.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>2</strong></div>
+          <div class="stat-pill"><span>Signal:</span><strong>Momentum Breakout</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>High (if decisive close)</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="three">
+<div class="wrap">
+  <div class="sec-head fi">
+    <p class="sec-tag">3-Candle Patterns</p>
+    <h2 class="sec-title">Three-Candle Patterns</h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc">Three sessions. Three chapters of a complete story — setup, pause, and confirmation. These are the most highly trusted reversal patterns in technical analysis.</p>
+  </div>
+  <div class="pattern-block bull fi" id="p-morningstar">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">16</div>
+        <div class="pb-badge">▲ Highly Reliable Bullish Reversal</div>
+        <div class="pb-name">Morning Star</div>
+        <p class="pb-tagline">"Darkness, hesitation, then dawn. The stock has bottomed out. The new day is beginning."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/morning_star.png" alt="Morning Star three-candle bullish reversal pattern — bearish candle, small star, then large bullish confirmation candle at bottom of downtrend"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Bear · Star · Bull</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Three-Act Story</div>
+        <p class="pb-text">The Morning Star is one of the most powerful and reliable reversal patterns in candlestick analysis. Each of its three candles plays a distinct, essential role:<br><br>
+        <strong>Act 1 — The Bearish Day:</strong> A large red candle. Sellers are firmly in control. The downtrend continues as expected. Bears feel confident.<br><br>
+        <strong>Act 2 — The Star:</strong> A tiny candle (often a Doji or near-Doji) that gaps down below the first candle's close. This is the moment the downtrend pauses. Sellers tried to push lower but barely moved the price. <em>Selling momentum has stalled.</em> The "star" is suspended below the prior candle, representing the uncertainty and exhaustion at the bottom.<br><br>
+        <strong>Act 3 — The Bullish Confirmation:</strong> A large green candle that surges powerfully upward, closing deeply into the body of Day 1's red candle — ideally above its midpoint. <em>Buyers have definitively taken control.</em> The reversal is confirmed. The "morning" has arrived after the darkness.<br><br>
+        Together, these three candles tell a complete, confirmed story: sellers exhausted, buyers energized, trend reversed.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy — Every Element Matters</div>
+        <div class="fact-row bull"><div class="fact-icon">①</div><div><span class="fact-label">Day 1</span><span class="fact-value">Large bearish candle. The larger the body, the more significant the subsequent reversal.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">②</div><div><span class="fact-label">Day 2 (The Star)</span><span class="fact-value">A small-bodied candle (Doji, Spinning Top, or tiny body) that gaps down from Day 1. <strong>The gap is important</strong> — it separates the star visually and shows sellers initially continued but lost all conviction. Color of the star doesn't matter.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">③</div><div><span class="fact-label">Day 3</span><span class="fact-value">A large bullish candle. Must close at least halfway into Day 1's body. <strong>The deeper into Day 1 it closes, the more powerful the signal.</strong> If it closes above Day 1's open — even more bullish.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">↑</div><div><span class="fact-label">Volume Pattern</span><span class="fact-value">Ideal: High volume on Day 1, low on Day 2, very high on Day 3. This volume pattern confirms the sequence of selling → pause → buying.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p><strong>Entry:</strong> Buy on Day 3's close, or on Day 4's open after confirmation.<br><strong>Stop-Loss:</strong> Below the low of Day 2 (the star's low — the bottom of the pattern).<br><strong>Target:</strong> Previous resistance level or Fibonacci retracement. Minimum 2:1 risk/reward.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Accepting a pattern where Day 3 doesn't penetrate at least 50% into Day 1's body — a shallow close reduces the signal's reliability significantly.</li>
+          <li>Ignoring the gap between Day 1 and Day 2 — no gap means no star, just a sequence of candles.</li>
+          <li>Using this pattern outside of a clear downtrend. The Morning Star only reverses a trend that exists.</li>
+          <li>Forgetting to check volume — low volume on Day 3 is a red flag that the reversal may not have institutional support.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>3</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Bottom of Downtrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Very High</strong></div>
+          <div class="stat-pill"><span>Stop:</span><strong>Below Day 2 Low</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">Doji Star Upgrade</div>
+          <p>When Day 2 is specifically a <strong>Doji</strong> (rather than any small candle), the pattern is called a <strong>Morning Doji Star</strong> — and it's even more reliable. The Doji on Day 2 makes the indecision/exhaustion point even clearer, adding another layer of confirmation to the eventual bullish reversal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bear fi" id="p-eveningstar">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">17</div>
+        <div class="pb-badge">▼ Highly Reliable Bearish Reversal</div>
+        <div class="pb-name">Evening Star</div>
+        <p class="pb-tagline">"The rally reaches its peak under a bright evening star — then the night falls. The bull run is over."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/evening_star.png" alt="Evening Star three-candle bearish reversal pattern — bullish candle, small star, then large bearish confirmation candle at top of uptrend"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Bull · Star · Bear</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Three-Act Story</div>
+        <p class="pb-text">The Evening Star is the bearish mirror image of the Morning Star — equally powerful, equally reliable, equally important to know.<br><br>
+        <strong>Act 1 — The Bullish Day:</strong> A large green candle. Buyers are in full control. The uptrend continues strongly. Bulls feel confident and may be adding to positions.<br><br>
+        <strong>Act 2 — The Star:</strong> A tiny candle that gaps up above Day 1's close. Initially this looks bullish — but the tiny body shows that buying momentum has completely stalled. <em>Buyers tried to push higher but the market barely moved.</em> The "star" sits above the prior candle, shining brightly — but it's an evening star, signaling the approaching darkness.<br><br>
+        <strong>Act 3 — The Bearish Collapse:</strong> A large red candle crashes down, closing deeply into Day 1's bullish body. Sellers have completely seized control. The reversal is confirmed.<br><br>
+        The pattern is particularly devastating for bulls caught at the top — they bought during Day 1's rally, watched Day 2 do nothing, and then see Day 3 erase all those gains.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Anatomy</div>
+        <div class="fact-row bear"><div class="fact-icon">①</div><div><span class="fact-label">Day 1</span><span class="fact-value">Large bullish green candle confirming the uptrend.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">②</div><div><span class="fact-label">Day 2 (The Star)</span><span class="fact-value">Small-bodied candle gapping up. Can be bullish or bearish — what matters is the tiny body. A Doji star makes this an "Evening Doji Star," even more bearish.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">③</div><div><span class="fact-label">Day 3</span><span class="fact-value">Large bearish candle that gaps down and closes at least <strong>halfway into Day 1's body.</strong> The deeper the penetration, the stronger the sell signal.</span></div></div>
+        <div class="sell-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▼ How to Trade It</div>
+          <p><strong>Entry:</strong> Sell/short as Day 3 closes, or on Day 4's open.<br><strong>Stop-Loss:</strong> Above the high of Day 2 (the star) — the highest point of the pattern.<br><strong>Target:</strong> Prior support levels. Minimum 2:1 risk/reward.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Common Mistakes</div>
+        <ul class="mistake-list">
+          <li>Selling before Day 3 closes — always wait for the full bearish confirmation candle.</li>
+          <li>Accepting a Day 3 that barely penetrates Day 1 — a shallow close significantly reduces reliability.</li>
+          <li>Using it outside a clear uptrend context — context is everything for this pattern.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>3</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Top of Uptrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Very High</strong></div>
+          <div class="stat-pill"><span>Stop:</span><strong>Above Day 2 High</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bull fi" id="p-3soldiers">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">18</div>
+        <div class="pb-badge">▲ Highly Reliable Bullish Reversal</div>
+        <div class="pb-name">Three White Soldiers</div>
+        <p class="pb-tagline">"Not a fluke. Not a one-day wonder. Three consecutive sessions of pure buyer dominance — a new bull trend has begun."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/three_white_soldiers.png" alt="Three White Soldiers three-candle bullish reversal pattern — three consecutive large green candles each opening within prior body and closing near high"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Three ascending green candles</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">Why Three Sessions Changes Everything</div>
+        <p class="pb-text">A single bullish candle could be a fluke. Two could be a brief relief rally. But three consecutive sessions of strong buying, each following the same discipline? <em>That is a trend change — confirmed.</em><br><br>
+        The Three White Soldiers pattern features three consecutive large green candles, each following a specific disciplined pattern: each one <strong>opens within the body of the previous candle</strong> (not gapping up wildly — a controlled advance) and <strong>closes near its daily high</strong> (showing buyers are still pushing at the end of each session with no exhaustion).<br><br>
+        This combination — opening within the prior body and closing near the high — is crucial. It shows <em>steady, disciplined accumulation</em> rather than a panic-driven short squeeze. Institutions are systematically buying over three consecutive sessions, and the market is responding methodically.<br><br>
+        The pattern is most powerful when it appears after a significant downtrend or at a key support level, signaling that the selling pressure has been completely overwhelmed by new buying demand.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Strict Rules — All Three Must Be Met</div>
+        <div class="fact-row bull"><div class="fact-icon">①</div><div><span class="fact-label">Three Consecutive Green Candles</span><span class="fact-value">All three must be bullish (green/white). No exceptions — any red candle in the sequence breaks the pattern.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">②</div><div><span class="fact-label">Each Opens Within Prior Body</span><span class="fact-value">Each candle opens <strong>inside the body</strong> (between the open and close) of the previous candle — not above its close. This shows controlled, not frenzied buying.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">③</div><div><span class="fact-label">Each Closes Near Its High</span><span class="fact-value">Each candle closes <strong>near its session high</strong>, with little or no upper wick. Buyers are still pushing at the close — no exhaustion yet.</span></div></div>
+        <div class="fact-row bull"><div class="fact-icon">④</div><div><span class="fact-label">Each Is Long-Bodied</span><span class="fact-value">Small candles don't qualify. Each soldier must have a substantial body showing strong daily price movement in the buyer's favor.</span></div></div>
+        <div class="buy-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▲ How to Trade It</div>
+          <p><strong>Buy on Day 4's open</strong> (the first session after the pattern completes) or at a slight pullback to Day 3's midpoint. Stop below Day 3's low. <br><strong>Warning:</strong> After three strong sessions, a short-term pullback is common before the rally continues. This is normal — don't panic out of positions.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Warning Signs That Weaken the Pattern</div>
+        <ul class="mistake-list">
+          <li>Any of the three candles has a large upper wick — shows buyers losing steam by the close.</li>
+          <li>The candles are getting progressively smaller (exhaustion forming).</li>
+          <li>High volume on Day 1-2 but dramatically lower volume on Day 3 — the buying is running out of participants.</li>
+          <li>The pattern forms after an already long uptrend (instead of at a bottom) — this signals continuation fatigue, not fresh reversal.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>3</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Bottom of Downtrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Very High</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">What Three White Soldiers Means Institutionally</div>
+          <p>When three consecutive sessions of strong buying occur in a disciplined pattern, it typically means large institutional investors (funds, banks, pension funds) are systematically accumulating shares over multiple sessions. They can't buy everything at once without moving the price against themselves, so they spread purchases across days. The Three White Soldiers pattern is often their footprint.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pattern-block bear fi" id="p-3crows">
+    <div class="pb-header">
+      <div style="position:relative">
+        <div class="pattern-number">19</div>
+        <div class="pb-badge">▼ Highly Reliable Bearish Reversal</div>
+        <div class="pb-name">Three Black Crows</div>
+        <p class="pb-tagline">"Three days of relentless, disciplined selling. The buyers have been broken. A new bear trend has arrived."</p>
+      </div>
+      <div class="pb-visual">
+        <img src="/assets/candlestick-patterns/three_black_crows.png" alt="Three Black Crows three-candle bearish reversal pattern — three consecutive large red candles each opening within prior body and closing near low"  loading="lazy" decoding="async">
+        <div class="pb-visual-label">Three descending red candles</div>
+      </div>
+    </div>
+    <div class="pb-body">
+      <div>
+        <div class="pb-section-title">The Dark Mirror of Three White Soldiers</div>
+        <p class="pb-text">Three Black Crows is the bearish equivalent of Three White Soldiers — and it is equally feared and respected. Three consecutive long red candles, each following strict rules, signal that sellers have decisively taken control of the market for three straight sessions without buyers mounting any meaningful response.<br><br>
+        The pattern earns its ominous name because in many cultures, crows circling overhead are seen as harbingers of death — and for bulls, this pattern is exactly that. <em>Three sessions of systematic, disciplined selling pressure.</em><br><br>
+        Unlike a panic-driven crash (which can reverse quickly), Three Black Crows represents <strong>orderly, institutional distribution</strong> — large holders are systematically unloading positions over multiple sessions. This kind of selling tends to continue for longer and doesn't reverse easily.<br><br>
+        The pattern is most significant when it appears at the top of a prolonged uptrend, at key resistance levels, or after a period of euphoric buying.</p>
+      </div>
+      <div>
+        <div class="pb-section-title">Strict Rules</div>
+        <div class="fact-row bear"><div class="fact-icon">①</div><div><span class="fact-label">Three Consecutive Red Candles</span><span class="fact-value">All three must be bearish. The second and third are more important — they confirm that Day 1 wasn't just a one-off reversal.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">②</div><div><span class="fact-label">Each Opens Within Prior Body</span><span class="fact-value">Each candle opens within the body of the prior candle — a <strong>controlled, disciplined decline</strong>, not a gap-down panic.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">③</div><div><span class="fact-icon">③</div><span class="fact-value">Each candle closes <strong>near its session low</strong>, with little or no lower wick. Sellers are dominating right up to the close — no bounce, no mercy.</span></div></div>
+        <div class="fact-row bear"><div class="fact-icon">④</div><div><span class="fact-label">All Large-Bodied</span><span class="fact-value">Small candles don't qualify. Each crow must have a substantial body representing significant daily selling.</span></div></div>
+        <div class="sell-box trade-box" style="margin-top:14px">
+          <div class="trade-box-title">▼ How to Trade It</div>
+          <p><strong>Entry:</strong> Sell/short on Day 4's open. A slight bounce back into Day 3's body (if it occurs) is an even better entry point.<br><strong>Stop-Loss:</strong> Above Day 3's high (or Day 1's high for a wider stop).<br><strong>Caution:</strong> After three large red candles, a dead-cat bounce (brief up-move) is common before selling resumes. Don't get spooked out of the position by a brief bounce.</p>
+        </div>
+      </div>
+      <div>
+        <div class="pb-section-title">Warning Signs That Weaken the Pattern</div>
+        <ul class="mistake-list">
+          <li>Large lower wicks on any of the three candles — shows buyers fighting back at the close, weakening the bearish signal.</li>
+          <li>Progressively smaller candles (sellers losing momentum on Day 2 and 3).</li>
+          <li>Volume dropping significantly by Day 3 — fewer participants = weaker conviction.</li>
+          <li>Pattern forming after a crash that already has stocks at very depressed levels — potential exhaustion of sellers rather than a new wave.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="pb-section-title">Pattern Stats</div>
+        <div class="stat-row">
+          <div class="stat-pill"><span>Candles:</span><strong>3</strong></div>
+          <div class="stat-pill"><span>Trend:</span><strong>Top of Uptrend</strong></div>
+          <div class="stat-pill"><span>Reliability:</span><strong>Very High</strong></div>
+        </div>
+        <div class="example-box" style="margin-top:14px">
+          <div class="example-box-title">Institutional Distribution Footprint</div>
+          <p>Just as Three White Soldiers signals institutional accumulation, Three Black Crows often signals institutional <strong>distribution</strong> — large holders systematically selling positions over multiple days to avoid crashing the price all at once. When you see this pattern after a prolonged bull market, be very cautious about holding long positions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="rules">
+<div class="wrap">
+  <div class="sec-head fi">
+    <p class="sec-tag">Master These First</p>
+    <h2 class="sec-title">The 7 Universal Rules of Candlestick Trading</h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc">Pattern recognition is only half the skill. These rules are what separate profitable traders from those who get destroyed.</p>
+  </div>
+  <div class="tip-grid">
+    <div class="tip-card fi"><div class="tip-n">01</div><div class="tip-t">Trend Context Is Non-Negotiable</div><p class="tip-b">A Hammer at a bottom is bullish. A Hammer at the top (Hanging Man) is bearish. The exact same candle has completely opposite meanings based on where it appears. Always identify the trend <em>before</em> identifying the pattern.</p></div>
+    <div class="tip-card fi"><div class="tip-n">02</div><div class="tip-t">Wait for the Next Candle</div><p class="tip-b">Candlestick patterns signal potential — not certainty. Always wait for the next candle to close in the expected direction before entering a trade. This one habit alone eliminates the majority of false signals that trap beginners.</p></div>
+    <div class="tip-card fi"><div class="tip-n">03</div><div class="tip-t">Volume Validates Everything</div><p class="tip-b">A pattern with high volume is dramatically more reliable than the same pattern on thin volume. High volume = institutional participation. Without volume backing a pattern, you're trading a shadow. Always check volume before entering.</p></div>
+    <div class="tip-card fi"><div class="tip-n">04</div><div class="tip-t">Key Levels Supercharge Patterns</div><p class="tip-b">A Pin Bar at a major resistance level is a completely different signal from a Pin Bar in the middle of a chart. Support, resistance, Fibonacci levels, moving averages, and trend lines all amplify pattern signals. The best trades have multiple factors aligning at once.</p></div>
+    <div class="tip-card fi"><div class="tip-n">05</div><div class="tip-t">Size the Pattern Relative to Recent Candles</div><p class="tip-b">A Bullish Engulfing needs the green candle to be noticeably larger than surrounding candles to matter. Patterns formed by tiny candles in a market full of large candles are unreliable. The size of the pattern relative to recent activity determines its strength.</p></div>
+    <div class="tip-card fi"><div class="tip-n">06</div><div class="tip-t">Timeframe Determines Significance</div><p class="tip-b">A Morning Star on a weekly chart is far more powerful than one on a 1-minute chart. Higher timeframes carry more weight. Patterns on daily and weekly charts reflect decisions by large institutional traders. Use multiple timeframes — confirm higher timeframes before acting on lower timeframe signals.</p></div>
+    <div class="tip-card fi"><div class="tip-n">07</div><div class="tip-t">Risk Management Trumps Pattern Recognition</div><p class="tip-b">Even the most reliable pattern fails 30-40% of the time. No pattern wins every trade. Your stop-loss placement and position sizing determine whether you survive the losses to benefit from the wins. Always define your maximum loss before entering any trade. The best traders think about risk first and profit second.</p></div>
+  </div>
+  <div style="margin-top:32px;padding:28px 32px;background:var(--g-card);border:1px solid var(--g-border);border-left:4px solid var(--g-neutral);border-radius:14px" class="fi">
+    <p style="font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--g-neutral);margin-bottom:10px">⚠️ Important Disclaimer</p>
+    <p style="font-size:.88rem;color:var(--g-muted);line-height:1.75">Candlestick patterns are tools for probabilistic analysis, not guaranteed predictions. Past pattern performance does not guarantee future results. All trading involves substantial risk, including the possible loss of your entire investment. This guide is for educational purposes only and does not constitute financial advice. Always use stop-losses, practice on paper trading accounts, and consider consulting a qualified financial advisor before trading with real capital.</p>
+  </div>
+</div>
+</section>

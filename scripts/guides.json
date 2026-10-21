@@ -1,0 +1,317 @@
+{
+  "price-action": {
+    "src": "PriceAction.html",
+    "start": "(?<=<article>)",
+    "end": "</article>",
+    "remove": [
+      "<details class=\"toc-mobile\">.*?</details>"
+    ],
+    "drop_selectors": [
+      "site-header",
+      "\\.hero",
+      "\\.layout",
+      "\\.toc",
+      "\\.site-footer",
+      "\\.brand",
+      "^\\.meta",
+      "focus-visible"
+    ],
+    "vars": {
+      "--paper": "var(--surface)",
+      "--soft": "var(--surface-2)",
+      "--line": "var(--line)",
+      "--ink": "var(--ink)",
+      "--muted": "var(--ink-2)",
+      "--brand": "var(--accent)",
+      "--brand-soft": "var(--accent-soft)",
+      "--bull": "var(--up)",
+      "--bear": "var(--down)",
+      "--warn-bg": "color-mix(in srgb, var(--warn) 12%, transparent)",
+      "--warn-line": "var(--warn)",
+      "--serif": "var(--f-display), system-ui, sans-serif",
+      "--sans": "var(--f-sans), system-ui, sans-serif"
+    },
+    "extra_css": ".g-price-action .takeaway{background:var(--up-soft)}\n.g-price-action .learn,.g-price-action .note{background:var(--accent-soft)}\n.g-price-action figure svg{background:var(--g-soft)}\n.g-price-action{font-size:16.5px}\n.g-price-action figure svg text{fill:var(--g-muted)!important}\n.g-price-action figure svg [stroke=\"#52606f\"],.g-price-action figure svg [stroke=\"#17202c\"]{stroke:var(--g-muted)}"
+  },
+  "fundamental-indicators": {
+    "src": "fundamentalIndicators.html",
+    "start": "(?<=<main class=\"main-content\">)",
+    "end": "</main>",
+    "toc": "<aside class=\"sidebar\">.*?</aside>",
+    "drop_selectors": [
+      "^header",
+      "\\.logo",
+      "\\.nav",
+      "\\.hero",
+      "\\.page-wrap",
+      "\\.sidebar",
+      "\\.toc-",
+      "^footer",
+      "auth-actions",
+      "theme-toggle",
+      "\\.main-content"
+    ],
+    "vars": {
+      "--bg": "var(--bg)",
+      "--panel": "var(--surface)",
+      "--surface": "var(--surface-2)",
+      "--surface-alt": "var(--surface-2)",
+      "--border": "var(--line)",
+      "--border-lit": "color-mix(in srgb, var(--line) 60%, var(--ink-3))",
+      "--accent": "var(--accent)",
+      "--accent-soft": "var(--accent-soft)",
+      "--accent-dim": "color-mix(in srgb, var(--accent) 55%, transparent)",
+      "--green": "var(--up)",
+      "--green-soft": "var(--up-soft)",
+      "--red": "var(--down)",
+      "--amber": "var(--warn)",
+      "--amber-soft": "color-mix(in srgb, var(--warn) 14%, transparent)",
+      "--text-1": "var(--ink)",
+      "--text-2": "var(--ink-2)",
+      "--text-3": "var(--ink-3)",
+      "--font-ui": "var(--f-sans), system-ui, sans-serif",
+      "--font-mono": "var(--f-mono), ui-monospace, monospace",
+      "--radius": "16px",
+      "--sh": "none",
+      "--sh-hv": "var(--glow)",
+      "--card": "var(--surface)",
+      "--text": "var(--ink)",
+      "--muted": "var(--ink-2)",
+      "--dim": "var(--ink-3)",
+      "--accent2": "var(--up)",
+      "--warn": "var(--warn)",
+      "--danger": "var(--down)",
+      "--serif": "var(--f-display), system-ui, sans-serif",
+      "--sans": "var(--f-sans), system-ui, sans-serif",
+      "--mono": "var(--f-mono), ui-monospace, monospace"
+    },
+    "extra_css": ""
+  },
+  "technical-analysis-guide": {
+    "src": "technical-analysis-guide.html",
+    "start": "(?<=<main id=\"main-content\" class=\"content-wrap\" role=\"main\">)",
+    "end": "</main>",
+    "toc": "<nav class=\"toc-bar\".*?</nav>",
+    "drop_selectors": [
+      "^\\.header",
+      "\\.nav",
+      "\\.hero",
+      "\\.toc-bar",
+      "\\.content-wrap",
+      "\\.site-footer",
+      "skip-link",
+      "^\\.header-right"
+    ],
+    "vars": {
+      "--bg-root": "var(--bg)",
+      "--bg-panel": "var(--surface)",
+      "--bg-surface": "var(--surface-2)",
+      "--bg-surface-alt": "var(--surface-2)",
+      "--border": "var(--line)",
+      "--border-lit": "color-mix(in srgb, var(--line) 60%, var(--ink-3))",
+      "--accent": "var(--accent)",
+      "--accent-dim": "color-mix(in srgb, var(--accent) 55%, transparent)",
+      "--accent-glow": "var(--accent-soft)",
+      "--green": "var(--up)",
+      "--green-dim": "var(--up-soft)",
+      "--green-bdr": "color-mix(in srgb, var(--up) 28%, transparent)",
+      "--red": "var(--down)",
+      "--red-dim": "var(--down-soft)",
+      "--red-bdr": "color-mix(in srgb, var(--down) 28%, transparent)",
+      "--purple": "var(--violet)",
+      "--purple-dim": "color-mix(in srgb, var(--violet) 12%, transparent)",
+      "--orange": "#f97316",
+      "--orange-dim": "color-mix(in srgb, #f97316 12%, transparent)",
+      "--cyan": "#22d3ee",
+      "--cyan-dim": "color-mix(in srgb, #22d3ee 12%, transparent)",
+      "--yellow": "var(--warn)",
+      "--yellow-dim": "color-mix(in srgb, var(--warn) 12%, transparent)",
+      "--text-1": "var(--ink)",
+      "--text-2": "var(--ink-2)",
+      "--text-3": "var(--ink-3)",
+      "--font-ui": "var(--f-sans), system-ui, sans-serif",
+      "--font-data": "var(--f-mono), ui-monospace, monospace",
+      "--radius": "12px"
+    },
+    "extra_css": ".g-technical-analysis-guide .chart-container canvas{max-width:100%}\n.g-technical-analysis-guide section.section:first-child{margin-top:0}"
+  },
+  "candlestick-patterns": {
+    "src": "CandlestickPatterns.html",
+    "start": "<section id=\"basics\">",
+    "end": "<footer",
+    "replace": [
+      [
+        "src=\"assets/",
+        "src=\"/assets/"
+      ]
+    ],
+    "toc_manual": [
+      [
+        "basics",
+        "Before You Read Any Pattern"
+      ],
+      [
+        "reference",
+        "Complete Cheat Sheet"
+      ],
+      [
+        "single",
+        "Single-Candle Patterns"
+      ],
+      [
+        "two",
+        "Two-Candle Patterns"
+      ],
+      [
+        "three",
+        "Three-Candle Patterns"
+      ],
+      [
+        "rules",
+        "7 Universal Rules"
+      ]
+    ],
+    "drop_selectors": [
+      "^header",
+      "^footer",
+      "\\.header",
+      "\\.logo",
+      "\\.nav",
+      "\\.hero",
+      "\\.footer",
+      "\\.back-to-top",
+      "\\.reading",
+      "\\.skip",
+      "#reading",
+      "^\\.site"
+    ],
+    "vars": {
+      "--bg-root": "var(--bg)",
+      "--bg-panel": "var(--surface)",
+      "--bg-surface": "var(--surface-2)",
+      "--bg-surface-alt": "var(--surface-2)",
+      "--bg-hover": "var(--surface-2)",
+      "--border": "var(--line)",
+      "--border-lit": "color-mix(in srgb, var(--line) 60%, var(--ink-3))",
+      "--accent": "var(--accent)",
+      "--accent-dim": "color-mix(in srgb, var(--accent) 55%, transparent)",
+      "--accent-glow": "var(--accent-soft)",
+      "--accent-10": "var(--accent-soft)",
+      "--cta": "var(--warn)",
+      "--cta-dim": "var(--warn)",
+      "--text": "var(--ink)",
+      "--text-dim": "var(--ink-2)",
+      "--text-light": "var(--ink-3)",
+      "--positive": "var(--up)",
+      "--negative": "var(--down)",
+      "--warning": "var(--warn)",
+      "--info": "var(--info)",
+      "--mod-blue": "#2563eb",
+      "--mod-violet": "#7c3aed",
+      "--mod-rose": "#e11d48",
+      "--mod-amber": "#d97706",
+      "--mod-teal": "#0d9488",
+      "--mod-indigo": "#4f46e5",
+      "--mod-sky": "#0284c7",
+      "--mod-fuchsia": "#c026d3",
+      "--mod-lime": "#65a30d",
+      "--mod-slate": "#475569",
+      "--mod-orange": "#ea580c",
+      "--mod-cyan": "#0891b2",
+      "--mod-pin": "#2563eb",
+      "--bg": "var(--bg)",
+      "--card": "var(--surface)",
+      "--card2": "var(--surface-2)",
+      "--surface": "var(--surface-2)",
+      "--border2": "var(--line)",
+      "--text2": "var(--ink-2)",
+      "--muted": "var(--ink-3)",
+      "--bull": "var(--up)",
+      "--bear": "var(--down)",
+      "--neutral": "var(--warn)",
+      "--bull-dim": "var(--up-soft)",
+      "--bear-dim": "var(--down-soft)",
+      "--neutral-dim": "color-mix(in srgb, var(--warn) 12%, transparent)",
+      "--hf": "var(--f-display), system-ui, sans-serif",
+      "--bf": "var(--f-sans), system-ui, sans-serif",
+      "--cf": "var(--f-mono), ui-monospace, monospace",
+      "--accent2": "var(--violet)"
+    },
+    "extra_css": ".g-candlestick-patterns section{scroll-margin-top:90px}\n.g-candlestick-patterns .fi{opacity:1;transform:none}\n.g-candlestick-patterns.js-fi .fi:not(.v){opacity:0;transform:translateY(16px)}\n.g-candlestick-patterns .fi{transition:opacity .6s ease,transform .6s ease}\n.g-candlestick-patterns .pb-visual{position:relative}\n.g-candlestick-patterns .pattern-modal .pm-box{background:crb(--surface)}"
+  },
+  "crypto-guide": {
+    "src": "understanding-crypto-complete-guide.html",
+    "start": "<section class=\"lead-section\"",
+    "end": "</main>",
+    "toc": "<nav class=\"sidebar\".*?</nav>",
+    "theme_attr": [
+      "emerald",
+      "sepia",
+      "midnight"
+    ],
+    "replace": [
+      [
+        "onclick=\"openLightbox\\('([^']*)',\\s*'((?:[^'\\\\]|\\\\.)*)'\\)\"",
+        "data-lightbox-src=\"/\\1\" data-lightbox-cap=\"\\2\" role=\"button\" tabindex=\"0\""
+      ],
+      [
+        "src=\"images/",
+        "src=\"/images/"
+      ]
+    ],
+    "drop_selectors": [
+      "^header",
+      "^body",
+      "\\.reading-progress",
+      "\\.reader-toolbar",
+      "\\.toolbar",
+      "\\.hero",
+      "\\.layout",
+      "\\.sidebar",
+      "\\.mobile-toc",
+      "\\.progress-counter",
+      "^html",
+      "skip"
+    ],
+    "vars": {
+      "--paper": "var(--surface)",
+      "--paper-2": "var(--surface-2)",
+      "--ink": "var(--ink)",
+      "--ink-soft": "var(--ink-2)",
+      "--teal": "var(--accent)",
+      "--teal-deep": "color-mix(in srgb, var(--accent) 55%, var(--ink))",
+      "--gold": "var(--warn)",
+      "--rule": "var(--line)",
+      "--card": "var(--surface)",
+      "--max-w": "740px",
+      "--sidebar-w": "280px",
+      "--user-font-size": "16px"
+    },
+    "extra_css": ".g-crypto-guide{scroll-padding-top:90px}\n.g-crypto-guide .lightbox-modal{z-index:80}"
+  },
+  "stock-market-basics": {
+    "src": "Stock-Market-Basics.html",
+    "start": "<section id=\"what\">",
+    "end": "</main>",
+    "toc": "<nav aria-label=\"Contents\">.*?</nav>",
+    "drop_selectors": [
+      "^header",
+      "^nav",
+      "^footer",
+      "\\.wrap",
+      "\\.meta",
+      "focus-visible",
+      "^html"
+    ],
+    "vars": {
+      "--bg": "var(--bg)",
+      "--ink": "var(--ink)",
+      "--muted": "var(--ink-2)",
+      "--line": "var(--line)",
+      "--accent": "var(--accent)",
+      "--soft": "var(--surface-2)",
+      "--card": "var(--surface)"
+    },
+    "extra_css": ".g-stock-market-basics section{margin:44px 0}\n.g-stock-market-basics section:first-child{margin-top:0}\n.g-stock-market-basics h1,.g-stock-market-basics h2,.g-stock-market-basics h3,.g-stock-market-basics .terms dt{font-family:var(--f-display),system-ui,sans-serif}"
+  }
+}

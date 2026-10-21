@@ -1,0 +1,42 @@
+{
+  "name": "market-report-dashboard",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo \"No build step required\"",
+    "debug": "node --inspect-brk=9229 server.js",
+    "debug:attach": "node --inspect=9229 server.js"
+  },
+  "keywords": [
+    "stock-market",
+    "financial-analysis",
+    "dashboard",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "AI-powered daily stock market news analysis dashboard",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.5",
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "docx": "^9.7.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-openid-connect": "^2.20.2",
+    "express-rate-limit": "^8.5.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.23.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.8",
+    "playwright": "^1.60.0",
+    "swagger-ui-express": "^4.6.3",
+    "yahoo-finance2": "^3.14.0"
+  }
+}

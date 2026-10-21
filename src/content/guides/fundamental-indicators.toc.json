@@ -1,0 +1,114 @@
+[
+ {
+  "part": "Part 1 — Framework"
+ },
+ {
+  "id": "s1",
+  "label": "1. Financial Statements"
+ },
+ {
+  "id": "s2",
+  "label": "2. Financial Ratios"
+ },
+ {
+  "id": "s3",
+  "label": "3. Business Metrics"
+ },
+ {
+  "id": "s4",
+  "label": "4. Industry Analysis"
+ },
+ {
+  "id": "s5",
+  "label": "5. Economic Moats"
+ },
+ {
+  "id": "s6",
+  "label": "6. Management"
+ },
+ {
+  "id": "s7",
+  "label": "7. Macroeconomics"
+ },
+ {
+  "id": "s8",
+  "label": "8. Risk Assessment"
+ },
+ {
+  "id": "s9",
+  "label": "9. Qualitative Factors"
+ },
+ {
+  "id": "s10",
+  "label": "10. Historical Performance"
+ },
+ {
+  "id": "s11",
+  "label": "11. Book Value (BVPS)"
+ },
+ {
+  "id": "s12",
+  "label": "12. Face Value"
+ },
+ {
+  "id": "s13",
+  "label": "13. Intrinsic Value"
+ },
+ {
+  "id": "s14",
+  "label": "14. DuPont Analysis"
+ },
+ {
+  "id": "s15",
+  "label": "15. Working Capital"
+ },
+ {
+  "part": "Part 2 — Ratio Ref"
+ },
+ {
+  "id": "ra",
+  "label": "A. Valuation"
+ },
+ {
+  "id": "rb",
+  "label": "B. Profitability"
+ },
+ {
+  "id": "rc",
+  "label": "C. Leverage"
+ },
+ {
+  "id": "rd",
+  "label": "D. Liquidity"
+ },
+ {
+  "id": "re",
+  "label": "E. Efficiency"
+ },
+ {
+  "id": "rf",
+  "label": "F. Cash Flow"
+ },
+ {
+  "id": "rg",
+  "label": "G. Book Value"
+ },
+ {
+  "part": "Part 3 — Process"
+ },
+ {
+  "id": "process",
+  "label": "Analysis Workflow"
+ },
+ {
+  "part": "Part 4 — Summary"
+ },
+ {
+  "id": "flags",
+  "label": "Green & Red Flags"
+ },
+ {
+  "id": "formulas",
+  "label": "Formula Cheatsheet"
+ }
+]

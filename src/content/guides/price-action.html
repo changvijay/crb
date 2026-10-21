@@ -1,0 +1,443 @@
+<p>Open any trading app and you will see lines, bars, colours and sometimes ten indicators stacked on one chart. It looks complicated. Many traders solve this by removing almost everything and focusing on one thing: the price itself. That approach is called <strong>price action</strong>.</p>
+    <div class="learn">
+      <p>What you will learn</p>
+      <ul>
+        <li>How to read candles and what they say about buyers and sellers</li>
+        <li>Where price tends to stop, bounce or break</li>
+        <li>How to tell a real move from a fake one</li>
+        <li>How to manage risk and control your emotions</li>
+      </ul>
+    </div>
+    <h2 id="what">1. What is price action?</h2>
+    <p>Price action is the practice of reading raw price movement (candles, highs, lows and the levels where price reacts) to make trading decisions. You rely on this instead of leaning mainly on indicators like RSI or MACD.</p>
+    <p><strong>Why not just use indicators?</strong> Indicators are calculated from old price, so they show up late. Price is the original source.</p>
+    <p><strong>The core idea:</strong> Price already carries everything: news, demand, supply and the mood of the crowd. So if you read how price behaves, you can see what buyers and sellers are doing. This is a belief, not a law of nature. It is simply a way of thinking that many traders find useful.</p>
+    <h3>What a price action trader looks at</h3>
+    <ul>
+      <li>Candle shapes (engulfing, doji, hammer, pin bar)</li>
+      <li>Support and resistance</li>
+      <li>Trend structure (higher highs and higher lows, or the opposite)</li>
+      <li>Breakouts and retests</li>
+      <li>Volume</li>
+      <li>Chart patterns (triangles, flags, double top, double bottom)</li>
+      <li>Market structure, gaps, Fibonacci and pivot levels</li>
+    </ul>
+    <p class="example"><strong>Simple example:</strong> Imagine Nifty keeps bouncing from around 24,000 (an example level only) and then forms a bullish engulfing candle there. A price action trader reads this as buyers defending that level. They may look for a buy trade with a stop-loss just below it.</p>
+    <h3>Why people use it</h3>
+    <ul>
+      <li>The chart stays clean and easy to read</li>
+      <li>It works on NSE/BSE stocks, forex and crypto, and on any timeframe</li>
+      <li>It gives clear entry, stop-loss and target levels</li>
+    </ul>
+    <div class="warn">
+      <strong>The limits</strong>
+      <p>Price action is subjective, so two traders can read the same chart differently. It needs practice and proper risk management. It also does not ban indicators: some traders add one or two (like a moving average) on top, and keep price as the main focus.</p>
+    </div>
+    <h2 id="basics">2. The basics</h2>
+    <h3>Price</h3>
+    <p>Price is the last rate at which a buyer and a seller agreed to trade. Price rises when buyers are more aggressive and falls when sellers are.</p>
+    <h3>Candles</h3>
+    <p>Each candle summarises one time period using four values: <strong>Open, High, Low and Close (OHLC)</strong>.</p>
+    <ul>
+      <li><strong>Bullish candle:</strong> the close is above the open. Buyers won that period.</li>
+      <li><strong>Bearish candle:</strong> the close is below the open. Sellers won that period.</li>
+      <li><strong>Body:</strong> the thick part, from open to close.</li>
+      <li><strong>Wicks (shadows):</strong> the thin lines. They show prices that were reached but could not hold.</li>
+    </ul>
+    <figure>
+      <svg viewBox="0 0 640 260" role="img" aria-labelledby="candle-title candle-desc" font-family="Public Sans, system-ui, sans-serif" font-size="14">
+        <title id="candle-title">Anatomy of a bullish and a bearish candle</title>
+        <desc id="candle-desc">A bullish candle shows the open at the bottom of the body and the close at the top. A bearish candle shows the open at the top and the close at the bottom. Thin wicks extend to the high and low.</desc>
+        <line x1="130" y1="30" x2="130" y2="230" stroke="#1b7a58" stroke-width="3"/>
+        <rect x="104" y="80" width="52" height="100" fill="#1b7a58" rx="2"/>
+        <text x="130" y="252" text-anchor="middle" fill="#17202c" font-weight="600">Bullish</text>
+        <g fill="#52606f" stroke="#52606f">
+          <line x1="160" y1="30" x2="200" y2="30" stroke-width="1"/>
+          <line x1="160" y1="80" x2="200" y2="80" stroke-width="1"/>
+          <line x1="160" y1="180" x2="200" y2="180" stroke-width="1"/>
+          <line x1="160" y1="230" x2="200" y2="230" stroke-width="1"/>
+        </g>
+        <g fill="#17202c" stroke="none">
+          <text x="206" y="34">High</text>
+          <text x="206" y="84">Close</text>
+          <text x="206" y="184">Open</text>
+          <text x="206" y="234">Low</text>
+        </g>
+        <line x1="440" y1="30" x2="440" y2="230" stroke="#b03a3a" stroke-width="3"/>
+        <rect x="414" y="80" width="52" height="100" fill="#b03a3a" rx="2"/>
+        <text x="440" y="252" text-anchor="middle" fill="#17202c" font-weight="600">Bearish</text>
+        <g fill="#52606f" stroke="#52606f">
+          <line x1="470" y1="30" x2="510" y2="30" stroke-width="1"/>
+          <line x1="470" y1="80" x2="510" y2="80" stroke-width="1"/>
+          <line x1="470" y1="180" x2="510" y2="180" stroke-width="1"/>
+          <line x1="470" y1="230" x2="510" y2="230" stroke-width="1"/>
+        </g>
+        <g fill="#17202c" stroke="none">
+          <text x="516" y="34">High</text>
+          <text x="516" y="84">Open</text>
+          <text x="516" y="184">Close</text>
+          <text x="516" y="234">Low</text>
+        </g>
+      </svg>
+      <figcaption>The thick part is the body. The thin lines above and below are the wicks. Colours can differ from app to app.</figcaption>
+    </figure>
+    <h3>Timeframes</h3>
+    <p>One candle can represent 1 minute, 15 minutes, 1 hour, 1 day and so on.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Type</th><th>Timeframes</th><th>Best used for</th></tr></thead>
+      <tbody>
+        <tr><td>Lower</td><td>1m, 5m, 15m</td><td>Intraday trading, with more noise</td></tr>
+        <tr><td>Medium</td><td>1h, 4h</td><td>Swing entries</td></tr>
+        <tr><td>Higher</td><td>Daily, Weekly</td><td>Trend direction and stronger levels</td></tr>
+      </tbody>
+    </table></div>
+    <p>As a rule, a signal on a higher timeframe is more reliable than the same signal on a lower one.</p>
+    <h3>Market participants</h3>
+    <p><strong>Buyers (bulls)</strong> push price up by buying at market price or at higher prices. <strong>Sellers (bears)</strong> push price down by selling at market price or at lower prices. Price moves in the direction of whichever side is more aggressive.</p>
+    <h3>Smart money (institutions)</h3>
+    <p>This means banks, mutual funds, FIIs/DIIs, hedge funds and large operators.</p>
+    <ul>
+      <li>They trade in huge quantities, so they cannot enter or exit at a single price.</li>
+      <li>They often build positions slowly near lows and sell slowly near highs.</li>
+      <li>Clues they may leave behind are sudden volume spikes and sharp reversals.</li>
+    </ul>
+    <p>You cannot see their exact trades on a chart. Treat this as reading clues, not as proof.</p>
+    <h3>Retail traders</h3>
+    <p>These are individual traders with small capital.</p>
+    <ul>
+      <li>They often buy breakouts late and panic-sell near bottoms.</li>
+      <li>They often place stop-losses at obvious spots.</li>
+      <li>Some traders believe large players push price to those spots to trigger the stops. This is a popular idea but hard to prove, so see it as a possibility.</li>
+    </ul>
+    <div class="takeaway">
+      <strong>Key takeaway</strong>
+      <p>Candles show what happened. Timeframes show the bigger picture. Participants help explain why price moves.</p>
+    </div>
+    <h2 id="candles">3. Candlesticks</h2>
+    <p>A candle shows Open, High, Low and Close for one period. Its shape tells you who controlled that period.</p>
+    <h3>Anatomy</h3>
+    <ul>
+      <li><strong>Body:</strong> a large body means a strong move. A small body means indecision.</li>
+      <li><strong>Wicks:</strong> a long upper wick means sellers pushed price back down. A long lower wick means buyers pushed price back up.</li>
+    </ul>
+    <h3>Basic candle types</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Candle</th><th>Look</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td>Marubozu</td><td>Full body, no wicks</td><td>One side is fully in control</td></tr>
+        <tr><td>Spinning top</td><td>Small body, wicks on both sides</td><td>Indecision</td></tr>
+        <tr><td>Doji</td><td>Open and close almost equal</td><td>Balance, a possible turn</td></tr>
+        <tr><td>Dragonfly doji</td><td>Long lower wick</td><td>Buyers rejected the lows</td></tr>
+        <tr><td>Gravestone doji</td><td>Long upper wick</td><td>Sellers rejected the highs</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Single candle patterns</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Pattern</th><th>Look</th><th>Where it forms</th><th>Signal</th></tr></thead>
+      <tbody>
+        <tr><td>Hammer</td><td>Small body on top, long lower wick</td><td>After a downtrend</td><td>Possible bullish reversal</td></tr>
+        <tr><td>Inverted hammer</td><td>Small body at the bottom, long upper wick</td><td>After a downtrend</td><td>Bullish, needs confirmation</td></tr>
+        <tr><td>Hanging man</td><td>Same shape as a hammer</td><td>After an uptrend</td><td>Bearish warning</td></tr>
+        <tr><td>Shooting star</td><td>Small body at the bottom, long upper wick</td><td>After an uptrend</td><td>Possible bearish reversal</td></tr>
+        <tr><td>Pin bar</td><td>Small body, one very long wick</td><td>At key levels</td><td>Price rejected that level</td></tr>
+      </tbody>
+    </table></div>
+    <p>Notice that a hammer and a hanging man look the same. The location decides the meaning.</p>
+    <h3>Multi candle patterns</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Pattern</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td>Bullish / bearish engulfing</td><td>The second candle's body covers the first. Possible reversal.</td></tr>
+        <tr><td>Harami</td><td>A small candle inside the previous big body. Momentum is slowing.</td></tr>
+        <tr><td>Piercing line / dark cloud cover</td><td>The second candle closes past the midpoint of the first. Possible reversal.</td></tr>
+        <tr><td>Morning star / evening star</td><td>A three-candle bottom or top reversal.</td></tr>
+        <tr><td>Three white soldiers / three black crows</td><td>Three strong candles in a row. Often a reversal after a long move, sometimes a continuation.</td></tr>
+        <tr><td>Tweezer top / bottom</td><td>Two candles with equal highs or lows. Possible reversal.</td></tr>
+        <tr><td>Inside bar</td><td>A candle fully inside the previous one. Price is compressing, and a breakout may follow.</td></tr>
+        <tr><td>Outside bar</td><td>A candle that fully covers the previous one. Expansion and a strong move.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="takeaway">
+      <strong>The rule</strong>
+      <p>A pattern matters only at a key level (support, resistance or a zone) and only with confirmation. A nice-looking candle in the middle of nowhere means very little.</p>
+    </div>
+    <p>For more details, see <a href="https://crb.changtechs.com/candlestick-patterns">the candlestick patterns guide</a>.</p>
+    <h2 id="sr">4. Support and resistance</h2>
+    <ul>
+      <li><strong>Support:</strong> a level where buying stops a fall. Think of it as a floor.</li>
+      <li><strong>Resistance:</strong> a level where selling stops a rise. Think of it as a ceiling.</li>
+      <li>Treat them as zones, not exact lines. The more times price reacts at a level, the more important it is.</li>
+    </ul>
+    <h3>Types</h3>
+    <ul>
+      <li><strong>Horizontal levels:</strong> repeated highs and lows.</li>
+      <li><strong>Role reversal:</strong> a broken support becomes resistance, and a broken resistance becomes support.</li>
+      <li><strong>Psychological levels:</strong> round numbers like Nifty 24,000 or a stock at &#8377;500.</li>
+      <li><strong>Dynamic levels:</strong> moving levels like trendlines and moving averages (the 20, 50 and 200 are popular).</li>
+    </ul>
+    <h3>Supply and demand zones</h3>
+    <ul>
+      <li><strong>Demand zone:</strong> an area where strong buying made price rise sharply.</li>
+      <li><strong>Supply zone:</strong> an area where strong selling made price fall sharply.</li>
+      <li>These are judged by how fast price moved away from the area, not by how many times it touched.</li>
+    </ul>
+    <h3>How to draw levels</h3>
+    <ol>
+      <li>Start from the higher timeframe.</li>
+      <li>Mark clear reaction points, not every small wick.</li>
+      <li>Draw zones using the wick-to-body range.</li>
+      <li>Remove levels that price has ignored repeatedly.</li>
+    </ol>
+    <h2 id="trend">5. Trend structure</h2>
+    <p>A trend is read from the sequence of swing highs (peaks) and swing lows (dips).</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Trend</th><th>Structure</th><th>Usual bias</th></tr></thead>
+      <tbody>
+        <tr><td>Uptrend</td><td>Higher highs and higher lows</td><td>Buy pullbacks</td></tr>
+        <tr><td>Downtrend</td><td>Lower highs and lower lows</td><td>Sell rallies</td></tr>
+        <tr><td>Sideways</td><td>Roughly equal highs and lows</td><td>Trade the range or wait</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li><strong>Trendline:</strong> join two or more swing lows (uptrend) or swing highs (downtrend). A third touch confirms it.</li>
+      <li><strong>Channel:</strong> parallel lines around the trend. Buy near the lower line and sell near the upper line.</li>
+      <li><strong>The trend is weakening when:</strong> an uptrend fails to make a new high, or breaks the last higher low.</li>
+      <li>Trade in the direction of the higher timeframe trend whenever you can.</li>
+    </ul>
+    <h2 id="breakout">6. Breakouts and retests</h2>
+    <p>A <strong>breakout</strong> is price closing beyond a key level. A <strong>retest</strong> is price returning to that level to check whether it holds.</p>
+    <h3>True breakout vs false breakout</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Sign</th><th>True breakout</th><th>False breakout (fakeout)</th></tr></thead>
+      <tbody>
+        <tr><td>Candle</td><td>Strong body, closes beyond the level</td><td>Long wick, closes back inside</td></tr>
+        <tr><td>Volume</td><td>High</td><td>Low or fading</td></tr>
+        <tr><td>Follow-through</td><td>Next candles continue</td><td>Quick return into the range</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Retest entry</h3>
+    <ol>
+      <li>Price breaks the level with a strong close.</li>
+      <li>Price pulls back to the broken level.</li>
+      <li>The level holds (you see a rejection candle) and you take the entry.</li>
+      <li>Your stop-loss goes on the other side of the level.</li>
+    </ol>
+    <h3>Points to remember</h3>
+    <ul>
+      <li><strong>Stop hunts:</strong> price sometimes spikes past an obvious level to trigger stops, then reverses.</li>
+      <li>Waiting for a candle close and a retest reduces fakeout losses.</li>
+      <li>A retest does not always happen. Sometimes price just runs. Missing a trade costs less than taking a bad one.</li>
+    </ul>
+    <h2 id="volume">7. Volume</h2>
+    <p>Volume is the number of shares or contracts traded. It shows the strength behind a price move.</p>
+    <ul>
+      <li><strong>Price up and volume up:</strong> a healthy move.</li>
+      <li><strong>Price up and volume down:</strong> a weak move that may reverse.</li>
+      <li><strong>Breakout with high volume:</strong> more reliable.</li>
+      <li><strong>Climax volume:</strong> huge volume after a long trend. This often means the move is exhausted.</li>
+      <li><strong>Volume dry-up:</strong> very low volume during a pullback or sideways phase. A breakout often follows.</li>
+      <li><strong>Volume at key levels:</strong> high volume with rejection confirms the level.</li>
+    </ul>
+    <p>Compare volume with its recent average (for example the last 20 candles) instead of judging it alone.</p>
+    <div class="note">
+      <strong>Good to know</strong>
+      <p>Indices like Nifty and Bank Nifty do not have real volume, so traders check the futures chart. In forex, most apps show tick volume (the number of price changes), which is only a rough guide.</p>
+    </div>
+    <h2 id="patterns">8. Chart patterns</h2>
+    <p>Price often draws repeating shapes because crowds behave in similar ways again and again.</p>
+    <h3>Reversal patterns</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Pattern</th><th>Signal</th></tr></thead>
+      <tbody>
+        <tr><td>Head and shoulders</td><td>Bearish after an uptrend. The inverse version is bullish.</td></tr>
+        <tr><td>Double top / double bottom</td><td>Price fails twice at the same high or low.</td></tr>
+        <tr><td>Triple top / triple bottom</td><td>A stronger version of the double.</td></tr>
+        <tr><td>Rounding bottom</td><td>A slow shift from sellers to buyers.</td></tr>
+        <tr><td>Rising wedge / falling wedge</td><td>Rising wedge is bearish and falling wedge is bullish. Mostly seen as reversals.</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Continuation patterns</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Pattern</th><th>Signal</th></tr></thead>
+      <tbody>
+        <tr><td>Flag and pennant</td><td>A short pause after a sharp move.</td></tr>
+        <tr><td>Ascending triangle</td><td>Bullish. Flat resistance with rising lows.</td></tr>
+        <tr><td>Descending triangle</td><td>Bearish. Flat support with falling highs.</td></tr>
+        <tr><td>Symmetrical triangle</td><td>Can break in either direction.</td></tr>
+        <tr><td>Rectangle</td><td>A range before the trend resumes.</td></tr>
+        <tr><td>Cup and handle</td><td>A bullish base, then a breakout.</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Targets</h3>
+    <ul>
+      <li>For most patterns, add the height of the pattern to the breakout point (subtract it for bearish patterns).</li>
+      <li>For flags and pennants, use the length of the sharp move before the pause (the flagpole).</li>
+      <li>Always wait for the breakout to be confirmed. A pattern that has not broken out is only a guess.</li>
+    </ul>
+    <h2 id="structure">9. Market structure</h2>
+    <p>Market structure is the map of swing highs and swing lows. It shows who is in control.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Term</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td>Swing high / low</td><td>A peak or dip with lower or higher candles on both sides.</td></tr>
+        <tr><td>Break of structure (BOS)</td><td>Price breaks a swing point in the trend direction. The trend continues.</td></tr>
+        <tr><td>Change of character (CHoCH)</td><td>Price breaks the last swing against the trend. The first sign of a reversal.</td></tr>
+        <tr><td>Liquidity sweep</td><td>Price spikes past highs or lows to trigger stops, then reverses.</td></tr>
+        <tr><td>Order block</td><td>The last opposite candle before a strong move. A zone where big players may have entered.</td></tr>
+        <tr><td>Fair value gap (FVG)</td><td>A three-candle imbalance. Price often returns to fill it.</td></tr>
+        <tr><td>Premium / discount</td><td>Above or below the 50% mark of a swing range. Sell in premium, buy in discount.</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>How to use it:</strong> trade in the direction of the BOS, and look for entries at order blocks or fair value gaps after a pullback.</p>
+    <div class="note">
+      <strong>An honest note</strong>
+      <p>Terms like order block, liquidity sweep and fair value gap come from newer "smart money" style teaching. They are popular but less tested than classic ideas like support, resistance and trend. Use them as tools, not as guarantees.</p>
+    </div>
+    <h2 id="gaps">10. Gaps</h2>
+    <p>A gap is empty space between one candle's close and the next candle's open. In Indian stocks it usually appears at the 9:15 AM open after news, results or global market moves.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Gap</th><th>Where it appears</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td>Common</td><td>Inside a range</td><td>Usually fills quickly</td></tr>
+        <tr><td>Breakaway</td><td>Start of a trend</td><td>A strong move begins</td></tr>
+        <tr><td>Runaway</td><td>Middle of a trend</td><td>The trend continues</td></tr>
+        <tr><td>Exhaustion</td><td>End of a trend</td><td>A reversal is likely</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Gap strategies</h3>
+    <ul>
+      <li><strong>Gap and go:</strong> a high volume gap that holds. Trade in its direction.</li>
+      <li><strong>Gap fill:</strong> a weak, low volume gap. Trade back toward the previous close.</li>
+      <li>Wait for the first 15 minutes before acting on an opening gap.</li>
+    </ul>
+    <h2 id="fib">11. Fibonacci and pivot tools</h2>
+    <h3>Fibonacci retracement</h3>
+    <p>Draw it from a swing low to a swing high in an uptrend (and from high to low in a downtrend) to find where a pullback may end.</p>
+    <ul>
+      <li><strong>Key levels:</strong> 38.2%, 50% and 61.8%. Some traders also use 78.6%. The 50% level is not a true Fibonacci ratio, but traders use it widely.</li>
+      <li><strong>Golden zone:</strong> 50% to 61.8%, where trend pullbacks often end.</li>
+      <li><strong>Extensions:</strong> 127.2% and 161.8% are used for targets.</li>
+      <li>It works best when a Fibonacci level lines up with support or resistance.</li>
+    </ul>
+    <h3>Pivot points</h3>
+    <p>These are levels calculated from the previous day's high, low and close. They are widely used for intraday trading.</p>
+    <div class="formula">Pivot = (High + Low + Close) / 3</div>
+    <ul>
+      <li><strong>Floor pivots:</strong> Pivot, S1, S2, S3 (below) and R1, R2, R3 (above).</li>
+      <li><strong>Camarilla:</strong> tighter levels. Reversals are watched near S3 and R3, and breakouts beyond S4 and R4.</li>
+      <li>Price above the pivot suggests a bullish bias. Price below it suggests a bearish bias.</li>
+    </ul>
+    <h2 id="strategies">12. Trading strategies</h2>
+    <p>A strategy is simply your plan: when to enter, where to place the stop, and when to exit.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Strategy</th><th>Idea</th><th>Entry</th><th>Stop-loss</th></tr></thead>
+      <tbody>
+        <tr><td>Trend following</td><td>Trade with the trend</td><td>Break of a swing high or low</td><td>Below the last swing</td></tr>
+        <tr><td>Pullback</td><td>Buy dips in an uptrend</td><td>Rejection at support, Fibonacci or EMA</td><td>Below the pullback low</td></tr>
+        <tr><td>Range trading</td><td>Buy support, sell resistance</td><td>Reversal candle at the range edge</td><td>Outside the range</td></tr>
+        <tr><td>Reversal</td><td>Catch a trend change</td><td>CHoCH plus a pattern at a key level</td><td>Beyond the extreme</td></tr>
+        <tr><td>Breakout</td><td>Trade a level break</td><td>Strong close with volume, or the retest</td><td>Back inside the level</td></tr>
+        <tr><td>Opening range breakout (ORB)</td><td>Trade the first 15 to 30 minute range</td><td>Break of that high or low</td><td>Opposite side of the range</td></tr>
+        <tr><td>Supply / demand</td><td>Trade fresh zones</td><td>Reaction at an untested zone</td><td>Beyond the zone</td></tr>
+      </tbody>
+    </table></div>
+    <p>Pick one or two strategies, test them on charts, and stick to them. Switching between many strategies is a common reason beginners stay confused.</p>
+    <h3>Putting it together: the top-down method</h3>
+    <ol>
+      <li><strong>Higher timeframe (daily or weekly):</strong> find the trend and the big levels.</li>
+      <li><strong>Medium timeframe (1h or 4h):</strong> check if price is near one of those levels.</li>
+      <li><strong>Lower timeframe (15m or 5m):</strong> look for a candle signal to enter.</li>
+      <li><strong>Confluence:</strong> the more things agree (level, trend, candle and volume), the stronger the trade.</li>
+    </ol>
+    <h3>Trading styles</h3>
+    <ul>
+      <li><strong>Scalping:</strong> trades that last seconds to minutes.</li>
+      <li><strong>Intraday:</strong> buy and sell within the same day.</li>
+      <li><strong>Swing:</strong> hold for days to weeks.</li>
+      <li><strong>Positional:</strong> hold for weeks to months.</li>
+    </ul>
+    <p>Choose the style that fits your time, capital and temperament.</p>
+    <h3>Order types</h3>
+    <ul>
+      <li><strong>Market order:</strong> buy or sell right now at the best available price.</li>
+      <li><strong>Limit order:</strong> buy or sell only at your price or better.</li>
+      <li><strong>Stop-loss order:</strong> exits your trade automatically if price moves against you.</li>
+    </ul>
+    <h3>Price action vs indicators</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th></th><th>Price action</th><th>Indicators</th></tr></thead>
+      <tbody>
+        <tr><td>Based on</td><td>Raw price</td><td>Maths applied to past price</td></tr>
+        <tr><td>Speed</td><td>Faster, but more subjective</td><td>Slower, but rule-based</td></tr>
+        <tr><td>Best use</td><td>Main decision tool</td><td>Optional extra filter</td></tr>
+      </tbody>
+    </table></div>
+    <h2 id="risk">13. Risk management</h2>
+    <p>You will be wrong often. Risk management makes sure being wrong does not destroy your account.</p>
+    <ul>
+      <li><strong>Risk per trade:</strong> 1% to 2% of your capital.</li>
+      <li><strong>Stop-loss:</strong> place it at a logical level (beyond the structure) and never move it further away.</li>
+      <li><strong>Risk-reward:</strong> aim for at least 1:2. At 1:2, you can win only 1 trade in 3 and still break even.</li>
+      <li><strong>Daily loss limit:</strong> stop trading once you hit a set loss for the day.</li>
+      <li><strong>Trailing stop:</strong> when price moves in your favour, move your stop behind it to lock in profit.</li>
+      <li><strong>Journal:</strong> record entry, exit, reason, result and mistakes for every trade.</li>
+    </ul>
+    <h3>Position sizing</h3>
+    <div class="formula">Quantity = (Capital &times; Risk %) / (Entry &minus; Stop-loss)</div>
+    <p class="example"><strong>Example:</strong> Capital &#8377;1,00,000 and risk 1% means &#8377;1,000 at risk. Entry is &#8377;200 and stop-loss is &#8377;190, so risk per share is &#8377;10. Quantity = 1,000 / 10 = 100 shares.</p>
+    <p>In real trading, brokerage, taxes and slippage (getting a slightly worse price) reduce profits, so results will be a little lower than the maths.</p>
+    <div class="warn">
+      <strong>Reality check</strong>
+      <p>SEBI studies on individual F&amp;O traders keep showing the same result: a large majority lose money. The latest study (FY26) found about 88% of individual traders had net losses, and FY25 was around 91%. Leverage makes small mistakes very expensive. Practise on charts or with very small quantity first.</p>
+    </div>
+    <h2 id="psychology">14. Trading psychology</h2>
+    <p>Strategy is only part of the game. Your mind decides whether you follow it.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Problem</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td>FOMO (fear of missing out)</td><td>Wait for your setup. There is always another trade.</td></tr>
+        <tr><td>Revenge trading</td><td>Stop after a loss and follow your daily limit.</td></tr>
+        <tr><td>Overtrading</td><td>Set a maximum number of trades per day.</td></tr>
+        <tr><td>Fear of pulling the trigger</td><td>Reduce your position size and trust tested rules.</td></tr>
+        <tr><td>Moving the stop-loss</td><td>Decide the stop before entry and never change it.</td></tr>
+        <tr><td>Greed</td><td>Book profit at planned targets.</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li>Follow the process, not the result of one trade.</li>
+      <li>Review your journal every week.</li>
+      <li>Accept that losses are part of trading.</li>
+    </ul>
+    <h2 id="mistakes">15. Common beginner mistakes</h2>
+    <ul>
+      <li>Trading a candle pattern with no level and no confirmation</li>
+      <li>Ignoring the higher timeframe trend</li>
+      <li>Drawing too many lines until the chart is unreadable</li>
+      <li>Entering a trade without a stop-loss</li>
+      <li>Risking too much on a single trade</li>
+      <li>Chasing a breakout after it has already run</li>
+      <li>Skipping the trading journal</li>
+      <li>Trading big event days (results, RBI policy, Budget, expiry day) without a plan, since price can move wildly</li>
+      <li>Going live with real money before practising</li>
+    </ul>
+    <h2 id="practice">16. Practice plan and checklist</h2>
+    <ol>
+      <li>Learn one concept at a time: candles first, then levels, then trend.</li>
+      <li>Go back on old charts and mark levels and patterns (this is called backtesting).</li>
+      <li>Paper trade or use a demo account for a few weeks.</li>
+      <li>Start live with a very small amount.</li>
+      <li>Keep a journal and review it weekly.</li>
+    </ol>
+    <h3>Checklist before every trade</h3>
+    <ul class="check">
+      <li>What is the higher timeframe trend?</li>
+      <li>Is price at a key level?</li>
+      <li>Is there a candle or structure signal with confirmation?</li>
+      <li>Does volume agree?</li>
+      <li>Where is my stop-loss?</li>
+      <li>Is my reward at least twice my risk?</li>
+      <li>Is my position size within 1% to 2% risk?</li>
+    </ul>
+    <h3>Final words</h3>
+    <p>Price action is a skill, not a shortcut. Like learning to ride a bike, you will fall a few times. The goal is to keep the falls small, learn quickly and keep going. Start simple, be patient and protect your capital first.</p>
+    <p class="disclaimer"><strong>Disclaimer:</strong> This article is for education only. It is not investment advice or a recommendation to buy or sell any security. Trading in stocks, F&amp;O, forex and crypto involves a high risk of loss. Do your own research or consult a SEBI-registered advisor before making investment decisions.</p>
